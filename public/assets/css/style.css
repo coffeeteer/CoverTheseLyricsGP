@@ -1,6 +1,5 @@
 #ctl-top-nav {
 	background-color: #2d2d2d;
-	color: #fff;
 	height: 380px;
 }
 
@@ -9,16 +8,32 @@
 }
 
 .logo {
-	width: 125px;
+	width: 150px;
 }
 
+/*.header_con {
+	text-align: center;
+	margin: auto;
+	width: 25%;
+}*/
+
 .main_header{
-	font-family: Georgia;
-	font-size: 100pt;	
+	font-size: 100pt;
+
 }
 
 .subheader {
-	font-family: Georgia;
 	font-size: 50pt;	
 }
 
+.main_header, 
+.subheader {
+	font-family: Georgia;
+	text-align: center;	
+}
+
+#navi, #navi2, #navi3, #navi4,
+.main_header, 
+.subheader {
+color: #fff;
+}
