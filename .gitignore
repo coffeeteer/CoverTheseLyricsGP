@@ -3,3 +3,4 @@ express
 express-handlebars
 method-override
 mysql
+sequelize
