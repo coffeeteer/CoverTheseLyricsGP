@@ -1,12 +1,24 @@
-nav {
+#ctl-top-nav {
 	background-color: #2d2d2d;
 	color: #fff;
+	height: 380px;
 }
 
 .body-container {
-	background-image: url("./assets/images/blue_textures_SFW.png");
+	background-image: url("../images/blue_textures_SFW.png");
 }
 
 .logo {
-	width: 200px;
+	width: 125px;
 }
+
+.main_header{
+	font-family: Georgia;
+	font-size: 100pt;	
+}
+
+.subheader {
+	font-family: Georgia;
+	font-size: 50pt;	
+}
+
