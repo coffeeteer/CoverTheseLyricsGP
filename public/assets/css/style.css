@@ -1,0 +1,12 @@
+nav {
+	background-color: #2d2d2d;
+	color: #fff;
+}
+
+.body-container {
+	background-image: url("./assets/images/blue_textures_SFW.png");
+}
+
+.logo {
+	width: 200px;
+}
