@@ -4,3 +4,4 @@ express-handlebars
 method-override
 mysql
 sequelize
+nodemon
