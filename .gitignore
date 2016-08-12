@@ -1,6 +1,1 @@
-express-handlebars
-express
-method-override
-mysql
-sequelize
-nodemon
+node_modules
