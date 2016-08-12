@@ -2,10 +2,18 @@
 	background-color: #2d2d2d;
 	color: #fff;
 	height: 380px;
+  margin-bottom: -20px;
+  border-radius: 0px;
+  border-width: 0px;
 }
+
+/*.navbar navbar-default{
+margin-bottom: 0px;
+}*/
 
 .body-container {
 	background-image: url("../images/blue_textures_SFW.png");
+  height: auto;
 }
 
 .logo {
@@ -21,4 +29,21 @@
 	font-family: Georgia;
 	font-size: 50pt;	
 }
+
+.footer{
+
+  margin-bottom: 0px;
+  background-color:#2d2d2d;
+}
+
+
+
+/*Index.handlebars styles*/
+
+.index-container{
+  margin-top:0px;
+  margin-left:40px;
+}
+
+
 
