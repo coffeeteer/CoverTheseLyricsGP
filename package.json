@@ -23,6 +23,10 @@
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.6",
     "mysql": "^2.11.1",
+    "nodemon": "^1.10.0",
     "sequelize": "^3.23.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.0"
   }
 }

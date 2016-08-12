@@ -1,0 +1,67 @@
+#ctl-top-nav {
+	background-color: #2d2d2d;
+	height: 380px;
+  margin-bottom: -20px;
+  border-radius: 0px;
+  border-width: 0px;
+}
+
+/*.navbar navbar-default{
+margin-bottom: 0px;
+}*/
+
+.body-container {
+	background-image: url("../images/blue_textures_SFW.png");
+  height: auto;
+}
+
+.logo {
+	width: 150px;
+}
+
+/*.header_con {
+	text-align: center;
+	margin: auto;
+	width: 25%;
+}*/
+
+.main_header{
+	font-size: 100pt;
+
+}
+
+.subheader {
+	font-size: 50pt;	
+}
+
+
+.footer{
+
+  margin-bottom: 0px;
+  background-color:#2d2d2d;
+}
+
+
+
+/*Index.handlebars styles*/
+
+.index-container{
+  margin-top:0px;
+  margin-left:40px;
+}
+
+
+
+
+.main_header, 
+.subheader {
+	font-family: Georgia;
+	text-align: center;	
+}
+
+#navi, #navi2, #navi3, #navi4,
+.main_header, 
+.subheader {
+color: #fff;
+}
+

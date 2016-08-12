@@ -34,7 +34,6 @@ app.listen(port, function(){
 	console.log('connected to port ', port);
 });
 
-console.log('quick add');
 
 //***********Routes to Handlebars TravisG**********//
 
