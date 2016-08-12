@@ -1,5 +1,6 @@
 express-handlebars
 express
-express-handlebars
 method-override
 mysql
+sequelize
+nodemon
