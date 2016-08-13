@@ -19,6 +19,7 @@
   "homepage": "https://github.com/coffeeteer/CoverTheseLyricsGP#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.6",
