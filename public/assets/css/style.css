@@ -1,67 +1,95 @@
-#ctl-top-nav {
-	background-color: #2d2d2d;
-	height: 380px;
-  margin-bottom: -20px;
-  border-radius: 0px;
-  border-width: 0px;
-}
+/*Main.handlebars styles*/
 
-/*.navbar navbar-default{
-margin-bottom: 0px;
-}*/
+  /*Nav Styles*/
+    #ctl-top-nav {
+    	background-color: #2d2d2d;
+    	height: 20px;
+      border-radius: 0px;
+      border-width: 0px;
+      margin-bottom: 0px;
+      text-align: center;
+    }
 
-.body-container {
-	background-image: url("../images/blue_textures_SFW.png");
-  height: auto;
-}
+    .logo {
+      width: 150px;
+    }
 
-.logo {
-	width: 150px;
-}
-
-/*.header_con {
-	text-align: center;
-	margin: auto;
-	width: 25%;
-}*/
-
-.main_header{
-	font-size: 100pt;
-
-}
-
-.subheader {
-	font-size: 50pt;	
-}
+    #navi, #navi2, #navi3, #navi4, #navi5{
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    }
 
 
-.footer{
 
-  margin-bottom: 0px;
-  background-color:#2d2d2d;
-}
+  /*Header Styles*/
+    .header_container {
+      text-align: center;
+      margin: auto;
+      background-color: #2d2d2d;
+      padding-bottom: 30px;
+    }
+
+    .main_header, 
+    .subheader {
+      font-family: Georgia;
+      text-align: center;
+      color:#fff;
+      margin-top:0px;
+    }
+
+    .main_header{
+      font-size: 100pt;
+    }
+
+    .subheader {
+      font-size: 50pt;  
+    }
+
+
+
+
+  /*Body Styles*/
+    .body-container {
+      background-image: url("../images/blue_textures_SFW.png");
+      margin-top: 0px;
+      color:#fff;
+      border:0px;
+    }
+
+
+
+
+  /*Footer Styles*/
+    .footer{
+      margin-bottom: 0px;
+      background-color:#2d2d2d;
+    }
+
 
 
 
 /*Index.handlebars styles*/
-
 .index-container{
-  margin-top:0px;
+  padding-top: 30px;
   margin-left:40px;
+  text-align: center;
 }
 
 
 
 
-.main_header, 
-.subheader {
-	font-family: Georgia;
-	text-align: center;	
+
+/*Prizes.handlebars styles*/
+
+
+#first-row{
+  font-size:50pt;
+  text-align: center;
 }
 
-#navi, #navi2, #navi3, #navi4,
-.main_header, 
-.subheader {
-color: #fff;
+#img2{
+  width: 323px;
+  height:283px;
 }
 
