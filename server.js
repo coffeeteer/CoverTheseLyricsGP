@@ -54,3 +54,7 @@ app.get('/vote', function(req, res) {
 });
 
 //*************************************************//
+
+app.get('/prizes', function(req, res) {
+  res.render('prizes');
+});
