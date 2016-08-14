@@ -1,30 +1,120 @@
 
-		<h1>Submit Form</h1>
-			<form>
-			  <div class="form-group">
-			    <label for="exampleInputEmail1">Name</label>
-			    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Full Name">
-			  </div>
-			  <div class="form-group">
-			    <label for="state">State</label>
-			    <input type="text" class="form-control" id="form-state" placeholder="state">
-			  </div>
-			  <div class="form-group">
-			    <label for="email">Email address</label>
-			    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email">
-			  </div>
-			  <div class="dropdown">
-				  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Pick Your Lyric
-				  <span class="caret"></span></button>
-				  <ul class="dropdown-menu">
-				    <li><a href="#">Lonely No More</a></li>
-				    <li><a href="#">Home</a></li>
-				    <li><a href="#">Evolution</a></li>
-				    <li><a href="#">Adventure X</a></li>
-				    <li><a href="#">Incredible</a></li>
-				    <li><a href="#">Five Senses</a></li>
-				  </ul>
+
+<div class="container-body-div">
+	
+	<form class="submit_form">
+	
+		<div class="container submit-container">
+		<div class="form-group">
+		<div  class="row">
+		<h1 class ="submit_title col-sm-4 col-md-8 col-lg-10">Submit Form</h1>
+		</div>
+		  <div class="form-group">
+			  <div class="row">
+		  		  <span class="form-group col-sm-4 col-md-8 col-lg-10" >
+				    <label for="exampleInputEmail1">Name</label>
+				    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Full Name">
+				  </span>
+
+				  <div class="form-group col-sm-4 col-md-8 col-lg-10">
+				    <label for="state">State</label>
+				    <input type="text" class="form-control" id="form-state" placeholder="state">
+				  </div>
+
+				  <label for="state" class="col-sm-4 col-md-8 col-lg-10 control-label">State</label>
+					<div class="col-sm-4 col-md-8 col-lg-10">
+						<select class="form-control" id="state" name="state">
+							<option value="">Find Your State!</option>
+							<option value="AK">Alaska</option>
+							<option value="AL">Alabama</option>
+							<option value="AR">Arkansas</option>
+							<option value="AZ">Arizona</option>
+							<option value="CA">California</option>
+							<option value="CO">Colorado</option>
+							<option value="CT">Connecticut</option>
+							<option value="DC">District of Columbia</option>
+							<option value="DE">Delaware</option>
+							<option value="FL">Florida</option>
+							<option value="GA">Georgia</option>
+							<option value="HI">Hawaii</option>
+							<option value="IA">Iowa</option>
+							<option value="ID">Idaho</option>
+							<option value="IL">Illinois</option>
+							<option value="IN">Indiana</option>
+							<option value="KS">Kansas</option>
+							<option value="KY">Kentucky</option>
+							<option value="LA">Louisiana</option>
+							<option value="MA">Massachusetts</option>
+							<option value="MD">Maryland</option>
+							<option value="ME">Maine</option>
+							<option value="MI">Michigan</option>
+							<option value="MN">Minnesota</option>
+							<option value="MO">Missouri</option>
+							<option value="MS">Mississippi</option>
+							<option value="MT">Montana</option>
+							<option value="NC">North Carolina</option>
+							<option value="ND">North Dakota</option>
+							<option value="NE">Nebraska</option>
+							<option value="NH">New Hampshire</option>
+							<option value="NJ">New Jersey</option>
+							<option value="NM">New Mexico</option>
+							<option value="NV">Nevada</option>
+							<option value="NY">New York</option>
+							<option value="OH">Ohio</option>
+							<option value="OK">Oklahoma</option>
+							<option value="OR">Oregon</option>
+							<option value="PA">Pennsylvania</option>
+							<option value="PR">Puerto Rico</option>
+							<option value="RI">Rhode Island</option>
+							<option value="SC">South Carolina</option>
+							<option value="SD">South Dakota</option>
+							<option value="TN">Tennessee</option>
+							<option value="TX">Texas</option>
+							<option value="UT">Utah</option>
+							<option value="VA">Virginia</option>
+							<option value="VT">Vermont</option>
+							<option value="WA">Washington</option>
+							<option value="WI">Wisconsin</option>
+							<option value="WV">West Virginia</option>
+							<option value="WY">Wyoming</option>
+						</select>
+					</div>
+
+				  <div class="form-group col-sm-4 col-md-8 col-lg-10 email_input">
+				    <label for="email">Email address</label>
+				    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email">
+				  </div>
+
+				  <div class="group-buttons">
+				  	<div class="dropdown col-sm-6 col-md-8 col-lg-10">
+					  <button class="btn btn-primary dropdown-toggle submit-btns" id="dropdown_button" type="button"  data-toggle="dropdown">Pick Your Lyric
+					  <span class="caret"></span></button>
+					  <ul class="dropdown-menu">
+					    <li><a href="#">Lonely No More</a></li>
+					    <li><a href="#">Home</a></li>
+					    <li><a href="#">Evolution</a></li>
+					    <li><a href="#">Adventure X</a></li>
+					    <li><a href="#">Incredible</a></li>
+					    <li><a href="#">Five Senses</a></li>
+					  </ul>
+				    </div>  
+
+				   	<p class="ask col-sm-6 col-md-8 col-lg-10">You have read the <a href="#">Rules</a>, <a href="#">Terms & Conditions</a>, and <a href="#">License Agreement</a></p>
+				    <div class="radio1 btn-circle btn-lg col-sm-6 col-md-8 col-lg-10">
+					  <label><input type="radio" name="optradio"> Yes</label>
+					</div>
+					<div class="radio2 btn-circle btn-lg col-sm-6 col-md-8 col-lg-10">
+					  <label><input type="radio" name="optradio"> Nopes</label>
+					</div>			    
+
+					<div id="submission" class="col-sm-4 col-md-8 col-lg-10">
+					  <button type="button" class="btn btn-primary btn-md">Submit</button>
+					</div>
+				  </div>	  
+
+				 	
 				</div>
-			  
-			  <button type="button" class="btn btn-primary btn-lg">Large button</button>
-			</form>
+			</div>
+		</div>
+	</form>	
+</div>
