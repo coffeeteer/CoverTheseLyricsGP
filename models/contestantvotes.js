@@ -1,9 +1,8 @@
 'use strict';
 module.exports = function(sequelize, DataTypes) {
   var contestantVotes = sequelize.define('contestantVotes', {
-    good / bad: DataTypes.BOOLEAN,
-    userId: DataTypes.INT,
-    summissionId: DataTypes.INT
+    ip: DataTypes.STRING,
+    vote_count: DataTypes.INT
   }, {
     classMethods: {
       associate: function(models) {
