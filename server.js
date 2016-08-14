@@ -12,6 +12,9 @@ var app = express();
 // creates all the tables in the models directories
 var models = require("./models");
 
+var sequelizeConnection = models.sequelize;
+sequelizeConnection.query('SET FOREIGN_KEY_CHECKS = 0');
+
 //sync all tables and force: true drops and recreates the tables when you go on the server
 models.sequelize.sync({force:true});
 
