@@ -16,8 +16,7 @@ var sequelizeConnection = models.sequelize;
 sequelizeConnection.query('SET FOREIGN_KEY_CHECKS = 0');
 
 //sync all tables and force: true drops and recreates the tables when you go on the server
-models.sequelize.sync({force:true});
-
+models.sequelize.sync();
 
 
 // Serve static content for the app from the "public" directory in the application directory.
@@ -39,12 +38,6 @@ app.set('view engine', 'handlebars');
 
 //var routes = require('./controllers/ctl_controller.js');
 //app.use('/', routes);
-
-var port = process.env.PORT || 3000;
-app.listen(port, function(){
-	console.log('connected to port ', port);
-});
-
 
 //***********Routes to Handlebars TravisG**********//
 
@@ -70,3 +63,7 @@ app.get('/prizes', function(req, res) {
   res.render('prizes');
 });
 
+var port = process.env.PORT || 3000;
+app.listen(port, function(){
+  console.log('connected to port ', port);
+}); //JW moved best practice has the litening app last in the file
