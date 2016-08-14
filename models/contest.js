@@ -2,7 +2,7 @@
 module.exports = function(sequelize, DataTypes) {
   var contest = sequelize.define('contest', {
     endDate: DataTypes.STRING,
-    winner: DataTypes.INT
+    winners: DataTypes.STRING
   }, {
     classMethods: {
       associate: function(models) {

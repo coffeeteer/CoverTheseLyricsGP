@@ -9,6 +9,14 @@ var methodOverride = require('method-override');
 
 var app = express();
 
+// creates all the tables in the models directories
+var models = require("./models");
+
+//sync all tables and force: true drops and recreates the tables when you go on the server
+models.sequelize.sync({force:true});
+
+
+
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static(process.cwd() + '/public')); //process.cwd returns the current working directory
 
@@ -58,3 +66,4 @@ app.get('/vote', function(req, res) {
 app.get('/prizes', function(req, res) {
   res.render('prizes');
 });
+

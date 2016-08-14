@@ -2,7 +2,7 @@
 module.exports = function(sequelize, DataTypes) {
   var contestantVotes = sequelize.define('contestantVotes', {
     ip: DataTypes.STRING,
-    vote_count: DataTypes.INT
+    vote_counts: DataTypes.INTEGER
   }, {
     classMethods: {
       associate: function(models) {
