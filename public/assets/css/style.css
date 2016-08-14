@@ -65,7 +65,11 @@
   text-align: center;
 }
 
-
+#videos{
+  margin-top:80px;
+  margin-bottom:50px;
+  align-content: center;
+}
 
 /*Prizes.handlebars styles*/
 #first-row{
