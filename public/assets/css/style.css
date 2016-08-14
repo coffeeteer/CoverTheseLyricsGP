@@ -20,8 +20,6 @@
     align-items: center;
     }
 
-
-
   /*Header Styles*/
     .header_container {
       text-align: center;
@@ -46,9 +44,6 @@
       font-size: 50pt;  
     }
 
-
-
-
   /*Body Styles*/
     .body-container {
       background-image: url("../images/blue_textures_SFW.png");
@@ -57,17 +52,11 @@
       border:0px;
     }
 
-
-
-
   /*Footer Styles*/
     .footer{
       margin-bottom: 0px;
       background-color:#2d2d2d;
     }
-
-
-
 
 /*Index.handlebars styles*/
 .index-container{
@@ -78,11 +67,7 @@
 
 
 
-
-
 /*Prizes.handlebars styles*/
-
-
 #first-row{
   font-size:50pt;
   text-align: center;
@@ -93,3 +78,86 @@
   height:283px;
 }
 
+/*Footer Menu*/
+.footer-container {
+  width:100%;
+  
+}
+
+/***********Submit Page**************/
+/*Submit Form on Submit Your YouTube Video*/
+.submit-container {
+  width: 800px;
+  background-color: #F9F9F9;
+  margin: 0 auto;
+  border-radius: 1.5%;
+  padding: 0;
+  margin-top: -20px;
+}
+
+/*Form input fields*/
+.form-group {
+  width: 600px;
+  margin: 0 auto;
+}
+ 
+ /*Form Buttons*/
+.submit-btns {
+  display: block;
+ 
+}
+
+/*Dropdown button*/
+#dropdown_button {
+  width: 20%;
+}
+
+/*.body-container*/
+/*.submit-video-form {
+  margin-top: -20px;
+}
+
+.footer-container {
+  margin: -14px 0;
+}*/
+
+.container-body-div {
+  margin-top: -20px;
+  margin-bottom: -14px;
+}
+
+.submit_form {
+  padding-bottom: 30px;
+}
+
+#submission,
+.dropdown {
+  margin-bottom: 20px;
+}
+
+.email_input {
+  padding-bottom: 20px;
+}
+
+label,
+.submit_title,
+.ask {
+  color: #2d2d2d;
+}
+
+.ask{
+  font-size: 8.5pt;
+}
+
+.form-group {
+  padding-bottom: 20px;
+}
+
+.submit_form {
+  margin-top: 20px;
+}
+
+.radio1 {
+  
+}
+/*************Submit page End******************/
