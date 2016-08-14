@@ -116,7 +116,6 @@
 /*.submit-video-form {
   margin-top: -20px;
 }
-
 .footer-container {
   margin: -14px 0;
 }*/
@@ -158,3 +157,20 @@ label,
 }
 
 /*************Submit page End******************/
+
+/**************Vote Page**********************/
+
+.gallery-vid {
+  margin: 20px auto;
+}
+
+.vote-btn {
+  margin: 5px auto;
+}
+
+.vote-title {
+  text-align: center;
+  font-size: 35pt;
+}
+
+/****************End Vote Page****************/
