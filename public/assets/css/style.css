@@ -18,6 +18,7 @@
     color: #fff;
     text-align: center;
     align-items: center;
+    font-size: 14pt;
     }
 
   /*Header Styles*/
@@ -27,6 +28,17 @@
       background-color: #2d2d2d;
       padding-bottom: 30px;
     }
+
+  /*Hover color of Navigation Links*/  
+    #navi:hover, #navi2:hover, #navi3:hover, #navi4:hover, #navi5:hover {
+      color: #F4010F;
+    }
+
+  /*An Active Depressed click on Navigation Links*/
+  
+  #navi:active, #navi2:active, #navi3:active, #navi4:active, #navi5:active {
+    color: #1F4667;
+  }  
 
     .main_header, 
     .subheader {
@@ -65,7 +77,11 @@
   text-align: center;
 }
 
-
+#videos{
+  margin-top:80px;
+  margin-bottom:50px;
+  align-content: center;
+}
 
 /*Prizes.handlebars styles*/
 #first-row{
@@ -112,15 +128,6 @@
   width: 20%;
 }
 
-/*.body-container*/
-/*.submit-video-form {
-  margin-top: -20px;
-}
-
-.footer-container {
-  margin: -14px 0;
-}*/
-
 .container-body-div {
   margin-top: -20px;
   margin-bottom: -14px;
@@ -158,3 +165,20 @@ label,
 }
 
 /*************Submit page End******************/
+
+/**************Vote Page**********************/
+
+.gallery-vid {
+  margin: 20px auto;
+}
+
+.vote-btn {
+  margin: 5px auto;
+}
+
+.vote-title {
+  text-align: center;
+  font-size: 35pt;
+}
+
+/****************End Vote Page****************/
