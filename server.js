@@ -40,6 +40,7 @@ app.set('view engine', 'handlebars');
 //app.use('/', routes);
 
 //***********Routes to Handlebars TravisG**********//
+// html-routes - this file offers a set of routes for sending users to the various html pages
 
 app.get('/', function(req, res) {
 	res.render('index');

@@ -1,3 +1,4 @@
+
 'use strict';
 module.exports = function(sequelize, DataTypes) {
   var Submissions = sequelize.define('Submissions', {
@@ -13,8 +14,8 @@ module.exports = function(sequelize, DataTypes) {
     classMethods: {
       associate: function(models) {
         // associations can be defined here
-        Submissions.hasMany(models.contestantVotes);
-        Submissions.belongsTo(models.contest);
+        Submissions.hasMany(models.contestantVotes);
+        Submissions.belongsTo(models.contest);
       }
     }
   });
