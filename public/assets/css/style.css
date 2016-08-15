@@ -1,5 +1,11 @@
 /*Main.handlebars styles*/
 
+  /*Body Styles*/
+    body{
+      background-color:#2d2d2d;
+    }
+
+
   /*Nav Styles*/
     #ctl-top-nav {
     	background-color: #2d2d2d;
@@ -20,6 +26,7 @@
     #navi{
       margin-left:230px;
     }
+
 
   /*Header Styles*/
     .header_container {
@@ -47,7 +54,10 @@
 
     .carousel_image_container{
       background-color: #2d2d2d;
-      padding-bottom:15px;
+    }
+
+    .unslider ol{
+      padding-top:4px;
     }
 
     .slider_images{
@@ -55,15 +65,13 @@
       height:325px;
     }
 
+
   /*Body Styles*/
     .body-container {
       background-image: url("../images/blue_textures_SFW.png");
       margin-top: 10px;
       color:#fff;
-      margin-bottom: 10px;
     }
-
-
 
 
   /*Footer Styles*/
@@ -75,32 +83,33 @@
 
 
 
-/*Index.handlebars styles*/
-.index-container{
-  margin-top:10px;
-  padding-top: 30px;
-  margin-left:40px;
-  text-align: center;
-}
+  /*Index.handlebars styles*/
+    .index-container{
+      margin-top:10px;
+      padding-top: 30px;
+      margin-left:40px;
+      text-align: center;
+      border-top-color: #2d2d2d;
+    }
 
-#videos{
-  margin-top:80px;
-  margin-bottom:50px;
-  align-content: center;
-}
-
-
-
-/*Prizes.handlebars styles*/
+    #videos{
+      margin-top:80px;
+      padding-bottom:10px;
+      align-content: center;
+    }
 
 
-#first-row{
-  font-size:50pt;
-  text-align: center;
-}
 
-#img2{
-  width: 323px;
-  height:283px;
-}
+  /*Prizes.handlebars styles*/
+
+
+    #first-row{
+      font-size:50pt;
+      text-align: center;
+    }
+
+    #img2{
+      width: 323px;
+      height:283px;
+    }
 
