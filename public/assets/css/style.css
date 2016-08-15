@@ -1,5 +1,11 @@
 /*Main.handlebars styles*/
 
+  /*Body Styles*/
+    body{
+      background-color:#2d2d2d;
+    }
+
+
   /*Nav Styles*/
     #ctl-top-nav {
     	background-color: #2d2d2d;
@@ -7,7 +13,6 @@
       border-radius: 0px;
       border-width: 0px;
       margin-bottom: 0px;
-      text-align: center;
     }
 
     .logo {
@@ -16,17 +21,17 @@
 
     #navi, #navi2, #navi3, #navi4, #navi5{
     color: #fff;
-    text-align: center;
-    align-items: center;
-    font-size: 14pt;
+    }
+
+    #navi{
+      margin-left:230px;
     }
 
   /*Header Styles*/
     .header_container {
-      text-align: center;
       margin: auto;
       background-color: #2d2d2d;
-      padding-bottom: 30px;
+      padding-bottom: 5px;
     }
 
   /*Hover color of Navigation Links*/  
@@ -43,27 +48,45 @@
     .main_header, 
     .subheader {
       font-family: Georgia;
-      text-align: center;
       color:#fff;
       margin-top:0px;
     }
 
     .main_header{
-      font-size: 100pt;
+      font-size: 75pt;
+      margin-left:300px;
     }
 
     .subheader {
-      font-size: 50pt;  
+      font-size: 40pt;
+      text-align: center;
     }
+
+    .carousel_image_container{
+      background-color: #2d2d2d;
+    }
+
+    .unslider ol{
+      padding-top:4px;
+    }
+
+    .slider_images{
+      width:1411px;
+      height:325px;
+    }
+
+
+
 
   /*Body Styles*/
     .body-container {
       /*background-image: url("../images/blue_textures_SFW.png");*/
       background-image: url("../images/concentricRings_SFW.png");
       margin-top: 0px;
+     /* margin-top: 10px;*/
       color:#fff;
-      border:0px;
     }
+
 
   /*Footer Styles*/
     .footer{
@@ -71,29 +94,38 @@
       background-color:#2d2d2d;
     }
 
-/*Index.handlebars styles*/
-.index-container{
-  padding-top: 30px;
-  margin-left:40px;
-  text-align: center;
-}
 
-#videos{
-  margin-top:80px;
-  margin-bottom:50px;
-  align-content: center;
-}
+  /*Index.handlebars styles*/
+    .index-container{
+      margin-top:10px;
+      padding-top: 30px;
+      margin-left:40px;
+      text-align: center;
+      border-top-color: #2d2d2d;
+    }
 
-/*Prizes.handlebars styles*/
-#first-row{
-  font-size:50pt;
-  text-align: center;
-}
 
-#img2{
-  width: 323px;
-  height:283px;
-}
+    #videos{
+      margin-top:80px;
+      padding-bottom:10px;
+      align-content: center;
+    }
+
+
+
+
+  /*Prizes.handlebars styles*/
+
+
+    #first-row{
+      font-size:50pt;
+      text-align: center;
+    }
+
+    #img2{
+      width: 323px;
+      height:283px;
+    }
 
 /*Footer Menu*/
 .footer-container {
