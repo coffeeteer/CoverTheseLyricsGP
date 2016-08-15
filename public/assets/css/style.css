@@ -27,13 +27,23 @@
       margin-left:230px;
     }
 
-
   /*Header Styles*/
     .header_container {
       margin: auto;
       background-color: #2d2d2d;
       padding-bottom: 5px;
     }
+
+  /*Hover color of Navigation Links*/  
+    #navi:hover, #navi2:hover, #navi3:hover, #navi4:hover, #navi5:hover {
+      color: #F4010F;
+    }
+
+  /*An Active Depressed click on Navigation Links*/
+  
+  #navi:active, #navi2:active, #navi3:active, #navi4:active, #navi5:active {
+    color: #1F4667;
+  }  
 
     .main_header, 
     .subheader {
@@ -52,6 +62,7 @@
       text-align: center;
     }
 
+<<<<<<< HEAD
     .carousel_image_container{
       background-color: #2d2d2d;
     }
@@ -66,6 +77,8 @@
     }
 
 
+=======
+>>>>>>> 4d82fb1673dadc7c715289f5317df3dd1d04ba6e
   /*Body Styles*/
     .body-container {
       background-image: url("../images/blue_textures_SFW.png");
@@ -73,13 +86,17 @@
       color:#fff;
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4d82fb1673dadc7c715289f5317df3dd1d04ba6e
   /*Footer Styles*/
     .footer{
       margin-bottom: 0px;
       background-color:#2d2d2d;
     }
 
+<<<<<<< HEAD
 
 
 
@@ -91,6 +108,14 @@
       text-align: center;
       border-top-color: #2d2d2d;
     }
+=======
+/*Index.handlebars styles*/
+/*.index-container{
+  padding-top: 30px;
+  margin-left:40px;
+  text-align: center;*/
+}
+>>>>>>> 4d82fb1673dadc7c715289f5317df3dd1d04ba6e
 
     #videos{
       margin-top:80px;
@@ -98,6 +123,7 @@
       align-content: center;
     }
 
+<<<<<<< HEAD
 
 
   /*Prizes.handlebars styles*/
@@ -107,9 +133,104 @@
       font-size:50pt;
       text-align: center;
     }
+=======
+/*Prizes.handlebars styles*/
+#first-row{
+  font-size:50pt;
+  text-align: center;
+}
+>>>>>>> 4d82fb1673dadc7c715289f5317df3dd1d04ba6e
 
     #img2{
       width: 323px;
       height:283px;
     }
 
+/*Footer Menu*/
+.footer-container {
+  width:100%;
+  
+}
+
+/***********Submit Page**************/
+/*Submit Form on Submit Your YouTube Video*/
+.submit-container {
+  width: 800px;
+  background-color: #F9F9F9;
+  margin: 0 auto;
+  border-radius: 1.5%;
+  padding: 0;
+  margin-top: -20px;
+}
+
+/*Form input fields*/
+.form-group {
+  width: 600px;
+  margin: 0 auto;
+}
+ 
+ /*Form Buttons*/
+.submit-btns {
+  display: block;
+ 
+}
+
+/*Dropdown button*/
+#dropdown_button {
+  width: 20%;
+}
+
+.container-body-div {
+  margin-top: -20px;
+  margin-bottom: -14px;
+}
+
+.submit_form {
+  padding-bottom: 30px;
+}
+
+#submission,
+.dropdown {
+  margin-bottom: 20px;
+}
+
+.email_input {
+  padding-bottom: 20px;
+}
+
+label,
+.submit_title,
+.ask {
+  color: #2d2d2d;
+}
+
+.ask{
+  font-size: 8.5pt;
+}
+
+.form-group {
+  padding-bottom: 20px;
+}
+
+.submit_form {
+  margin-top: 20px;
+}
+
+/*************Submit page End******************/
+
+/**************Vote Page**********************/
+
+.gallery-vid {
+  margin: 20px auto;
+}
+
+.vote-btn {
+  margin: 5px auto;
+}
+
+.vote-title {
+  text-align: center;
+  font-size: 35pt;
+}
+
+/****************End Vote Page****************/
