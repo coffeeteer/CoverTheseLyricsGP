@@ -58,11 +58,17 @@
 .unslider-arrow.next {
   left: auto;
   right: 20px;
+  color:#fff;
+}
+
+.unslider-arrow.prev{
+  color:#fff;
 }
 
 .unslider-nav ol {
   list-style: none;
   text-align: center;
+  padding-top: 8px;
 }
 .unslider-nav ol li {
   display: inline-block;
