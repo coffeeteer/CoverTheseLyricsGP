@@ -18,6 +18,18 @@ sequelizeConnection.query('SET FOREIGN_KEY_CHECKS = 0');
 
 models.sequelize.sync();  //sync all tables
 
+//database setup
+var Sequelize = require ('sequelize'), connection;
+if (process.env.JAWSDB_URL) {
+  connection = new Sequelize(process.env.JAWSDB_URL);
+}else {
+  connection = new Sequelize('coverTheseLyrics', 'root', 'password', {
+    host: 'localhost',
+    dialect: 'mysql',
+    port: '3306'
+  })
+}
+
 app.use(express.static(process.cwd() + '/public')); //process.cwd returns the current working directory
 
 app.use(bodyParser.urlencoded({
