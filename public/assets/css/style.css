@@ -80,8 +80,13 @@
 
   /*Body Styles*/
     .body-container {
-      background-image: url("../images/blue_textures_SFW.png");
-      margin-top: 10px;
+      /*background-image: url("../images/blue_textures_SFW.png");*/
+      /*background-image: url("../images/concentricRings_SFW.png");*/
+      background-image: url("../images/coloredPaperGrn_SFW.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin-top: 0px;
+     /* margin-top: 10px;*/
       color:#fff;
     }
 
@@ -210,6 +215,13 @@ label,
 .vote-title {
   text-align: center;
   font-size: 35pt;
+}
+
+.vote-page-container {
+  background-color: rgba(45, 45, 45, 0.8);
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /****************End Vote Page****************/
