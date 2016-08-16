@@ -91,5 +91,5 @@ db.sequelize.sync().then(function(){
   app.listen(port, function(){
     console.log('connected to port ', port);
   }); //JW moved best practice has the litening app last in the file
-})
+});
 
