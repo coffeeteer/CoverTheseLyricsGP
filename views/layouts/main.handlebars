@@ -1,43 +1,45 @@
 <html>
 	<head>
 		<title>CoverTheseLyrics</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
-		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 		
+    <script   src="https://code.jquery.com/jquery-3.1.0.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<script src="./assets/javascript/unslider.js"></script>
 
-    <!-- vote/ipget -->
-    
+    <!-- Javascript -->
+    <script src="./assets/javascript/unslider.js"></script>
     <script type="text/javascript" src="./assets/javascript/addsubmissions.js"></script>
+    <!-- vote/ipget -->
 
-
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
+    <!-- CSS Style Sheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/unslider.css">
+
+
+
 	</head>
 	<body>
 
+  <div class="container">
     <nav class="navbar navbar-default" id="ctl-top-nav">
       <div class="container-fluid">
         
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
 
-          <img class = "logo" alt="Brand" src="./assets/images/logo/CoverTheseLyrics5-01.svg">
+          <img class ="logo" alt="Brand" src="./assets/images/logo/CoverTheseLyrics5-01.svg">
 
         </div><!-- End of navbar-header  --> 
         
-       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav"
-          >
-            <li><a class="nav-links" href="/" class="nav_links" id="navi">Home</a></li>
-            <li><a class="nav-links" href="/lyrics" class="nav_links" id="navi2">Lyrics</a></li>
-            <li><a class="nav-links" href="/submit-video" class="nav_links" id="navi3">Submit Your YouTube Video</a></li>
-            <li><a class="nav-links" href="/vote" class="nav_links" id="navi4">Vote for Your Favorite</a></li>
-            <li><a class="nav-links" href="/prizes" class="nav_links" id="navi5">Grand Prizes</a></li>
+       <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a class="nav-links" href="/" id="navi">Home</a></li>
+            <li><a class="nav-links" href="/lyrics" id="navi2">Lyrics</a></li>
+            <li><a class="nav-links" href="/submit-video" id="navi3">Submit Your YouTube Video</a></li>
+            <li><a class="nav-links" href="/vote" id="navi4">Vote for Your Favorite</a></li>
+            <li><a class="nav-links" href="/prizes" id="navi5">Grand Prizes</a></li>
           </ul>
 
         </div><!-- /.navbar-collapse -->
@@ -45,45 +47,15 @@
 
       </div><!-- End of container-fluid -->
     </nav><!-- End of navbar-default -->
+    </div>
 
-<div class="header_container">
-    <h1 class="main_header">
-      CoverTheseLyrics
-    </h1>
-    <h2 class="subheader">
-      Sing. Record. Entertain. Shine!
-    </h2>
-</div>
-
-  <div class="row">
-    
-    <div class="col-md-12 col-sm-12">
-      <div class="carousel_image_container">
-
-      <div class="my-slider">
-          <ul>
-            <li><img src="./assets/images/sliderImages/Lone-Singer_noir_SFW.jpg" alt="singer" class="slider_images"></li>
-            <li><img src="./assets/images/sliderImages/marley-like_newcrop_SFW.jpg" alt="bob-marley esque" class="slider_images"></li>
-            <li><img src="./assets/images/sliderImages/microphone-D_noir_SFW.jpg" alt="microphone" class="slider_images"></li>
-            <li><img src="./assets/images/sliderImages/pure_bluegrass_cropSFW.jpg" alt="bluegrass-music" class="slider_images"></li>
-            <li><img src="./assets/images/sliderImages/singer_crop_SFW.jpg" alt="singer" class="slider_images"></li>
-          </ul>
-        </div>
-
-      </div>
-      </div>
-
-
-  </div>
-
-
-		<div class= "body-container"> 
+		<div id="body-container"> 
 			{{{ body }}}
 		</div><!-- End of body-container -->
 
     <footer class="footer">
-      <div class="container footer-container">
-       <ul class="nav navbar-nav" style="margin-left:250px;">
+      <div>
+       <ul class="nav navbar-nav">
           <li><a href="/">Contest Rules</a></li>
           <li><a href="/">License Agreement</a></li>
           <li><a href="/">Terms &amp; Conditions</a></li>
