@@ -9,14 +9,26 @@ var methodOverride = require('method-override');
 var app = express();
 
 // creates all the tables in the models directories
-var models = require("./models");
-var Submissions = require('./models')['Submissions'];
+global.db = require("./models");
+// var Submissions = require('./models')['Submissions'];
 
-var sequelizeConnection = models.sequelize;
-sequelizeConnection.query('SET FOREIGN_KEY_CHECKS = 0');
+// var sequelizeConnection = models.sequelize;
+// sequelizeConnection.query('SET FOREIGN_KEY_CHECKS = 0');
 
 
-models.sequelize.sync();  //sync all tables
+// models.sequelize.sync();  //sync all tables
+
+//database setup
+// var Sequelize = require ('sequelize'), connection;
+// if (process.env.JAWSDB_URL) {
+//   connection = new Sequelize(process.env.JAWSDB_URL);
+// }else {
+//   connection = new Sequelize('coverTheseLyrics', 'root', 'password', {
+//     host: 'localhost',
+//     dialect: 'mysql',
+//     port: '3306'
+//   })
+// }
 
 app.use(express.static(process.cwd() + '/public')); //process.cwd returns the current working directory
 
@@ -52,7 +64,7 @@ app.get('/submit-video', function(req, res) {
 });
 app.post('/submit-video', function(req,res){
     var body = req.body;
-      Submissions.create({
+      db.Submissions.create({
         name:body.name,
         state: body.state,
         email: body.email,
@@ -75,6 +87,9 @@ app.get('/prizes', function(req, res) {
 });
 
 var port = process.env.PORT || 3000;
-app.listen(port, function(){
-  console.log('connected to port ', port);
-}); //JW moved best practice has the litening app last in the file
+db.sequelize.sync().then(function(){
+  app.listen(port, function(){
+    console.log('connected to port ', port);
+  }); //JW moved best practice has the litening app last in the file
+});
+
