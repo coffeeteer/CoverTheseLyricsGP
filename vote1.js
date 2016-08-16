@@ -11,8 +11,6 @@ $(document).ready(function(){
 
 $('#votebtn').on("click", function(){
 
-  
-
   var ip
 
   $(function() {
