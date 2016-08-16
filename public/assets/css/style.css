@@ -1,4 +1,4 @@
-/**************Main.handlebarse**********************/
+/**************Main Page**********************/
 
   /*Body Styles*/
     body{
@@ -49,17 +49,17 @@
       color:#fff;
       background-size: cover;
     }
-    
+
   /*Footer Styles*/
     .footer{
       margin-bottom: 0px;
       background-color:#2d2d2d;
       margin-left:360px;
     }
-/****************End Main.handlebars****************/
+/****************End Main Page****************/
 
 
-/****************Index.handlebars****************/
+/****************Index Page****************/
 
     .headers{
       text-align: center;
@@ -92,7 +92,7 @@
       text-align: center;
     }
 
-/****************End Index.handlebars****************/
+/****************End Index page****************/
 
 
 /**************Lyrics Page**********************/
@@ -105,95 +105,24 @@
 
 /****************End Lyrics Page****************/
 
+
+
 /***********Submit Page**************/
 /*Submit Form on Submit Your YouTube Video*/
-.submit-container {
-  width: 800px;
-  background-color: #F9F9F9;
-  margin: 0 auto;
-  border-radius: 1.5%;
-  padding: 0;
-  margin-top: -20px;
-}
-
-/*Form input fields*/
-.form-group {
-  width: 600px;
-  margin: 0 auto;
-}
- 
- /*Form Buttons*/
-.submit-btns {
-  display: block;
- 
-}
-
-/*Dropdown button*/
-#dropdown_button {
-  width: 20%;
-}
-
-.container-body-div {
-  margin-top: -20px;
-  margin-bottom: -14px;
-}
-
-.submit_form {
-  padding-bottom: 30px;
-}
-
-#submission,
-.dropdown {
-  margin-bottom: 20px;
-}
-
-.email_input {
-  padding-bottom: 20px;
-}
-
-label,
-.submit_title,
-.ask {
-  color: #2d2d2d;
-}
-
-.ask{
-  font-size: 8.5pt;
-}
-
-.form-group {
-  padding-bottom: 20px;
-}
-
-.submit_form {
-  margin-top: 20px;
+#submit-youtube {
+color:#000;
+padding-top: 30px;
+padding-bottom: 175px;
 }
 
 /*************Submit page End******************/
 
 
-
-  /*Prizes.handlebars styles*/
-
-
-    #first-row{
-      font-size:50pt;
-      text-align: center;
-    }
-
-    #img2{
-      width: 323px;
-      height:283px;
-    }
-
-
-
-
-
 /**************Vote Page**********************/
 
-.gallery-vid {
-  margin: 20px auto;
+.gallery-vid{
+/*  margin: 20px auto;*/
+  align-items: center;
 }
 
 .vote-btn {
@@ -213,4 +142,29 @@ label,
 }
 
 /****************End Vote Page****************/
+
+
+/**************Prizes Page**********************/
+
+    #first-row{
+      font-size:50pt;
+      text-align: center;
+    }
+
+    #img2{
+      width: 323px;
+      height:283px;
+    }
+
+/****************End Vote Page****************/
+
+
+
+
+
+
+
+
+
+
 
