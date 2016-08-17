@@ -78,9 +78,16 @@ app.post('/submit-video', function(req,res){  //send form data to db
   })
 });
 
-app.get('/vote', function(req, res) {
-	res.render('vote');
-});
+
+app.get('/vote', function(req, res){ 
+         Submissions.findAll({})
+       .then(function(result){
+    console.log(result);
+    return  res.render('vote', {
+      Submissions:result
+    });
+ });   
+  });
 
 //*************************************************//
 
