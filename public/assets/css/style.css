@@ -92,12 +92,19 @@
       margin-top:40px;
       background-color: #2d2d2d;
       padding:0px;
+      margin-bottom: 30px;
     }
 
     #about{
-      margin-top: 15px;
+      margin-top: 20px;
       font-size: 35px;
       text-align: center;
+      background-color: rgba(45, 45, 45, 0.7);
+      width: 85%;
+      margin: 0 auto;
+      padding: 20px;
+      padding-top: 10px;
+}
     }
 
     #contest-submission{
