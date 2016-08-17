@@ -1,30 +1,43 @@
-//1. Needs to limit User to five total votes per day.
+$(document).ready(function() {
+    var ip
+    $('.votebutton').on("click", function() {
 
-//2. User is known through IP address. After 5 votes are made.
+      var id = $(".votebutton").attr("id");
+      console.log($(".votebutton").attr("id"));
 
-//3. A module pops up letting user know there votes are up, and button depressed not allowing more clicks.
+      getIp();
 
-//on click of voting button, post to db vote for lyrics 
-//store ip in db, get vote count for ip, if at vote limit for ip for date deactive vote button - message to user limit has been reached.
+      var currentURL = window.location.origin;
 
-$(document).ready(function(){
-
-$('#votebtn').on("click", function(){
-
+ $.get( currentURL + "/contestantvotes" + id + ip, function( data ) {
   
+    data = data[0];
 
-  var ip
+    // log the data to our console
+    console.log(data);
 
-  $(function() {
-    $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
-      function(json) {
-       console.log("My public IP address is: ", json.ip);
-       ip = json.ip
-        return ip;    
-      }
-    );
   });
 
 
-console.log("2 My public IP address is: ", ip);
+       
+
+
+
+
+
+function getIp() {
+     $(function() {
+           $.getJSON(
+              "https://api.ipify.org?format=jsonp&callback=?",
+              function(json) {
+                  console.log(
+                      "My public IP address is: ",
+                      json.ip);
+                  ip = json.ip
+                  return ip;
+              });
+              });
+          }
+          console.log('click');
+      });
 });
