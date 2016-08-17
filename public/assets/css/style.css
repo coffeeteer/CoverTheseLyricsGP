@@ -16,7 +16,11 @@
     }
 
     .logo {
-      width: 150px;
+      width: 200px;
+      height: 100px;
+      -moz-border-radius: 100px / 50px;
+      -webkit-border-radius: 100px / 50px;
+      border-radius: 100px / 50px;
     }
 
     #navi, #navi2, #navi3, #navi4, #navi5{
