@@ -73,6 +73,12 @@
       color: #fff;
       font-family: Georgia;
       font-weight: bold;
+      text-align: center;
+      margin: auto;
+    }
+    #main-title,
+    #subtitle{
+      text-align: left;
     }
 /*************** End Title *********************/
 /****************End Main Page****************/
