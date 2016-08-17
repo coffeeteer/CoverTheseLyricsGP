@@ -1,6 +1,6 @@
 
 $('#submission').on("click", function(){
-
+  console.log('in submit-video')
   // make a newCharacter obj
   var newSubmission = 
   {
@@ -13,7 +13,7 @@ $('#submission').on("click", function(){
   var currentURL = window.location.origin;
 
   // send an AJAX POST-request with jQuery
-  $.post( currentURL + "/api/new", newCharacter)
+  $.post( currentURL + "/submit-video", newCharacter)
     .done(function(data){
       console.log(data);
     })
