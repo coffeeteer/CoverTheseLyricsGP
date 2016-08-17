@@ -59,6 +59,24 @@
       background-color:#2d2d2d;
       margin-left:360px;
     }
+
+/***********  Title *********************/
+   #main-title{
+    font-size: 75pt;
+   }
+
+   #subtitle {
+   font-size: 30pt;
+   }
+
+    .header-title {
+      background-color: #2d2d2d;
+      width: 100%;
+      color: #fff;
+      font-family: Georgia;
+      font-weight: bold;
+    }
+/*************** End Title *********************/
 /****************End Main Page****************/
 
 
@@ -138,7 +156,7 @@ padding-bottom: 175px;
 }
 
 .vote-page-container {
-  background-color: rgba(45, 45, 45, 0.8);
+  background-color: rgba(45, 45, 45, 0.6);
   width: 85%;
   margin: 0 auto;
   padding: 20px;
