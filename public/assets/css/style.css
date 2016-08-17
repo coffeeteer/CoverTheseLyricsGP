@@ -3,8 +3,10 @@
   /*Body Styles*/
     body{
       background-color:#2d2d2d;
-      font-family: Arial, Helvetica, sans-serif;
-    }
+      font-family: 'Roboto Condensed', sans-serif;
+      font-family: 'Lato', sans-serif;
+      font-family: 'Hind Guntur', sans-serif;
+}
 
   /*Nav Styles*/
     #ctl-top-nav {
