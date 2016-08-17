@@ -5,10 +5,13 @@ express middleware.*/
 var express = require('express');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
+var exphbs = require('express-handlebars');
+var Submissions = require('./models')['Submissions'];
 
 var app = express();
 
 // creates all the tables in the models directories
+
 global.db = require("./models");
 // var Submissions = require('./models')['Submissions'];
 
@@ -30,24 +33,19 @@ global.db = require("./models");
 //   })
 // }
 
-app.use(express.static(process.cwd() + '/public')); //process.cwd returns the current working directory
+app.use(express.static(process.cwd() + '/public')); 
 
 app.use(bodyParser.urlencoded({
 	extended: false
 }));
 
+app.use(methodOverride('_method'));  
 
-app.use(methodOverride('_method'));  // override with POST having ?_method=DELETE
-
-var exphbs = require('express-handlebars');
 app.engine('handlebars', exphbs({
 	defaultLayout: 'main'
 }));
 
 app.set('view engine', 'handlebars');
-
-//var routes = require('./controllers/ctl_controller.js');
-//app.use('/', routes);
 
 //***********Routes to Handlebars TravisG**********//
 
@@ -60,25 +58,36 @@ app.get('/lyrics', function(req, res) {
 });
 
 app.get('/submit-video', function(req, res) {
-	res.render('submit');
+	res.render('submit');  //get form for entry
 });
-app.post('/submit-video', function(req,res){
+app.post('/submit-video', function(req,res){  //send form data to db
     var body = req.body;
       db.Submissions.create({
         name:body.name,
         state: body.state,
         email: body.email,
+        entry:body.URL,
+        lyrics:body.lyric,
         optradio: body.optradio  
       }).then(function(data){
         console.log('data',data);
 
-    res.redirect('/submit-video/');
+    //res.redirect('/submit-video/');
+    res.render('index');
+
   })
 });
 
-app.get('/vote', function(req, res) {
-	res.render('vote');
-});
+
+app.get('/vote', function(req, res){ 
+         Submissions.findAll({})
+       .then(function(result){
+    console.log(result);
+    return  res.render('vote', {
+      Submissions:result
+    });
+ });   
+  });
 
 //*************************************************//
 
@@ -86,7 +95,7 @@ app.get('/prizes', function(req, res) {
   res.render('prizes');
 });
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3306;
 db.sequelize.sync().then(function(){
   app.listen(port, function(){
     console.log('connected to port ', port);
