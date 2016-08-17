@@ -6,10 +6,12 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 var exphbs = require('express-handlebars');
+var Submissions = require('./models')['Submissions'];
 
 var app = express();
 
 // creates all the tables in the models directories
+
 global.db = require("./models");
 // var Submissions = require('./models')['Submissions'];
 
@@ -86,7 +88,7 @@ app.get('/prizes', function(req, res) {
   res.render('prizes');
 });
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3306;
 db.sequelize.sync().then(function(){
   app.listen(port, function(){
     console.log('connected to port ', port);
