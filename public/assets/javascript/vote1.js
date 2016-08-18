@@ -1,17 +1,12 @@
-$(document).ready(function(){   
+
+$(document).ready(function() {
+   
 $('.votebutton').on("click", function() {
 
-console.log('clicked')
-
-
-var id = $(this).attr("id");
+    var id = $(this).attr("id");
     console.log($(this).attr("id"));
     console.log("id",id);
     var ip
-
-getip();
-
-function getip(){
 
  $(function() {
      $.getJSON(
@@ -24,22 +19,17 @@ function getip(){
              console.log(
                  "My public IP address is3: ",
                  ip);
-              votehandle(ip);
          });
-   }); // end ip get 
-    votehandle(ip);
-};
+   });
 
-function votehandle(ip){
-    console.log(ip)
-    var url ='/vote/' + id + '/'+ ip;
-        console.log(url);
+     console.log("My public IP address is1: ", ip);
+     var currentURL = window.location.origin;
+     console.log('currentURL'currentURL);
 
-     $.get(url, function(data) {
+     $.get(currentURL + "/contestantvotes" + id + ip, function(data) {
          data = data[0];
          console.log(data);
      });
-}
+ });
 
-});  //end on votebutton click
-});//send on ready function
+});  //end doc ready

@@ -62,7 +62,7 @@ app.get('/submit-video', function(req, res) {
 });
 app.post('/submit-video', function(req,res){  //send form data to db
     var body = req.body;
-    db.Submissions.create({
+      db.Submissions.create({
         name:body.name,
         state: body.state,
         email: body.email,
@@ -71,6 +71,7 @@ app.post('/submit-video', function(req,res){  //send form data to db
         optradio: body.optradio  
       }).then(function(data){
         console.log('data',data);
+
     //res.redirect('/submit-video/');
     res.render('index');
 
@@ -78,27 +79,15 @@ app.post('/submit-video', function(req,res){  //send form data to db
 });
 
 
-app.get('/vote', function(req, res){
-   
-   //var id = req.params.id;
-    //Contestantvotes.findOne({
-      //where: {
-       // id: id
-     // }
-    //}).then(function(result){
-    //console.log(result);
-     //   });
-
-
-    Submissions.findAll({})
-      .then(function(result) {
-        console.log(result);
-        return res.render('vote', {
-            Submissions: result
-        });
+app.get('/vote', function(req, res){ 
+         Submissions.findAll({})
+       .then(function(result){
+       console.log(result);
+    return  res.render('vote', {
+      Submissions:result
     });
+ });   
   });
-
 
 //*************************************************//
 
@@ -113,4 +102,20 @@ db.sequelize.sync().then(function(){
   }); //JW moved best practice has the litening app last in the file
 });
 
-  
+  app.get('/contestantvotes', function(req, res){
+    if(req.params.characters){
+      console.log('req.params.ip')
+      contestantvotes.findOne({
+        where: {
+          ip: req.params.ip,
+          id: req.params.id
+        }
+      }).then(function(result){
+        return res.json(result);
+      })
+    }
+    else{
+      console.log("else statement")
+    
+      };
+  });
