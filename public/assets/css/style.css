@@ -61,10 +61,17 @@
 /***********  Title *********************/
    #main-title{
     font-size: 75pt;
+    float: left;
+    position: relative;
+    left: 19.8%;
+    font-weight: bold;
    }
 
    #subtitle {
-   font-size: 30pt;
+    font-size: 30pt;
+    float: left;
+    position: relative;
+    left: 19.9%;
    }
 
     .header-title {
@@ -72,12 +79,16 @@
       width: 100%;
       color: #fff;
       font-family: Georgia;
-      font-weight: bold;
+      /*font-weight: bold;*/
+      display: inline-block;
       text-align: center;
-      margin: auto;
+      margin: auto 0;
+      
     }
+
     #main-title,
     #subtitle{
+      display: inline-block;
       text-align: left;
     }
 /*************** End Title *********************/
