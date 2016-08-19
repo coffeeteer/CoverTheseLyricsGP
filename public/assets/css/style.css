@@ -18,12 +18,12 @@
       margin-left: -90px;
     }
 
+    .grey {
+      background: #2d2d2d;
+    }
+
     .logo {
       width: 200px;
-      height: 100px;
-      -moz-border-radius: 100px / 50px;
-      -webkit-border-radius: 100px / 50px;
-      border-radius: 100px / 50px;
     }
 
     #navi, #navi2, #navi3, #navi4, #navi5{
@@ -81,7 +81,7 @@
    }
 
     .header-title {
-      background-color: #2d2d2d;
+      background-image: url('../images/logo/logo2.png');
       width: 100%;
       color: #fff;
       font-family: Georgia;
@@ -89,7 +89,8 @@
       display: inline-block;
       text-align: center;
       margin: auto 0;
-      
+      opacity: 0.2;
+      background-position: center;
     }
 
     #main-title,
@@ -97,6 +98,10 @@
       display: inline-block;
       text-align: left;
     }
+
+
+
+
 /*************** End Title *********************/
 /****************End Main Page****************/
 
