@@ -1,43 +1,47 @@
-$(document).ready(function() {
+$(document).ready(function(){   
+$('.votebutton').on("click", function() {
+
+console.log('clicked')
+
+
+ $.get('/vote', function(data) {
+     data = data[0];
+     console.log(data);
+ });
+
+var entryid = $(this).attr("id");
+    console.log($(this).attr("id"));
+    //console.log("id",id);
     var ip
-    $('.votebutton').on("click", function() {
 
-      var id = $(".votebutton").attr("id");
-      console.log($(".votebutton").attr("id"));
+getip();
 
-      getIp();
+function getip(){
 
-      var currentURL = window.location.origin;
+ $(function() {
+     $.getJSON(
+         "https://api.ipify.org?format=jsonp&callback=?",
+         function(json) {
+             ip = json.ip;
+             console.log(
+                 "My public IP address is3: ",
+                 ip);
+              votehandle(ip);
+         });
+   }); // end ip get 
+   // votehandle(ip);
+};
 
- $.get( currentURL + "/contestantvotes" + id + ip, function( data ) {
-  
+function votehandle(ip){
+    console.log(ip)
+    var url ='/vote/' + ip + '/'+ entryid;
+        console.log(url);
+
+ $.post(url, function(data) {
     data = data[0];
-
-    // log the data to our console
     console.log(data);
-
-  });
-
-
-       
-
-
-
-
-
-function getIp() {
-     $(function() {
-           $.getJSON(
-              "https://api.ipify.org?format=jsonp&callback=?",
-              function(json) {
-                  console.log(
-                      "My public IP address is: ",
-                      json.ip);
-                  ip = json.ip
-                  return ip;
-              });
-              });
-          }
-          console.log('click');
-      });
 });
+}
+
+});  //end on votebutton click
+});//send on ready function

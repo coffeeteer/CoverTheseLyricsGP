@@ -62,15 +62,16 @@ app.get('/submit-video', function(req, res) {
 });
 app.post('/submit-video', function(req,res){  //send form data to db
     var body = req.body;
-    db.Submissions.create({
-        name: body.name,
+      db.Submissions.create({
+        name:body.name,
         state: body.state,
         email: body.email,
-        entry: body.URL,
-        lyrics: body.lyric,
+        entry:body.URL,
+        lyrics:body.lyric,
         optradio: body.optradio  
       }).then(function(data){
         console.log('data',data);
+
     //res.redirect('/submit-video/');
     res.render('index');
 
@@ -78,32 +79,15 @@ app.post('/submit-video', function(req,res){  //send form data to db
 });
 
 
-app.get('/vote', function(req, res){
-    Submissions.findAll({})
-      .then(function(result) {
-        console.log(result);
-        return res.render('vote', {
-            Submissions: result
-        });
+app.get('/vote', function(req, res){ 
+         Submissions.findAll({})
+       .then(function(result){
+       console.log(result);
+    return  res.render('vote', {
+      Submissions:result
     });
+ });   
   });
-
-
-app.post('/vote/:ip?/:entryid?',function(req, res){
-   console.log('DATA CHECK JW',req.params.ip, req.params.entryid);
- var body = req.params;
-    db.contestantVotes.create({
-        ip: body.ip,
-       entryid: body.entryid,
-      }).then(function(data){
-        console.log('data',data);
-    //res.redirect('/submit-video/');
-    res.render('vote');
-
-  });
-
-});
-
 
 //*************************************************//
 
@@ -111,11 +95,27 @@ app.get('/prizes', function(req, res) {
   res.render('prizes');
 });
 
-var port = process.env.PORT || 3302;
+var port = process.env.PORT || 3306;
 db.sequelize.sync().then(function(){
   app.listen(port, function(){
     console.log('connected to port ', port);
-  }); //JW moved best practice has the listening app last in the file
+  }); //JW moved best practice has the litening app last in the file
 });
 
-  
+  app.get('/contestantvotes', function(req, res){
+    if(req.params.characters){
+      console.log('req.params.ip')
+      contestantvotes.findOne({
+        where: {
+          ip: req.params.ip,
+          id: req.params.id
+        }
+      }).then(function(result){
+        return res.json(result);
+      })
+    }
+    else{
+      console.log("else statement")
+    
+      };
+  });
