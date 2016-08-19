@@ -1,15 +1,22 @@
 <h1 class="vote-title">Vote here</h1>
-	<div class ="vote-page-container">
-		<div class="container vote-container gallery-vid">
-
+<!-- 	<div class ="vote-page-container"> -->
+<!-- 		<div class="container vote-container gallery-vid"> -->
+<div class="container2" >
+	<div class="container" id="vote-page-container">
+		<div class="row">
 			{{#each Submissions}}
-			<div class="videobox">
-			<iframe width="308" height="171" src="{{this.entry}}" frameborder="0" allowfullscreen></iframe>
-			<span class="col-xs-6 col-md-4 vote-btn">
-			<button type="button" class="btn btn-primary btn-md votebutton" name="vote" id="{{this.id}}">Vote For Me!</button>
-			</span>
-			</div>  
+				<div class="col-md-4">
+					<div class="videobox">
+						<iframe width="350" height="250" src="{{this.entry}}" frameborder="0" allowfullscreen></iframe>
+							<span class="col-xs-6 col-md-4 vote-btn">
+								<button type="button" class="btn btn-primary btn-md votebutton" name="vote" id="{{this.id}}">Vote For Me!</button>
+							</span>
+					</div>
+				</div>
 			{{/each}}
-
 		</div>
 	</div>
+</div>
+
+<!-- 		</div> -->
+<!-- 	</div> -->
