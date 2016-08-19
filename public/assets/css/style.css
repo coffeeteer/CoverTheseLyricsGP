@@ -81,7 +81,7 @@
    }
 
     .header-title {
-      background-image: url('../images/logo/logo2.png');
+      background-image: url('../images/logo/wavy-score.png');
       width: 100%;
       color: #fff;
       font-family: Georgia;
@@ -89,8 +89,13 @@
       display: inline-block;
       text-align: center;
       margin: auto 0;
-      opacity: 0.2;
+      /*opacity: 0.2;*/
       background-position: center;
+
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
     }
 
     #main-title,
