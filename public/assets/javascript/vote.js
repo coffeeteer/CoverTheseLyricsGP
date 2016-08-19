@@ -4,9 +4,14 @@ $('.votebutton').on("click", function() {
 console.log('clicked')
 
 
-var id = $(this).attr("id");
+ $.get('/vote', function(data) {
+     data = data[0];
+     console.log(data);
+ });
+
+var entryid = $(this).attr("id");
     console.log($(this).attr("id"));
-    console.log("id",id);
+    //console.log("id",id);
     var ip
 
 getip();
@@ -17,9 +22,6 @@ function getip(){
      $.getJSON(
          "https://api.ipify.org?format=jsonp&callback=?",
          function(json) {
-             console.log(
-                 "My public IP address is2: ",
-                 json.ip);
              ip = json.ip;
              console.log(
                  "My public IP address is3: ",
@@ -27,18 +29,18 @@ function getip(){
               votehandle(ip);
          });
    }); // end ip get 
-    votehandle(ip);
+   // votehandle(ip);
 };
 
 function votehandle(ip){
     console.log(ip)
-    var url ='/vote/' + id + '/'+ ip;
+    var url ='/vote/' + ip + '/'+ entryid;
         console.log(url);
 
-     $.get(url, function(data) {
-         data = data[0];
-         console.log(data);
-     });
+ $.post(url, function(data) {
+    data = data[0];
+    console.log(data);
+});
 }
 
 });  //end on votebutton click

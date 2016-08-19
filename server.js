@@ -63,11 +63,11 @@ app.get('/submit-video', function(req, res) {
 app.post('/submit-video', function(req,res){  //send form data to db
     var body = req.body;
     db.Submissions.create({
-        name:body.name,
+        name: body.name,
         state: body.state,
         email: body.email,
-        entry:body.URL,
-        lyrics:body.lyric,
+        entry: body.URL,
+        lyrics: body.lyric,
         optradio: body.optradio  
       }).then(function(data){
         console.log('data',data);
@@ -79,17 +79,6 @@ app.post('/submit-video', function(req,res){  //send form data to db
 
 
 app.get('/vote', function(req, res){
-   
-   //var id = req.params.id;
-    //Contestantvotes.findOne({
-      //where: {
-       // id: id
-     // }
-    //}).then(function(result){
-    //console.log(result);
-     //   });
-
-
     Submissions.findAll({})
       .then(function(result) {
         console.log(result);
@@ -98,6 +87,22 @@ app.get('/vote', function(req, res){
         });
     });
   });
+
+
+app.post('/vote/:ip?/:entryid?',function(req, res){
+   console.log('DATA CHECK JW',req.params.ip, req.params.entryid);
+ var body = req.params;
+    db.contestantVotes.create({
+        ip: body.ip,
+       entryid: body.entryid,
+      }).then(function(data){
+        console.log('data',data);
+    //res.redirect('/submit-video/');
+    res.render('vote');
+
+  });
+
+});
 
 
 //*************************************************//
@@ -110,7 +115,7 @@ var port = process.env.PORT || 3306;
 db.sequelize.sync().then(function(){
   app.listen(port, function(){
     console.log('connected to port ', port);
-  }); //JW moved best practice has the litening app last in the file
+  }); //JW moved best practice has the listening app last in the file
 });
 
   
