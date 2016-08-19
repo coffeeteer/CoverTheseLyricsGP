@@ -114,6 +114,11 @@
       background-color: #2d2d2d;
       padding:0px;
       margin-bottom: 30px;
+      width: 100%;
+    }
+
+    .slider-images {
+      width: 100%;
     }
 
     #about{
