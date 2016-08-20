@@ -9,6 +9,7 @@ var exphbs = require('express-handlebars');
 var Submissions = require('./models')['Submissions'];
 
 var app = express();
+var port = process.env.PORT || 8080;
 
 // creates all the tables in the models directories
 
@@ -111,7 +112,6 @@ app.get('/prizes', function(req, res) {
   res.render('prizes');
 });
 
-var port = process.env.PORT || 3302;
 db.sequelize.sync().then(function(){
   app.listen(port, function(){
     console.log('connected to port ', port);
