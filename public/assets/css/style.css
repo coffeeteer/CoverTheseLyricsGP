@@ -16,6 +16,7 @@
       border-width: 0px;
       margin-bottom: 0px;
       margin-left: -90px;
+      background-color: rgba(45, 45, 45, 0.01);
     }
 
     .grey {
@@ -30,6 +31,7 @@
       color: #fff;
       padding-top:50px;
       font-size: 15pt;
+      background-color: rgba(45, 45, 45, 0.01);
     }
 
     #navi{
@@ -72,6 +74,7 @@
     position: relative;
     left: 19.8%;
     font-weight: bold;
+    background-color: rgba(45, 45, 45, 0.01);
    }
 
    #subtitle {
@@ -79,10 +82,11 @@
     float: left;
     position: relative;
     left: 19.9%;
+    background-color: rgba(45, 45, 45, 0.01);
    }
 
     .header-title {
-      background-image: url('../images/logo/wavy-score.png');
+      /*background-image: url('../images/logo/wavy-score.png');*/
       width: 100%;
       color: #fff;
       font-family: Georgia;
@@ -97,16 +101,33 @@
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
+      background-color: rgba(45, 45, 45, 0.01);
     }
 
     #main-title,
     #subtitle{
       display: inline-block;
       text-align: left;
+      background-color: rgba(45, 45, 45, 0.01);
     }
 
+    .nav-header-container {
+      background-image: url('../images/logo/wavy-score.png');
+      /*min-height:100%;
+      min-width:100%;*/
+      background-repeat: no-repeat;
+      /*margin: 0 auto;
+      text-align: center;*/
+    }
 
-
+    .row-grey,
+    .header-title,
+    #title-words1,
+    #title-word2,
+    .headers,
+    div.col-md-12.header-title {
+      background-color: rgba(45, 45, 45, 0.01);  
+    }
 
 /*************** End Title *********************/
 /****************End Main Page****************/
