@@ -36,13 +36,13 @@ global.db = require("./models");
 app.use(express.static(process.cwd() + '/public')); 
 
 app.use(bodyParser.urlencoded({
-	extended: false
+  extended: false
 }));
 
 app.use(methodOverride('_method'));  
 
 app.engine('handlebars', exphbs({
-	defaultLayout: 'main'
+  defaultLayout: 'main'
 }));
 
 app.set('view engine', 'handlebars');
@@ -50,15 +50,15 @@ app.set('view engine', 'handlebars');
 //***********Routes to Handlebars TravisG**********//
 
 app.get('/', function(req, res) {
-	res.render('index');
+  res.render('index');
 });
 
 app.get('/lyrics', function(req, res) {
-	res.render('lyrics');
+  res.render('lyrics');
 });
 
 app.get('/submit-video', function(req, res) {
-	res.render('submit');  //get form for entry
+  res.render('submit');  //get form for entry
 });
 app.post('/submit-video', function(req,res){  //send form data to db
     var body = req.body;
@@ -88,16 +88,37 @@ app.get('/vote', function(req, res){
     });
   });
 
+app.get('/vote/:ip/:entryid', function(req, res){
+  //console.log('JW *** app.get db select ');
+var ip = req.params.ip
+var entryid = req.params.entryid
 
-app.post('/vote/:ip?/:entryid?',function(req, res){
+    contestantvotes.findOne({
+      where: {
+        ip: ip,
+        entryid: entryid,
+      }
+
+    })
+      .then(function(result) {
+        console.log(result);
+        //return res.render('vote', {
+          //  Submissions: result
+        });
+    });
+  
+
+
+app.post('/vote/:ip/:entryid',function(req, res){
    console.log('DATA CHECK JW',req.params.ip, req.params.entryid);
- var body = req.params;
+
+   var body = req.params;
     db.contestantVotes.create({
         ip: body.ip,
-       entryid: body.entryid,
+        entryid: body.entryid,
       }).then(function(data){
         console.log('data',data);
-    //res.redirect('/submit-video/');
+       //res.redirect('/submit-video/');
     res.render('vote');
 
   });
@@ -111,11 +132,9 @@ app.get('/prizes', function(req, res) {
   res.render('prizes');
 });
 
-var port = process.env.PORT || 3302;
+var port = process.env.PORT || 3306;
 db.sequelize.sync().then(function(){
   app.listen(port, function(){
     console.log('connected to port ', port);
   }); //JW moved best practice has the listening app last in the file
 });
-
-  
