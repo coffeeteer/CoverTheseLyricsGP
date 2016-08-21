@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"vote",
+				"votebutton"
+			],
+			[
 				"get",
 				"getip"
 			],
@@ -507,7 +511,15 @@
 			"file": "/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/server.js",
 			"settings":
 			{
-				"buffer_size": 2748,
+				"buffer_size": 3259,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/models/submissions.js",
+			"settings":
+			{
+				"buffer_size": 611,
 				"line_ending": "Unix"
 			}
 		},
@@ -515,15 +527,7 @@
 			"file": "/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/public/assets/javascript/vote.js",
 			"settings":
 			{
-				"buffer_size": 818,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/public/assets/javascript/vote1.js",
-			"settings":
-			{
-				"buffer_size": 846,
+				"buffer_size": 934,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +535,7 @@
 			"file": "/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/views/vote.handlebars",
 			"settings":
 			{
-				"buffer_size": 494,
+				"buffer_size": 498,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +543,7 @@
 			"file": "/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/views/submit.handlebars",
 			"settings":
 			{
-				"buffer_size": 5831,
+				"buffer_size": 5829,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,7 +551,7 @@
 			"file": "main.handlebars",
 			"settings":
 			{
-				"buffer_size": 3424,
+				"buffer_size": 3574,
 				"line_ending": "Unix"
 			}
 		}
@@ -591,6 +595,7 @@
 		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP",
 		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/config",
 		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/migrations",
+		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/models",
 		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/public",
 		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/public/assets",
 		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/public/assets/css",
@@ -600,10 +605,12 @@
 	],
 	"file_history":
 	[
+		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/public/assets/javascript/vote2.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/models/contestantvotes.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/public/assets/javascript/vote1.js",
 		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/public/assets/css/style.css",
 		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/public/assets/javascript/submit-video.js",
 		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/server.1js",
-		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/public/assets/javascript/vote1.js",
 		"/Users/jenniferward/Desktop/CatsApp/views/indexv0.handlebars",
 		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/views/categories.handlebars",
 		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/public/css/style.css",
@@ -725,9 +732,7 @@
 		"/Users/jenniferward/Desktop/bootcamp/wk9/daytripper/index.html",
 		"/Users/jenniferward/Desktop/bootcamp/wk9/chendaytrip/assets/css/style.css",
 		"/Users/jenniferward/Desktop/bootcamp/wk9/chendaytrip/assets/javascript/app.js",
-		"/Users/jenniferward/Desktop/bootcamp/wk9/chendaytrip/index.html",
-		"/Users/jenniferward/Desktop/bootcamp/chendaytrip/assets/css/style.css",
-		"/Users/jenniferward/Desktop/bootcamp/wk6/wk6homework/javascript/giphy.js"
+		"/Users/jenniferward/Desktop/bootcamp/wk9/chendaytrip/index.html"
 	],
 	"find":
 	{
@@ -810,15 +815,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2748,
+						"buffer_size": 3259,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2369,
-								2369
+								2366,
+								2366
 							]
 						],
 						"settings":
@@ -828,10 +833,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1387.0,
+						"translation.y": 1192.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/models/submissions.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -841,20 +876,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/public/assets/javascript/vote.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 818,
+						"buffer_size": 934,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								587,
-								587
+								294,
+								294
 							]
 						],
 						"settings":
@@ -864,40 +899,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 245.0,
+						"translation.y": 117.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/public/assets/javascript/vote1.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 846,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								819,
-								548
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 97.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -912,15 +917,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 494,
+						"buffer_size": 498,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								498,
+								498
 							]
 						],
 						"settings":
@@ -941,15 +946,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5831,
+						"buffer_size": 5829,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5829,
+								5829
 							]
 						],
 						"settings":
@@ -959,10 +964,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1371.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -971,15 +976,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3424,
+						"buffer_size": 3574,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1325,
-								1325
+								3574,
+								3574
 							]
 						],
 						"settings":
@@ -989,7 +994,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 128.0,
+						"translation.y": 841.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -1032,8 +1037,8 @@
 		"cols":
 		[
 			0.0,
-			0.310133133637,
-			0.699724996969,
+			0.26732183698,
+			0.579386150272,
 			1.0
 		],
 		"rows":
@@ -1085,7 +1090,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -1093,7 +1098,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 209.0,
+	"side_bar_width": 200.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
