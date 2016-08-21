@@ -19,9 +19,9 @@
       background-color: rgba(45, 45, 45, 0.01);
     }
 
-    .grey {
+    /*.grey {
       background: #2d2d2d;
-    }
+    }*/
 
     .logo {
       width: 200px;
@@ -97,11 +97,11 @@
       /*opacity: 0.2;*/
       background-position: center;
 
-     -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
-      background-color: rgba(45, 45, 45, 0.01);
+      background-color: rgba(45, 45, 45, 0.01);*/
     }
 
     #main-title,
@@ -112,7 +112,9 @@
     }
 
     .nav-header-container {
-      background-image: url('../images/logo/wavy-score.png');
+      /*background-image: url('../images/logo/wavy-score.png');*/
+      background-image: url('../images/logo/wavy-score-mod.svg');
+      background-size: 100% 90%;
       /*min-height:100%;
       min-width:100%;*/
       background-repeat: no-repeat;
