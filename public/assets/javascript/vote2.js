@@ -1,10 +1,13 @@
 $(document).ready(function(){   
-$('.votebutton').on("click", function() {
-
+$('#votebutton').on("click", function() {
+event.preventDefault();
 console.log('clicked')
 
 
- 
+ $.get('/vote', function(data) {
+     data = data[0];
+     console.log(data);
+ });
 
 var entryid = $(this).attr("id");
     console.log($(this).attr("id"));
@@ -12,6 +15,7 @@ var entryid = $(this).attr("id");
     var ip
 
 getip();
+
 
 function getip(){
 
@@ -23,31 +27,22 @@ function getip(){
              console.log(
                  "My public IP address is3: ",
                  ip);
-              votehandle(ip);
+              votehandler(ip);
          });
    }); // end ip get 
    // votehandle(ip);
 };
 
-function votehandle(ip){
+function votehandler(ip){
     console.log(ip)
-
-
     var url ='/vote/' + ip + '/'+ entryid;
-        console.log(url);
-
-
-$.get(url, function(data) {
-     data = data[0];
-     console.log('$.get one',data);
- });
-
+    console.log(url);
 
  $.post(url, function(data) {
     data = data[0];
-    console.log('$.post two',data);
+    console.log(data);
 });
-}
+} // end votehandler()
 
 });  //end on votebutton click
 });//send on ready function

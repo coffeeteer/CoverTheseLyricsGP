@@ -503,49 +503,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "var express = require('express');\nvar bodyParser = require('body-parser');\nvar handlebars = require('express-handlebars');\nvar sequelize = require('sequelize');\nvar Posts = require('./models')['Posts'];\nvar Categories = require('./models')['Categories'];\n\nvar models = require('./models')\nvar sequelizeConnection = models.sequelize\n\nsequelizeConnection.query('SET FOREIGN_KEY_CHECKS = 0')\n\n.then(function(){\nreturn sequelizeConnection.sync({});\n}).then(function(){\n  Categories.findAll({}).then(function(results){\n    console.log(results); \n    app.locals.categories = results;\n  });\n});\n\n\nvar app = express();\n\napp.use(express.static(__dirname + '/public'));\n\napp.use(bodyParser.urlencoded({\n  extended:false\n}));\n\napp.engine('handlebars', handlebars({\n  defaultLayout:'main'\n}));\n\napp.set('view engine', 'handlebars');\n\napp.get('/', function(req,res){\n\n  Posts.findAll({\n    order:'score DESC'\n  }).then(function(result){\n    console.log(result);\n    return  res.render('index', {\n      posts:result\n    });\n  });\n \n});\n\napp.get('/categories/:category', function(req,res){\nvar categoryName = req.params.category;\nres.render('categories',{ //renders needs to look for handlebars file\n  categoryName: categoryName\n});\n\n  Categories.findAll({\n    where:{\n      title:categoryName\n    },\n    include:[models.Posts]\n  }).then(function(result){\n    console.log(result);\n    return  res.render('index', {\n      posts:result\n    });\n });\n \n});\n\napp.get('/new-post', function(req,res){\n  res.render('new')\n})\n\napp.post('/new-post', function(req,res){\n    var body = req.body;\n      Posts.create({\n        title:body.title,\n        url: body.url,\n        image: body.image,\n        score: 0,\n        description: body.description\n      }).then(function(data){\n        console.log('data',data);\n\n    res.redirect('/posts/' + data.dataValues.id);\n  })\n});\n\n\napp.get('/posts/:id', function(req,res){\n  var id = req.params.id;\n    Posts.findOne({\n      where: {\n        id: id\n      }\n    }).then(function(post){\n        console.log('post', post);\n        res.render('post',{\n          post: post\n        });\n\n    });\n})\n\n\nvar port = process.env.PORT || 3005;\napp.listen(port, function() {\n  console.log('connected to',port);\n})",
-			"file": "/Users/jenniferward/Desktop/bootcamp/wk14/reddit/server.js",
-			"file_size": 2216,
-			"file_write_time": 131157503630000000,
-			"settings":
-			{
-				"buffer_size": 2216,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "server.js",
-			"settings":
-			{
-				"buffer_size": 2836,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jenniferward/Desktop/bootcamp/dothis/assets/javascript/app.js",
-			"settings":
-			{
-				"buffer_size": 25079,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jenniferward/Desktop/bootcamp/wk14/reddit/views/index.handlebars",
-			"settings":
-			{
-				"buffer_size": 265,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jenniferward/Desktop/bootcamp/wk14/reddit/views/layouts/main.handlebars",
-			"settings":
-			{
-				"buffer_size": 2296,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -581,21 +538,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit",
-		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/public",
-		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/public/css",
-		"/Users/jenniferward/Desktop/bootcamp/dothis",
-		"/Users/jenniferward/Desktop/bootcamp/dothis/assets"
-	],
 	"file_history":
 	[
+		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/server.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/views/index.handlebars",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/server.js",
 		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/views/categories.handlebars",
 		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/public/css/style.css",
 		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/seeders/20160814234622-unnamed-seeder.js",
 		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/models/index.js",
-		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/server.js",
 		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/config/connection.js",
 		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/views/vote.handlebars",
 		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/views/index.handlebars",
@@ -716,9 +667,7 @@
 		"/Users/jenniferward/Desktop/bootcamp/wk6/wk6homework/javascript/giphy.js",
 		"/Users/jenniferward/Desktop/bootcamp/wk8/geo locator.html",
 		"/Users/jenniferward/Downloads/brite event and location/api.js",
-		"/Users/jenniferward/Downloads/brite event and location/brite event and location.html",
-		"/Users/jenniferward/Downloads/brite event and location/eventbright.css",
-		"/Users/jenniferward/Downloads/T R A I N S.html"
+		"/Users/jenniferward/Downloads/brite event and location/brite event and location.html"
 	],
 	"find":
 	{
@@ -783,181 +732,21 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"folders":
-	[
-		{
-			"path": "/Users/jenniferward/Desktop/bootcamp/wk14/reddit"
-		},
-		{
-			"path": "/Users/jenniferward/Desktop/bootcamp/dothis"
-		}
-	],
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/jenniferward/Desktop/bootcamp/wk14/reddit/server.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2216,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1140,
-								1140
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 891.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "server.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2836,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "/Users/jenniferward/Desktop/bootcamp/dothis/assets/javascript/app.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 25079,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								121,
-								121
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1741.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 3,
-					"file": "/Users/jenniferward/Desktop/bootcamp/wk14/reddit/views/index.handlebars",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 265,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								35,
-								35
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/jenniferward/Desktop/bootcamp/wk14/reddit/views/layouts/main.handlebars",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2296,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 755.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1048,7 +837,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 2,
 	"settings":
 	{
 	},
