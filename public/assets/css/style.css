@@ -58,6 +58,46 @@
 /*      background-size: cover;*/
     }
 
+    /* countdown */
+      h1{
+        color: white;
+        font-weight: 100;
+        font-size: 40px;
+        margin: 40px 0px 20px;
+        text-align: center;
+      }
+
+
+    #clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    }
+
+    #clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+    }
+
+    #clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: black;
+    display: inline-block;
+    }
+
+    .smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+    }
+
+    /* countdown */
+
   /*Footer Styles*/
     .footer{
       margin-bottom: 0px;
