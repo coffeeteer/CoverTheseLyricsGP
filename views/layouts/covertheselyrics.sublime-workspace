@@ -532,7 +532,7 @@
 			}
 		},
 		{
-			"file": "/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/views/vote.handlebars",
+			"file": "/Users/jenniferward/Desktop/vote.handlebars",
 			"settings":
 			{
 				"buffer_size": 498,
@@ -833,10 +833,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1192.0,
+						"translation.y": 1248.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -902,7 +902,7 @@
 						"translation.y": 117.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -913,7 +913,7 @@
 			[
 				{
 					"buffer": 3,
-					"file": "/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/views/vote.handlebars",
+					"file": "/Users/jenniferward/Desktop/vote.handlebars",
 					"semi_transient": false,
 					"settings":
 					{
@@ -924,8 +924,8 @@
 						"selection":
 						[
 							[
-								498,
-								498
+								179,
+								179
 							]
 						],
 						"settings":
@@ -934,10 +934,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1090,7 +1090,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 2,
 	"settings":
 	{
 	},
