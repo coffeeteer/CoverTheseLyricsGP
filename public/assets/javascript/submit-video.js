@@ -22,7 +22,7 @@ $('#submission').on("click", function(){
   $("#fullName").val("");
   $("#state").val("");
   $("#eMail").val("");
-
+  $("#url").val("");
   return false;
 
 });
