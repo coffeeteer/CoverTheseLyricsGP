@@ -45,26 +45,28 @@ function votehandle(ip) {
     } //end newVote
 
 
-    function voteUpdate(url) {
+    function voteUpdate(){
         console.log('in voteUpdate', result);
-        var created = result.createdAt;
-        var dateCheck = dateCalc(created);
+        var id = result.id
+        var createdAt = result.createdAt;
+        var dateCheck = dateCalc(createdAt);
         var votes = result.vote_counts;
-        console.log('url',url)
+            url = '/vote/' + id + '/' + votes;
 
-        if (votes <= 2 && dateCheck == true) {
-            console.log('in vote logic')
+        console.log('url',url);
+
+        if (votes < 2 && dateCheck == true) {
             var votecount = votes + 1;
-            console.log('vote',votes,'votecount',votecount)
+             url = '/vote/' + id + '/' + votecount;
 
-            var voteUrl = url + '/' + votecount;
-            console.log(voteUrl)
+            console.log('in vote logic');
+            console.log('vote',votes,'votecount',votecount);
 
-             $.put(voteUrl, function(result) {
-                 console.log(voteUrl);
-                    result = result[0];
-           console.log('$.put update', result);
-        });  //end put
+             $.post(url, function(result) {
+                 console.log(url);
+                 result = result[0];
+                 console.log('$.post update', result);
+            });  //end put
 
         }
     }; //end voteUpdate()
@@ -84,7 +86,6 @@ function votehandle(ip) {
                  'diffminutes', diffminutes);
             console.log('today', today, 'created', createOn);
     }  //  end dateCalc
-
 });  //end $.get(url, function(result)
 } // end votehandle
    

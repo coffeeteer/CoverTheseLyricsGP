@@ -9,7 +9,6 @@ var app = express();
 var port = process.env.PORT || 3306;
 
 var Submissions = require('./models')['Submissions'];
-
 var contestantVotes = require('./models')['contestantVotes'];
 
 // creates all tables in models directories
@@ -65,7 +64,8 @@ app.post('/submit-video', function(req,res){  //send form data to db
 
 // initial vote page with submissions 
 app.get('/vote', function(req, res) {
-    Submissions.findAll({}).then(function(result) {
+    Submissions.findAll({})
+    .then(function(result) {
         console.log(result);
         return res.render('vote', {
             Submissions: result
@@ -74,10 +74,12 @@ app.get('/vote', function(req, res) {
 }); //end app.get 1
 
 //vote test/lookup for prev vote
-app.get('/vote/:ip/:entry_id', function(req, res) {
+app.get('/vote/:ip/:entry_id', 
+  function(req, res) {
             console.log('JW *** app.get db select ');
             var ip = req.params.ip;
             var entry_id = req.params.entry_id;
+
             contestantVotes.findOne({
                 where: {
                   ip: ip,
@@ -86,17 +88,13 @@ app.get('/vote/:ip/:entry_id', function(req, res) {
             }).then(function(result) {
                 return res.json(result);
             });
-    //     .then(function(result) {
-  //console.log('here is your result:',result);
-    //     res.send(result)   
-    //});
-
        });
   
-app.post('/vote/:ip/:entry_id/:vote_counts',function(req, res){
+app.post('/vote/:ip/:entry_id/:vote_counts',
+  function(req, res){
    console.log('NEW VOTE JW',req.params.ip, req.params.entry_id, req.params.vote_counts);
-
    var body = req.params;
+
     db.contestantVotes.create({
        ip: body.ip,
        entry_id: body.entry_id,
@@ -107,19 +105,22 @@ app.post('/vote/:ip/:entry_id/:vote_counts',function(req, res){
   });
 });
 
-app.put('/vote/:ip/:entry_id/:vote_counts',function(req, res){
-   console.log('UPDATE VOTE JW',req.params.ip, req.params.entry_id, req.params.vote_counts);
+//update vote count 
+app.post('/vote/:id/:vote_counts', 
+  function(req, res){
+      console.log('JW *** app.put db select ');
+      var id = req.params.id;
+      var vote_counts = req.params.vote_counts;
+      
 
-   var body = req.params;
-    db.contestantVotes.create({
-       ip: body.ip,
-       entry_id: body.entry_id,
-       vote_counts:body.vote_counts
-      }).then(function(result){
-      return res.send(result);
-
-  });
-});
+    db.contestantVotes.update(
+    { vote_counts: vote_counts},{
+          where: {
+            id: id,
+          }}).then(function(result) {
+          return res.json(result);
+      });
+ });
 
 
 //*************************************************//
