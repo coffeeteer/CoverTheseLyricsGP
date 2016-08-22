@@ -10,17 +10,18 @@
 
   /*Nav Styles*/
     #ctl-top-nav {
-      background-color: #2d2d2d;
+      /*background-color: #2d2d2d;*/
       height: 100px;
       border-radius: 0px;
       border-width: 0px;
       margin-bottom: 0px;
       margin-left: -90px;
+      background-color: rgba(45, 45, 45, 0.01);
     }
 
-    .grey {
+    /*.grey {
       background: #2d2d2d;
-    }
+    }*/
 
     .logo {
       width: 200px;
@@ -30,6 +31,7 @@
       color: #fff;
       padding-top:50px;
       font-size: 15pt;
+     /* background-color: rgba(45, 45, 45, 0.01);*/
     }
 
     #navi{
@@ -58,6 +60,46 @@
 /*      background-size: cover;*/
     }
 
+    /* countdown */
+    .loading {
+      color: white;
+      font-weight: 100;
+      font-size: 40px;
+      margin: 40px 0px 20px;
+      text-align: center;
+    }
+
+
+    #clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    }
+
+    #clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+    }
+
+    #clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: black;
+    display: inline-block;
+    }
+
+    .smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+    }
+
+    /* countdown */
+
   /*Footer Styles*/
     .footer{
       margin-bottom: 0px;
@@ -72,6 +114,7 @@
     position: relative;
     left: 19.8%;
     font-weight: bold;
+    background-color: rgba(45, 45, 45, 0.01);
    }
 
    #subtitle {
@@ -79,9 +122,11 @@
     float: left;
     position: relative;
     left: 19.9%;
+    background-color: rgba(45, 45, 45, 0.01);
    }
 
     .header-title {
+      /*background-image: url('../images/logo/wavy-score.png');*/
       background-image: url('../images/logo/wavy-score.png');
       width: 100%;
       color: #fff;
@@ -93,20 +138,39 @@
       /*opacity: 0.2;*/
       background-position: center;
 
-     -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
+      background-color: rgba(45, 45, 45, 0.01);*/
     }
 
     #main-title,
     #subtitle{
       display: inline-block;
       text-align: left;
+      background-color: rgba(45, 45, 45, 0.01);
     }
 
+    .nav-header-container {
+      /*background-image: url('../images/logo/wavy-score.png');*/
+      background-image: url('../images/logo/wavy-score-mod.svg');
+      background-size: 100% 90%;
+      /*min-height:100%;
+      min-width:100%;*/
+      background-repeat: no-repeat;
+      /*margin: 0 auto;
+      text-align: center;*/
+    }
 
-
+    /*.row-grey,
+    .header-title,
+    #title-words1,
+    #title-word2,
+    .headers,
+    div.col-md-12.header-title {
+      background-color: rgba(45, 45, 45, 0.01);  
+    }*/
 
 /*************** End Title *********************/
 /****************End Main Page****************/
