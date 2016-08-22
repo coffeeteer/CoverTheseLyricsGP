@@ -129,7 +129,7 @@ app.get('/prizes', function(req, res) {
   res.render('prizes');
 });
 
-var port = process.env.PORT || 3302;
+var port = 3306;
 db.sequelize.sync().then(function(){
   app.listen(port, function(){
     console.log('connected to port ', port);
