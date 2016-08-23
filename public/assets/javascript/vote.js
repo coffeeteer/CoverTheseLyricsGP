@@ -91,3 +91,4 @@ function votehandle(ip) {
    
 }); //end on votebutton click
 }); //send on ready function
+//new update
