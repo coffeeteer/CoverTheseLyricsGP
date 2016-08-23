@@ -6,7 +6,7 @@ var exphbs = require('express-handlebars');
 
 var app = express();
 
-var port = process.env.PORT || 3306;
+var port = process.env.PORT || 3307;
 
 var Submissions = require('./models')['Submissions'];
 var contestantVotes = require('./models')['contestantVotes'];
