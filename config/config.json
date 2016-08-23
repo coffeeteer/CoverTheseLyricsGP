@@ -14,7 +14,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "port":3307,
+    "port":3306,
     "use_env_variable": "JAWSDB_URL",
     "username": "c7e6iyyvxb358hss",
     "password": "ahp6rjpcrceczh1a",
