@@ -83,11 +83,10 @@ body{
 /* countdown */
 
 body {
-  background: #282e3a;
-  font-family: tahoma;
+   background: #282e3a;
 }
 
-h2 {
+.timer-h2 {
   color: #fff;
   text-align: center;
   font-size: 35px;
@@ -97,6 +96,7 @@ h2 {
 #del-countdown {
   width: 690px;
   margin: 5% auto;
+  font-family: tahoma;
 }
 
 #clock span {
@@ -158,17 +158,8 @@ span.turn {
   }
 }
 
-
 /* countdown */
 
-
-/*Footer Styles*/
-
-.footer {
-  margin-bottom: 0px;
-  background-color: #2d2d2d;
-  margin-left: 360px;
-}
 
 
   /*Body Styles*/
