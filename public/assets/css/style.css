@@ -2,7 +2,7 @@
 
   /*Body Styles*/
     body{
-      background-color:#2d2d2d;
+      /*background-color:#2d2d2d;*/
       font-family: 'Roboto Condensed', sans-serif;
       font-family: 'Lato', sans-serif;
       font-family: 'Hind Guntur', sans-serif;
@@ -16,12 +16,13 @@
       border-width: 0px;
       margin-bottom: 0px;
       margin-left: -90px;
-      background-color: rgba(45, 45, 45, 0.01);
+      background-color: transparent;
     }
 
     /*.grey {
       background: #2d2d2d;
     }*/
+
 
     .logo {
       width: 200px;
@@ -59,6 +60,7 @@
       color:#fff;
 /*      background-size: cover;*/
     }
+
 
     /* countdown */
     .loading {
@@ -109,25 +111,20 @@
 
 /***********  Title *********************/
    #main-title{
-    font-size: 75pt;
     float: left;
     position: relative;
-    left: 19.8%;
+    left: 7%;
     font-weight: bold;
-    background-color: rgba(45, 45, 45, 0.01);
+    padding-top: -50px;
    }
 
    #subtitle {
-    font-size: 30pt;
     float: left;
     position: relative;
-    left: 19.9%;
-    background-color: rgba(45, 45, 45, 0.01);
+    left: 7%;
    }
 
     .header-title {
-      /*background-image: url('../images/logo/wavy-score.png');*/
-      background-image: url('../images/logo/wavy-score.png');
       width: 100%;
       color: #fff;
       font-family: Georgia;
@@ -136,53 +133,53 @@
       text-align: center;
       margin: auto 0;
       /*opacity: 0.2;*/
-      background-position: center;
+      background-position: center;   
+    }
 
-    /* -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-      background-color: rgba(45, 45, 45, 0.01);*/
+    /*.headers, .grey, .header-title {
+      background-color: transparent;
+    }*/
+
+    /*#header_container {
+      padding-top: -20;
+    }*/
+/*
+    .grey {
+      position: relative;
+      top: 3%;
+    }*/
+
+    .header-title {
+      position: relative;
+      top: 3%;
     }
 
     #main-title,
     #subtitle{
       display: inline-block;
       text-align: left;
-      background-color: rgba(45, 45, 45, 0.01);
+      /*background-color: rgba(45, 45, 45, 0.01);*/
     }
 
-    .nav-header-container {
-      /*background-image: url('../images/logo/wavy-score.png');*/
-      background-image: url('../images/logo/wavy-score-mod.svg');
-      background-size: 100% 90%;
-      /*min-height:100%;
-      min-width:100%;*/
+    #nav-header-container {
+      background-color: #2d2d2d;
+      background-image: url('../images/logo/wavy-score.png');
+      /*background-image: url('../images/logo/wavy-score-mod.svg');*/
+      background-size: cover;
       background-repeat: no-repeat;
-      /*margin: 0 auto;
-      text-align: center;*/
+      max-height: 400px;
     }
 
-    /*.row-grey,
-    .header-title,
-    #title-words1,
-    #title-word2,
-    .headers,
-    div.col-md-12.header-title {
-      background-color: rgba(45, 45, 45, 0.01);  
-    }*/
+    #title-words1 {
+      font-size: 80pt;
+    }
+    
 
 /*************** End Title *********************/
 /****************End Main Page****************/
 
 
 /****************Index Page****************/
-
-    .headers{
-      text-align: center;
-      font-size: 50pt;
-    }  
-
 
     #carousel_image_container{
       margin-top:40px;
@@ -237,6 +234,9 @@
 /*  height:600px;*/
 }
 
+.lyric_images {
+  width: 400px;
+}
 /****************End Lyrics Page****************/
 
 
