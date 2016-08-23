@@ -1,41 +1,54 @@
-function getTimeRemaining(endtime) {
-  var t = Date.parse(endtime) - Date.parse(new Date());
-  var seconds = Math.floor((t / 1000) % 60);
-  var minutes = Math.floor((t / 1000 / 60) % 60);
-  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+function updateTimer(deadline){
+  var time = deadline - new Date();
   return {
-    'total': t,
-    'days': days,
-    'hours': hours,
-    'minutes': minutes,
-    'seconds': seconds
+    'days': Math.floor( time/(1000*60*60*24) ),
+    'hours': Math.floor( (time/(1000*60*60)) % 24 ),
+    'minutes': Math.floor( (time/1000/60) % 60 ),
+    'seconds': Math.floor( (time/1000) % 60 ),
+    'total' : time
   };
 }
 
-function initializeClock(id, endtime) {
-  var clock = document.getElementById(id);
-  var daysSpan = clock.querySelector('.days');
-  var hoursSpan = clock.querySelector('.hours');
-  var minutesSpan = clock.querySelector('.minutes');
-  var secondsSpan = clock.querySelector('.seconds');
 
-  function updateClock() {
-    var t = getTimeRemaining(endtime);
-
-    daysSpan.innerHTML = t.days;
-    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-    if (t.total <= 0) {
-      clearInterval(timeinterval);
-    }
-  }
-
-  updateClock();
-  var timeinterval = setInterval(updateClock, 1000);
+function animateClock(span){
+  span.className = "turn";
+  setTimeout(function(){
+    span.className = "";
+  },700);
 }
 
-var deadline = new Date(Date.parse(new Date()) + 11 * 24 * 60 * 60 * 1000);
-initializeClock('clockdiv', deadline);
+function startTimer(id, deadline){
+  var timerInterval = setInterval(function(){
+    var clock = document.getElementById(id);
+    var timer = updateTimer(deadline);
+
+    clock.innerHTML = '<span>' + timer.days + '</span>'
+                    + '<span>' + timer.hours + '</span>'
+                    + '<span>' + timer.minutes + '</span>'
+                    + '<span>' + timer.seconds + '</span>';
+
+    //animations
+    var spans = clock.getElementsByTagName("span");
+    animateClock(spans[3]);
+    if(timer.seconds == 59) animateClock(spans[2]);
+    if(timer.minutes == 59 && timer.seconds == 59) animateClock(spans[1]);
+    if(timer.hours == 23 && timer.minutes == 59 && timer.seconds == 59) animateClock(spans[0]);
+
+    //check for end of timer
+    if(timer.total < 1){
+      clearInterval(timerInterval);
+      clock.innerHTML = '<span>0</span><span>0</span><span>0</span><span>0</span>';
+    }
+
+
+  }, 1000);
+}
+
+
+
+window.onload = function(){
+  var deadline = new Date("September 10, 2016 23:59:00");
+  startTimer("clock", deadline);
+};
+
+

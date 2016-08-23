@@ -1,52 +1,175 @@
 /**************Main Page**********************/
 
+<<<<<<< HEAD
   /*Body Styles*/
-    body{
-      /*background-color:#2d2d2d;*/
-      font-family: 'Roboto Condensed', sans-serif;
-      font-family: 'Lato', sans-serif;
-      font-family: 'Hind Guntur', sans-serif;
+body{
+  /*background-color:#2d2d2d;*/
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Hind Guntur', sans-serif;
 }
 
-  /*Nav Styles*/
-    #ctl-top-nav {
-      /*background-color: #2d2d2d;*/
-      height: 100px;
-      border-radius: 0px;
-      border-width: 0px;
-      margin-bottom: 0px;
-      margin-left: -90px;
-      background-color: transparent;
-    }
+/*Nav Styles*/
+#ctl-top-nav {
+  /*background-color: #2d2d2d;*/
+  height: 100px;
+  border-radius: 0px;
+  border-width: 0px;
+  margin-bottom: 0px;
+  margin-left: -90px;
+  background-color: transparent;
+}
 
-    /*.grey {
-      background: #2d2d2d;
-    }*/
+/*.grey {
+  background: #2d2d2d;
+}*/
 
 
-    .logo {
-      width: 200px;
-    }
+.logo {
+  width: 200px;
+}
 
-    #navi, #navi2, #navi3, #navi4, #navi5{
-      color: #fff;
-      padding-top:50px;
-      font-size: 15pt;
-    }
+#navi,
+#navi2,
+#navi3,
+#navi4,
+#navi5 {
+  color: #fff;
+  padding-top: 50px;
+  font-size: 15pt;
+}
 
-    #navi{
-      margin-left: 90px;
-    }
+#navi {
+  margin-left: 90px;
+}
 
-  /*Hover color of Navigation Links*/  
-    #navi:hover, #navi2:hover, #navi3:hover, #navi4:hover, #navi5:hover {
-      color: #F4010F;
-    }
 
-  /*An Active Depressed click on Navigation Links*/
-  #navi:active, #navi2:active, #navi3:active, #navi4:active, #navi5:active {
-    color: #1F4667;
+/*Hover color of Navigation Links*/
+
+#navi:hover,
+#navi2:hover,
+#navi3:hover,
+#navi4:hover,
+#navi5:hover {
+  color: #F4010F;
+}
+
+
+/*An Active Depressed click on Navigation Links*/
+
+#navi:active,
+#navi2:active,
+#navi3:active,
+#navi4:active,
+#navi5:active {
+  color: #1F4667;
+}
+
+
+/*Body Styles*/
+
+#body-container {
+  /*background-image: url("../images/concentricRings_SFW.png");*/
+  background-image: url("../images/coloredPaperGrn_SFW.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0px;
+  /*      padding-bottom: 100px;*/
+  color: #fff;
+  /*      background-size: cover;*/
+}
+
+
+/* countdown */
+
+body {
+  background: #282e3a;
+  font-family: tahoma;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 10px;
+}
+
+#del-countdown {
+  width: 690px;
+  margin: 5% auto;
+}
+
+#clock span {
+  float: left;
+  text-align: center;
+  font-size: 84px;
+  margin: 0 2.5%;
+  color: #fff;
+  padding: 20px;
+  width: 20%;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+#clock span:nth-child(1) {
+  background: #061018;
+}
+
+#clock span:nth-child(2) {
+  background: #8A9B9B;
+}
+
+#clock span:nth-child(3) {
+  background: #061018;
+}
+
+#clock span:nth-child(4) {
+  background: #8A9B9B;
+}
+
+#clock:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#units span {
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.7);
+}
+
+span.turn {
+  animation: turn 0.7s ease forwards;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotateX(0deg)
   }
+  100% {
+    transform: rotateX(360deg)
+  }
+}
+
+
+/* countdown */
+
+
+/*Footer Styles*/
+
+.footer {
+  margin-bottom: 0px;
+  background-color: #2d2d2d;
+  margin-left: 360px;
+}
+
 
   /*Body Styles*/
     #body-container {
@@ -132,16 +255,6 @@
       background-position: center;
     }
 
-    /*.headers, .grey, .header-title {
-      background-color: transparent;
-    }*/
-
-
-    /*.grey {
-      position: relative;
-      top: 3%;
-    }*/
-
     .header-title {
       position: relative;
       top: 3%;
@@ -170,64 +283,59 @@
       font-weight: bold;
     }
 
-
 /*************** End Title *********************/
+
+
 /****************End Main Page****************/
 
 
 /****************Index Page****************/
 
-    #carousel_image_container{
-      margin-top:40px;
-      background-color: #2d2d2d;
-      padding:0px;
-      margin-bottom: 30px;
-      width: 100%;
-    }
+/*.headers {
+  text-align: center;
+  font-size: 50pt;
+}*/
 
-    .slider-images {
-      width: 100%;
-    }
 
-    #about{
-      margin-top: 20px;
-      font-size: 35px;
-      text-align: center;
-      background-color: rgba(45, 45, 45, 0.7);
-      width: 85%;
-      margin: 0 auto;
-      padding: 20px;
-      padding-top: 10px;
+#carousel_image_container {
+  margin-top: 40px;
+  background-color: #2d2d2d;
+  padding: 0px;
+  margin-bottom: 30px;
+  width: 100%;
 }
-    }
 
-    #contest-submission{
-      padding-top: 140px;
-      text-align: center;
-      font-size:30px;
-    }
+.slider-images {
+  width: 100%;
+}
 
-    #past-winners{
-      padding-top: 15px;
-      margin-left:395px;
-      font-size: 75px;
-    }
-
-    #videos{
-      margin-top:20px;
-      padding-bottom:20px;
-      align-content: center;
-    }
-
-/****************End Index page****************/
+#about {
+  margin-top: 20px;
+  font-size: 35px;
+  text-align: center;
+  background-color: rgba(45, 45, 45, 0.7);
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 10px;
+}
 
 
-/**************Lyrics Page**********************/
-
-#lyrics-container{
-/*  text-align: center;*/
-  margin-bottom: 20px;
-/*  height:600px;*/
+}
+#contest-submission {
+  padding-top: 140px;
+  text-align: center;
+  font-size: 30px;
+}
+#past-winners {
+  padding-top: 15px;
+  margin-left: 395px;
+  font-size: 75px;
+}
+#videos {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  align-content: center;
 }
 
 .lyric_images {
@@ -235,60 +343,62 @@
 }
 /****************End Lyrics Page****************/
 
+/****************End Index page****************/
 
+/**************Lyrics Page**********************/
+#lyrics-container {
+  /*  text-align: center;*/
+  
+  margin-bottom: 20px;
+  /*  height:600px;*/
+}
+
+/****************End Lyrics Page****************/
 
 /***********Submit Page**************/
+
 /*Submit Form on Submit Your YouTube Video*/
 #submit-youtube {
-color:#000;
-padding-top: 20px;
-padding-bottom: 5px;
+  color: #000;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 
 /*************Submit page End******************/
 
-
 /**************Vote Page**********************/
-
 .vote-btn {
   margin-top: 10px;
   margin-bottom: 35px;
-  margin-left:109px;
+  margin-left: 109px;
 }
-
 .vote-title {
   text-align: center;
   font-size: 35pt;
-  padding-top:20px;
+  padding-top: 20px;
 }
-
 #vote-page-container {
   background-color: rgba(45, 45, 45, 0.6);
   width: 90%;
   margin: 0 auto;
-  padding:20px;
+  padding: 20px;
   padding-left: 72px;
 }
-
-.container2{
+.container2 {
   padding-bottom: 35px;
-/*  padding-left:20px;*/
+  /*  padding-left:20px;*/
 }
 
 /****************End Vote Page****************/
 
-
 /**************Prizes Page**********************/
-
-    #first-row{
-      font-size:50pt;
-      text-align: center;
-    }
-
-    #img2{
-      width: 323px;
-      height:283px;
-    }
+#first-row {
+  font-size: 50pt;
+  text-align: center;
+}
+#img2 {
+  width: 323px;
+  height: 283px;
+}
 
 /****************End Vote Page****************/
-
