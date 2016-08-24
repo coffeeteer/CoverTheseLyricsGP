@@ -13,7 +13,7 @@
           <div class="row">
             <div class="col-md-12">
 
-              <form class="submit_form" action="submit-video" method="POST">
+              <form class="submit_form" action="submit-video" method="POST" id="submitForm">
                 <div class="form-group">
                   <label for="fullName">Name</label>
                   <input name="name" type="text" class="form-control" id="fullName" placeholder="Full Name">
@@ -120,7 +120,28 @@
                 <li>I may receive communications from CoverTheseLyrics</li>
               </ul>
 
-              <button id="submission" type="submit" class="btn btn-primary btn-md">Submit</button>
+              <button id="submission" type="submit" class="btn btn-primary btn-md" data-remodal-target="modal">Submit</button>
+
+              <div class="remodal" data-remodal-id="modal">
+                <button data-remodal-action="close" class="remodal-close"></button>
+                <h1>Thank you for your submission</h1>
+                <p>
+                  Your video is now viewable and voteable on the voting page. Don't forget to tell your friends & family to vote for you!</p>
+
+                  <p>Be sure to checkout our <a href="https://www.facebook.com/covertheselyrics/">Facebook Page</a>
+                </p>
+                <br>
+                <button data-remodal-action="confirm" class="remodal-confirm" id="remodal-submit" type="submit">OK</button>
+
+<!--                 <script type="text/javascript">
+                  $(document).on('confirm', '.remodal', function () {
+    $(this).find(".submit_form").POST();
+});
+                </script> -->
+<!--                 <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button> -->
+
+              </div>
+
               </form>
 
             </div>
