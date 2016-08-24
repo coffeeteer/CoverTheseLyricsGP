@@ -120,7 +120,7 @@
                 <li>I may receive communications from CoverTheseLyrics</li>
               </ul>
 
-              <button id="subm" type="submit" class="btn btn-primary btn-md" data-remodal-target="modal">Submit</button>
+              <button id="submission" type="submit" class="btn btn-primary btn-md" data-remodal-target="modal">Submit</button>
 
               <div class="remodal" data-remodal-id="modal">
                 <button data-remodal-action="close" class="remodal-close"></button>
@@ -131,7 +131,13 @@
                   <p>Be sure to checkout our <a href="https://www.facebook.com/covertheselyrics/">Facebook Page</a>
                 </p>
                 <br>
-                <button data-remodal-action="confirm" class="remodal-confirm" id="submission" type="submit">OK</button>
+                <button data-remodal-action="confirm" class="remodal-confirm" id="submission" type="submit" method="POST" action="submit-video">OK</button>
+
+                <script type="text/javascript">
+                  $(document).on('confirm', '.remodal', function () {
+    $(this).find("form").POST();
+});
+                </script>
 <!--                 <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button> -->
 
               </div>
