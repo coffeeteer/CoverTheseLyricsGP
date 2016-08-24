@@ -162,56 +162,8 @@ span.turn {
 
 
 
-  /*Body Styles*/
-    #body-container {
-      /*background-image: url("../images/concentricRings_SFW.png");*/
-      background-image: url("../images/coloredPaperGrn_SFW.png");
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      margin-top: 0px;
-      color:#fff;
-    }
-
-
-    /* countdown */
-    .loading {
-      color: white;
-      font-weight: 100;
-      font-size: 40px;
-      margin: 40px 0px 20px;
-      text-align: center;
-    }
-
-
-    #clockdiv{
-    font-family: sans-serif;
-    color: #fff;
-    display: block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 30px;
-    }
-
-    #clockdiv > div{
-    padding: 10px;
-    border-radius: 3px;
-    background: #00BF96;
-    display: inline-block;
-    }
-
-    #clockdiv div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: black;
-    display: inline-block;
-    }
-
-    .smalltext{
-    padding-top: 5px;
-    font-size: 16px;
-    }
-
-    /* countdown */
+  
+  
 
   /*Footer Styles*/
     .footer{
