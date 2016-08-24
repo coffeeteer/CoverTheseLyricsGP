@@ -13,7 +13,7 @@
           <div class="row">
             <div class="col-md-12">
 
-              <form class="submit_form" action="submit-video" method="POST">
+              <form class="submit_form" action="submit-video" method="POST" id="submitForm">
                 <div class="form-group">
                   <label for="fullName">Name</label>
                   <input name="name" type="text" class="form-control" id="fullName" placeholder="Full Name">
@@ -131,13 +131,13 @@
                   <p>Be sure to checkout our <a href="https://www.facebook.com/covertheselyrics/">Facebook Page</a>
                 </p>
                 <br>
-                <button data-remodal-action="confirm" class="remodal-confirm" id="submission" type="submit" method="POST" action="submit-video">OK</button>
+                <button data-remodal-action="confirm" class="remodal-confirm" id="remodal-submit" type="submit">OK</button>
 
-                <script type="text/javascript">
+<!--                 <script type="text/javascript">
                   $(document).on('confirm', '.remodal', function () {
-    $(this).find("form").POST();
+    $(this).find(".submit_form").POST();
 });
-                </script>
+                </script> -->
 <!--                 <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button> -->
 
               </div>
