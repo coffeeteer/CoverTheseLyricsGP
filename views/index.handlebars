@@ -1,54 +1,95 @@
-<div class="container" >
+<div class="container">
 
-<script>
+  <script>
     jQuery(document).ready(function($) {
-      $('.my-slider').unslider();
+      $('#myCarousel').unslider();
       autoplay:true;
     });
   </script>
 
-  
 
+  <div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
 
-  <div class="row" id="image_carousel">
-    
-    <div class="col-md-12 col-sm-12" id="carousel_image_container">
+    <div class="carousel-inner">
 
-      <div class="my-slider">
-          <ul>
-            <li><img class="slider-images" src="./assets/images/sliderImages/Lone-Singer_noir_SFW.jpg" alt="singer" class="slider_images"></li>
-            <li><img class="slider-images" src="./assets/images/sliderImages/marley-like_newcrop_SFW.jpg" alt="bob-marley esque" class="slider_images"></li>
-            <li><img class="slider-images" src="./assets/images/sliderImages/microphone-D_noir_SFW.jpg" alt="microphone" class="slider_images"></li>
-            <li><img class="slider-images" src="./assets/images/sliderImages/pure_bluegrass_cropSFW.jpg" alt="bluegrass-music" class="slider_images"></li>
-            <li><img class="slider-images" src="./assets/images/sliderImages/singer_crop_SFW.jpg" alt="singer" class="slider_images"></li>
-          </ul>
+      <div class="item active">
+        <img src="/assets/images/sliderImages/Lone-Singer_noir_SFW.jpg" alt="lone-singer" class="img-responsive">
+        <div class="carousel-caption">
+          <h2><b>Music</b></h2>
+          <p><b>The lyrics might be ours, but the music and what you do with it is yours.</b></p>
+        </div>
       </div>
-    </div>
-  </div>
 
+      <div class="item">
+        <img src="/assets/images/sliderImages/marley-like_newcrop_SFW.jpg" alt="bob marley look-a-like" class="img-responsive">
+        <div class="carousel-caption">
+          <h2><b>Mic Check</b></h2>
+          <p><b>Let us hear you.</b></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="/assets/images/sliderImages/microphone-D_noir_SFW.jpg" alt="microphone" class="img-responsive">
+        <div class="carousel-caption">
+          <h2><b>If you win...</b></h2>
+          <p><b>The world could be hearing your lyrics!</b></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="/assets/images/sliderImages/pure_bluegrass_cropSFW.jpg" alt="pure-bluegrass" class="img-responsive">
+        <div class="carousel-caption">
+          <h2><b>CoverTHeseLyrics Morphs</b></h2>
+          <p><b>Look for us in your town!</b></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="/assets/images/sliderImages/singer_crop_SFW.jpg" alt="singer" class="img-responsive">
+        <div class="carousel-caption">
+          <h2><b>CoverTheseLyrics is Your Stage</b></h2>
+          <p><b>Perform</b></p>
+        </div>
+      </div>
+
+    </div>
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a>
+
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+      <span class="icon-next"></span>
+    </a>
+
+  </div>
 
 
   <div class="row">
-    
-    <div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-1" >
+
+    <div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-1">
       <p id="about">
-        CoverTheseLyrics is an online singing contest for not only the singer in you, but the writer too. The contest is open to anyone, male or female, 14 years or older (with parental consent) and it is completely free. With CoverTheseLyrics, just by making your own song you can win multiple prizes!!
+        CoverTheseLyrics is an online singing contest for not only the singer in you, but the writer too. The contest is open to anyone, male or female, 14 years or older (with parental consent) and it is completely free. With CoverTheseLyrics, just by making
+        your own song you can win multiple prizes!!
       </p>
 
 
-      
     </div>
   </div>
 
 
-<div class="row">
-  <div class="col-md-7 col-md-offset-2" id="contest-submission">
-    <p id="conest-submission">Submit your cover in 3 easy steps</p>
-<iframe width="660" height="350" src="https://www.youtube.com/embed/-DAMbjfqJ8Y" frameborder="0" allowfullscreen></iframe>
-</div>
-</div>
-
-
+  <div class="row">
+    <div class="col-md-7 col-md-offset-2" id="contest-submission">
+      <p id="conest-submission">Submit your cover in 3 easy steps</p>
+      <iframe width="660" height="350" src="https://www.youtube.com/embed/-DAMbjfqJ8Y" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
 
 
   <div class="row">
@@ -56,7 +97,7 @@
       <h2>Checkout Our Past Winners</h2>
     </div>
   </div>
-          
+
 
   <div class="row" id="videos">
 
@@ -75,9 +116,3 @@
   </div>
 
 </div>
-
-
-
-
-
-
