@@ -1,8 +1,8 @@
-<div class="container" >
+<div class="container">
 
 <script>
     jQuery(document).ready(function($) {
-      $('.my-slider').unslider();
+      $('#myCarousel').unslider();
       autoplay:true;
     });
   </script>
@@ -10,21 +10,47 @@
   
 
 
-  <div class="row" id="image_carousel">
-    
-    <div class="col-md-12 col-sm-12" id="carousel_image_container">
+  <div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
 
-      <div class="my-slider">
-          <ul>
-            <li><img class="slider-images" src="./assets/images/sliderImages/Lone-Singer_noir_SFW.jpg" alt="singer" class="slider_images"></li>
-            <li><img class="slider-images" src="./assets/images/sliderImages/marley-like_newcrop_SFW.jpg" alt="bob-marley esque" class="slider_images"></li>
-            <li><img class="slider-images" src="./assets/images/sliderImages/microphone-D_noir_SFW.jpg" alt="microphone" class="slider_images"></li>
-            <li><img class="slider-images" src="./assets/images/sliderImages/pure_bluegrass_cropSFW.jpg" alt="bluegrass-music" class="slider_images"></li>
-            <li><img class="slider-images" src="./assets/images/sliderImages/singer_crop_SFW.jpg" alt="singer" class="slider_images"></li>
-          </ul>
-      </div>
+  <div class="carousel-inner">
+
+    <div class="item active">
+      <img src="/assets/images/sliderImages/Lone-Singer_noir_SFW.jpg" alt="lone-singer" class="img-responsive">
     </div>
+
+    <div class="item">
+      <img src="/assets/images/sliderImages/marley-like_newcrop_SFW.jpg" alt="" class="img-responsive">
+    </div>
+
+    <div class="item">
+      <img src="/assets/images/sliderImages/microphone-D_noir_SFW.jpg" alt="" class="img-responsive">
+    </div>
+
+    <div class="item">
+      <img src="/assets/images/sliderImages/pure_bluegrass_cropSFW.jpg" alt="" class="img-responsive">
+    </div>
+
+    <div class="item">
+      <img src="/assets/images/sliderImages/singer_crop_SFW.jpg" alt="" class="img-responsive">
+    </div>
+
   </div>
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>
+
+</div>
 
 
 
