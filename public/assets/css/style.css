@@ -309,26 +309,24 @@ span.turn {
 /*************Submit page End******************/
 
 /**************Vote Page**********************/
-.vote-btn {
-  margin-top: 10px;
-  margin-bottom: 35px;
+.vote-btn{
+  margin-top:15px;
+  margin-bottom:45px;
   margin-left: 109px;
 }
+
 .vote-title {
   text-align: center;
-  font-size: 35pt;
+  font-size: 45pt;
   padding-top: 20px;
 }
+
 #vote-page-container {
   background-color: rgba(45, 45, 45, 0.6);
-  width: 90%;
-  margin: 0 auto;
-  padding: 20px;
-  padding-left: 72px;
-}
-.container2 {
-  padding-bottom: 35px;
-  /*  padding-left:20px;*/
+  padding: 0px 20px;
+  border-color: pink;
+  border-style: solid;
+  border-width: 2px;
 }
 
 /****************End Vote Page****************/
@@ -343,4 +341,21 @@ span.turn {
   height: 283px;
 }
 
-/****************End Vote Page****************/
+/****************End Prizes Page****************/
+
+
+/**************Media Queries**********************/
+@media (min-width: 600px) and (max-width: 800px) 
+  { 
+    .nav {
+      margin-left: 5px;
+      color:orange;
+    }
+    .nav-links{
+      margin-left: 5px;
+    }
+
+  }
+
+/****************End Media Queries****************/
+
