@@ -44,3 +44,150 @@ and (max-width : 559px)
 
 
 /* Smartphones (landscape) ----------- */
+/*********  Header  *****************/
+/**********main title*******/
+@media screen  
+and (min-width:  880px)
+and (max-width : 1300px) 
+ {
+  #title-words1 {
+    font-size: 55pt;
+    background-color: orange;
+  }
+}
+
+@media screen  
+and (min-width:  540px) 
+and (max-width : 879px)
+ {
+  #title-words1 {
+    font-size: 45pt;
+    background-color: black;
+  }
+}
+
+@media screen  
+and (min-width:  460px)
+and (max-width : 539px) 
+ {
+  #title-words1 {
+    font-size: 35pt;
+    background-color: blue;
+    color: #fefefe;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen
+and (min-width : 220px)
+and (max-width : 459px) 
+ 	{
+ 		#title-words1 {
+		font-size: 25pt;
+	    background-color: red;
+	    color:purple;
+ 		}
+		
+	}
+
+
+/* Smartphones (landscape) ----------- */
+/********* main title end**************/
+
+/****** Nav Bar Beginning ********/
+/*grid-float-breakpoint*/
+@media screen;  
+and (min-width:  540px) 
+and (max-width : 879px)
+ {
+  #ctl-top-nav {
+    
+  }
+}
+
+/****** Nav Bar End      *********/
+
+/**************** Header End **********************/
+
+@media screen  
+and (min-width:  880px)
+and (max-width: 1300px) 
+ {
+  #navi, #navi2, #navi3, #navi4, #navi5 {
+    font-size: 85%;
+  }
+}
+
+@media screen  
+and (min-width:  540px) 
+and (max-width : 879px)
+ {
+  #ctl-top-nav {
+    display: flex;
+  }
+}
+
+@media screen  
+and (min-width:  460px)
+and (max-width : 539px) 
+ {
+  #ctl-top-nav {
+    display: flex;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen
+and (min-width : 220px)
+and (max-width : 459px) 
+{
+	#ctl-top-nav
+	 {
+display: flex;
+	}
+}
+
+/****** Logo Begin ******/
+@media screen  
+and (min-width:  880px)
+and (max-width : 1300px) 
+ {
+  .logo {
+    font-size: 85%;
+    width: 175px; 
+  }
+}
+
+@media screen  
+and (min-width:  540px) 
+and (max-width : 879px)
+ {
+  .logo {
+    font-size: 75%;
+    width: 150px;
+  }
+}
+
+@media screen  
+and (min-width:  460px)
+and (max-width : 539px) 
+ {
+  .logo {
+    font-size: 55%;
+    width: 100px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen
+and (min-width : 220px)
+and (max-width : 459px) 
+{
+	.logo {
+font-size: 25%;
+width: 75px;
+	}
+}
+
+/********Logo End *****/
+

@@ -40,6 +40,32 @@
 
 <body>
 
+ <!-- New Nav experiment -->
+      <nav class="navbar navbar-inverse new_nav">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+            
+          </div>
+    
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+             <li><a class="active nav-links" href="/" id="navi">Home</a></li>
+            <li><a class="nav-links" href="/lyrics" id="navi2">Lyrics</a></li>
+            <li><a class="nav-links" href="/submit-video" id="navi3">Submit Your YouTube Video</a></li>
+            <li><a class="nav-links" href="/vote" id="navi4">Vote for Your Favorite</a></li>
+            <li><a class="nav-links" href="/prizes" id="navi5">Grand Prizes</a></li>
+            </ul>
+    
+          </div>
+        </div>
+      </nav>
+      <!--End New Nav Experiment-->
+
 <nav class="nav-header-container" id= "nav-header-container">
   <div class="container " id="header_container">
     <nav class="navbar navbar-default" id="ctl-top-nav">
@@ -47,14 +73,11 @@
 
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-
           <img class="logo" alt="Brand" src="/assets/images/logo/CoverTheseLyrics5-01.png">
-
-
         </div>
         <!-- End of navbar-header  -->
 
-        <!-- <div class="collapse navbar-collapse" id="navbar_container"> -->
+        <!-- <div class="collapse navbar-collapse" id="navbar_container">
           <ul class="nav navbar-nav">
             <li><a class="nav-links" href="/" id="navi">Home</a></li>
             <li><a class="nav-links" href="/lyrics" id="navi2">Lyrics</a></li>
@@ -62,18 +85,14 @@
             <li><a class="nav-links" href="/vote" id="navi4">Vote for Your Favorite</a></li>
             <li><a class="nav-links" href="/prizes" id="navi5">Grand Prizes</a></li>
           </ul>
-
-        </div> <!-- /.navbar-collapse -->
+        </div> --> <!-- /.navbar-collapse -->
 
       </nav>  
-
-
       </div>
       <!-- End of container-fluid -->
     </div>
     <!-- End of navbar-default -->
   </div>
-
 
   <div class="row grey">
     <div class="col-md-12 header-title">
@@ -89,7 +108,10 @@
 
     </div>
   </div>
+
 </nav>
+
+
 
   <div id="body-container">
     {{{ body }}}

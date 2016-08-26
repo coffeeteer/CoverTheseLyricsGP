@@ -78,6 +78,17 @@ body{
   /*      background-size: cover;*/
 }
 
+/*-----New Nav------*/
+.new_nav {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.new_nav {
+  z-index: 3;
+  background-color: transparent;
+}
+/*-------End New Nav-------*/
 
 /* countdown */
 
