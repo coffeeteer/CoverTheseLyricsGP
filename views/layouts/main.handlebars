@@ -8,11 +8,6 @@
   <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-
 
   <!-- Javascript -->
 
@@ -40,21 +35,54 @@
 
 <body>
 
-<nav class="nav-header-container" id= "nav-header-container">
-  <div class="container " id="header_container">
+<!-- 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#test" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img class="logo" alt="Brand" src="/assets/images/logo/CoverTheseLyrics5-01.png">
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="test">
+        <ul class="nav navbar-nav">
+          <li><a class="nav-links" href="/" id="navi">Home</a></li>
+          <li><a class="nav-links" href="/lyrics" id="navi2">Lyrics</a></li>
+          <li><a class="nav-links" href="/submit-video" id="navi3">Submit Your YouTube Video</a></li>
+          <li><a class="nav-links" href="/vote" id="navi4">Vote for Your Favorite</a></li>
+          <li><a class="nav-links" href="/prizes" id="navi5">Grand Prizes</a></li>
+      </ul>      
+    </div>
+  </div>
+</nav> 
+ -->
+ <div id="nav-wrapper">
+
     <nav class="navbar navbar-default" id="ctl-top-nav">
       <div class="container-fluid">
 
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainnavbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <img class="logo" alt="Brand" src="/assets/images/logo/CoverTheseLyrics5-01.png">
 
 
         </div>
         <!-- End of navbar-header  -->
 
-        <!-- <div class="collapse navbar-collapse" id="navbar_container"> -->
+        <div class="collapse navbar-collapse" id="mainnavbar"> 
           <ul class="nav navbar-nav">
             <li><a class="nav-links" href="/" id="navi">Home</a></li>
             <li><a class="nav-links" href="/lyrics" id="navi2">Lyrics</a></li>
@@ -68,28 +96,12 @@
       </nav>  
 
 
-      </div>
-      <!-- End of container-fluid -->
-<!--     </div> -->
-    <!-- End of navbar-default -->
-<!--   </div> -->
-
-
-  <div class="row grey">
-    <div class="col-md-12 col-sm-12 col-xs-12 header-title">
-      <div class="headers col-md-8 col-md-offset-2 col-sm-3 col-xs-12 col-sm-offset-2 text-center" id="main-title">
-        <h1 id="title-words1">
-          CoverTheseLyrics
-        </h1>
-        </div>
-
-        <div class="headers col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 text-center" id="subtitle">
-          <h2 id="title-word2">Sing. Record. Entertain. Shine!</h2>
-        </div>
-
+    <div class="grey">
+      <h1 id="title-words1">CoverTheseLyrics</h1>
+      <h2 id="title-word2">Sing. Record. Entertain. Shine!</h2>
     </div>
-  </div>
-</nav>
+</div>
+ 
 
   <div id="body-container">
     {{{ body }}}
