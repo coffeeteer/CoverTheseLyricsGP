@@ -69,6 +69,11 @@ body{
 }
 
 
+#ctl-top-nav {
+  background-color: transparent;
+}
+/* nav style end */
+
 /*Body Styles*/
 
 #body-container {
@@ -87,7 +92,7 @@ body{
 /* countdown */
 
 body {
-   background: #282e3a;
+   background: #2d2d2d;
 }
 
 .timer-h2 {
