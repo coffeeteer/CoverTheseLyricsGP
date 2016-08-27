@@ -1,0 +1,240 @@
+/**Head Wrapper Beginning****/
+@media screen
+and (min-width : 300px)
+and (max-width : 559px) 
+  {
+    #title_wrapper {
+      position: relative;
+      top: 1px;
+      /*height: 150px;*/
+    }
+  }
+  /**** Head Wrapper End ****/
+
+/******CTL Main Title********/
+@media screen  
+and (min-width:  1000px)
+and (max-width : 1200px) 
+ {
+  #title-words1 {
+    font-size: 60pt;
+    /*background-color: orange;*/
+  }
+}
+
+@media screen  
+and (min-width:  830px)
+and (max-width : 999px) 
+ {
+  #title-words1 {
+    font-size: 53pt;
+    /*background-color: teal;*/
+  }
+}
+
+@media screen  
+and (min-width:  650px) 
+and (max-width : 829px)
+ {
+  #title-words1 {
+    font-size: 45pt;
+    /*background-color: black;*/
+  }
+}
+
+@media screen  
+and (min-width:  560px)
+and (max-width : 649px) 
+ {
+  #title-words1 {
+    font-size: 35pt;
+    /*background-color: blue;
+    color: #fefefe;*/
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen
+and (min-width : 300px)
+and (max-width : 559px) 
+ 	{
+ 		#title-words1 {
+		font-size: 20pt;
+	    background-color: red;
+	    color:purple;
+     /* position: absolute;
+      top: 20%;*/
+ 		}
+	}
+
+  @media screen
+and (min-width : 220px)
+and (max-width : 299px) 
+  {
+    #title-words1 {
+    font-size: 20pt;
+      background-color: cyan;
+      color:purple;
+      position: relative;
+      top: 20%;
+    }
+    
+  }
+
+
+/* Smartphones (landscape) ----------- */
+/********* main title end**************/
+/****** subtitle beginning **********/
+
+@media screen  
+and (min-width:  830px)
+and (max-width : 999px) 
+ {
+  #title-words2 {
+    font-size: 15pt;
+    background-color: teal;
+  }
+}
+
+@media screen  
+and (min-width:  650px) 
+and (max-width : 829px)
+ {
+  #title-words2 {
+    font-size: 12pt;
+    background-color: black;
+  }
+}
+
+@media screen  
+and (min-width:  560px)
+and (max-width : 649px) 
+ {
+  #title-words2 {
+    font-size: 10pt;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen
+and (min-width : 220px)
+and (max-width : 559px) 
+  {
+    #title-words2 {
+    font-size: 7.5pt;
+      
+    }
+    
+  }
+
+/********subtitle end ***************/
+
+
+/****** Nav Bar Beginning ********/
+/*grid-float-breakpoint*/
+@media screen;  
+and (min-width:  540px) 
+and (max-width : 879px)
+ {
+  #ctl-top-nav {
+    
+  }
+}
+
+/****** Nav Bar End      *********/
+
+/**************** Header End **********************/
+
+@media screen  
+and (min-width:  1000px)
+and (max-width : 1200px) 
+ {
+  #navi, #navi2, #navi3, #navi4, #navi5 {
+    font-size: 85%;
+    margin-left: -2%;
+  }
+}
+
+@media screen  
+and (min-width:  820px)
+and (max-width : 999px)  
+ {
+  #navi, #navi2, #navi3, #navi4, #navi5 {
+    font-size: 75%;
+    margin-left: -2%;
+  }
+}
+
+@media screen  
+and (min-width:  650px) 
+and (max-width : 819px)
+ {
+ #navi, #navi2, #navi3, #navi4, #navi5 {
+    font-size: 75%;
+    margin-left: -3%;
+  }
+}
+
+@media screen  
+and (min-width:  560px)
+and (max-width : 649px) 
+ {
+  #navi, #navi2, #navi3, #navi4, #navi5 {
+    font-size: 90%;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+/*@media screen
+and (min-width : 220px)
+and (max-width : 459px) 
+{
+	#ctl-top-nav
+	 {
+display: flex;
+	}
+}*/
+
+/****** Logo Begin ******/
+@media screen  
+and (min-width:  880px)
+and (max-width : 1300px) 
+ {
+  .logo {
+    font-size: 85%;
+    width: 175px; 
+  }
+}
+
+@media screen  
+and (min-width:  540px) 
+and (max-width : 879px)
+ {
+  .logo {
+    font-size: 75%;
+    width: 150px;
+  }
+}
+
+@media screen  
+and (min-width:  460px)
+and (max-width : 539px) 
+ {
+  .logo {
+    font-size: 55%;
+    width: 100px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen
+and (min-width : 220px)
+and (max-width : 459px) 
+{
+	.logo {
+font-size: 25%;
+width: 75px;
+	}
+}
+
+/********Logo End *****/
