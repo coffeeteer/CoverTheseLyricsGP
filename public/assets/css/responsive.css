@@ -60,8 +60,8 @@ and (max-width : 559px)
  	{
  		#title-words1 {
 		font-size: 20pt;
-	    background-color: red;
-	    color:purple;
+	    /*background-color: red;
+	    color:purple;*/
      /* position: absolute;
       top: 20%;*/
  		}
@@ -73,8 +73,8 @@ and (max-width : 299px)
   {
     #title-words1 {
     font-size: 20pt;
-      background-color: cyan;
-      color:purple;
+      /*background-color: cyan;
+      color:purple;*/
       position: relative;
       top: 20%;
     }
@@ -91,8 +91,8 @@ and (min-width:  830px)
 and (max-width : 999px) 
  {
   #title-words2 {
-    font-size: 15pt;
-    background-color: teal;
+    /*font-size: 15pt;
+    background-color: teal;*/
   }
 }
 
@@ -102,7 +102,7 @@ and (max-width : 829px)
  {
   #title-words2 {
     font-size: 12pt;
-    background-color: black;
+    /*background-color: black;*/
   }
 }
 
