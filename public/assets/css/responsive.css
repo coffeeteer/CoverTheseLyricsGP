@@ -18,7 +18,7 @@ and (max-width : 1200px)
  {
   #title-words1 {
     font-size: 60pt;
-    /*background-color: orange;*/
+    background-color: orange;
   }
 }
 
@@ -28,7 +28,7 @@ and (max-width : 999px)
  {
   #title-words1 {
     font-size: 53pt;
-    /*background-color: teal;*/
+    background-color: teal;
   }
 }
 
@@ -38,7 +38,7 @@ and (max-width : 829px)
  {
   #title-words1 {
     font-size: 45pt;
-    /*background-color: black;*/
+    background-color: black;
   }
 }
 
@@ -48,8 +48,8 @@ and (max-width : 649px)
  {
   #title-words1 {
     font-size: 35pt;
-    /*background-color: blue;
-    color: #fefefe;*/
+    background-color: blue;
+    color: #fefefe;
   }
 }
 
@@ -60,8 +60,8 @@ and (max-width : 559px)
  	{
  		#title-words1 {
 		font-size: 20pt;
-	    /*background-color: red;
-	    color:purple;*/
+	    background-color: red;
+	    color:purple;
      /* position: absolute;
       top: 20%;*/
  		}
@@ -73,12 +73,11 @@ and (max-width : 299px)
   {
     #title-words1 {
     font-size: 20pt;
-      /*background-color: cyan;
-      color:purple;*/
+      background-color: cyan;
+      color:purple;
       position: relative;
       top: 20%;
     }
-    
   }
 
 
