@@ -34,7 +34,7 @@ body{
 #navi4,
 #navi5 {
   color: #fff;
-  padding-top: 50px;
+/*  padding-top: 50px;*/
   font-size: 15pt;
 }
 
@@ -351,15 +351,16 @@ span.turn {
 /**************Media Queries**********************/
 /*@media (min-width: 600px) and (max-width: 800px) 
   { 
-    .nav {
-      margin-left: 5px;
-      color:orange;
-    }
-    .nav-links{
-      margin-left: 5px;
-    }
-
+      iframe {
+        width:100px;
+        height:100px;
+      }
   }*/
+
+  @media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+}
+
 
 /****************End Media Queries****************/
 

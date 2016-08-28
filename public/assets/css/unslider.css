@@ -12,7 +12,7 @@
  *   hardware-accelerated goodness.
  */
 .unslider {
-  overflow: auto;
+/*  overflow: auto;*/
   margin: 0;
   padding: 0;
 }
