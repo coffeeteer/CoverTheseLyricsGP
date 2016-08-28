@@ -179,14 +179,16 @@ span.turn {
     #title_wrapper {
       /*position: absolute*/;
       position: relative;
-      left: 17.5%;
+      /*left: 17.5%;*/
+      /* top: -50px;*/
       top: -50px;
+      padding-left: 237px;
     }
 
 
     #title-words1,
     #title-words2 {
-      text-align: left;
+      /*text-align: left;*/
       color: #fff;
       display: block;
     }
@@ -195,7 +197,7 @@ span.turn {
       font-size: 75pt;
       font-weight: bold;
       font-family: Georgia;
-      text-align: left;
+      /*text-align: left;*/
       margin-left: -0.7%;
     }
 
