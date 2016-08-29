@@ -267,6 +267,11 @@ span.turn {
 .lyric_images {
   width: 400px;
 }
+
+.gallery {
+  background-color: rgba(45, 45, 45, 0.7);
+  padding-right: 55px;
+}
 /****************End Lyrics Page****************/
 
 /****************End Index page****************/
