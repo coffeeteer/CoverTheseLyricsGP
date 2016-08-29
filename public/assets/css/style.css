@@ -266,8 +266,6 @@ span.turn {
   padding-top: 10px;
 }
 
-
-}
 #contest-submission {
   padding-top: 140px;
   text-align: center;
@@ -368,27 +366,20 @@ span.turn {
 }*/
 
 /* Portrait and Landscape */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) 
+@media screen 
+and (min-width: 350px)
+and (max-width : 480px) 
 {
-      #videobox{
-      width:150px;
-      height:150px;
-      border-width: 5px;
-      border-color: orange;
-      border-style: solid;
+      .videobox{
       padding-left: 30px;
       padding-top: 10px;
-    }
-/*    .videobox{
-      padding-left: 40px;
-      width:100px;
-    }*/
-    /*button.votebutton{
-      padding-left: 240px;
-    }*/
+      }
+
+      iframe{
+        width:400px;
+      }
 }
+
 
 
 /****************End Media Queries****************/

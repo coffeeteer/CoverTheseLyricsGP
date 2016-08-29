@@ -3,13 +3,15 @@
 			<div class="row">
 				{{#each Submissions}}
 
-					<div class="col-md-4" id="videobox">
-<!-- <div class="videobox"> -->
-						<iframe width="350" height="250" src="{{this.entry}}" frameborder="0" allowfullscreen class="youtube-video"></iframe>
-						<span class="col-xs-6 col-md-4 vote-btn">
-						<button type="button" class="btn btn-primary btn-md votebutton" name="vote" id="{{this.id}}">Vote For Me!</button>
-						</span>
-<!-- 						</div> -->
+					<div class="col-md-4" >
+						<div class="videobox">
+							<iframe width="350" height="250" src="{{this.entry}}" frameborder="0" allowfullscreen></iframe>
+							<span class="col-xs-6 col-md-4 vote-btn">
+							<button type="button" class="btn btn-primary btn-md votebutton" name="vote" id="{{this.id}}">
+								Vote For Me!
+							</button>
+							</span>
+						</div>
 					</div>
 
 				{{/each}}
