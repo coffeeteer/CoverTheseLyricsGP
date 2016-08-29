@@ -366,19 +366,7 @@ span.turn {
 }*/
 
 /* Portrait and Landscape */
-@media screen 
-and (min-width: 350px)
-and (max-width : 480px) 
-{
-      .videobox{
-      padding-left: 30px;
-      padding-top: 10px;
-      }
 
-      iframe{
-        width:400px;
-      }
-}
 
 
 
