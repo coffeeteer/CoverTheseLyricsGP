@@ -7,6 +7,7 @@ body{
   font-family: 'Lato', sans-serif;
   font-family: 'Hind Guntur', sans-serif;
   background: #2d2d2d;
+  margin: auto;
 }
 
 /*Nav Styles*/
@@ -227,6 +228,7 @@ span.turn {
   width: 100%;
 }
 
+
 .slider-images {
   width: 100%;
 }
@@ -248,6 +250,7 @@ span.turn {
   padding-top: 140px;
   text-align: center;
   font-size: 30px;
+  /*margin: auto;*/
 }
 #past-winners {
   padding-top: 15px;
@@ -258,6 +261,7 @@ span.turn {
   margin-top: 20px;
   padding-bottom: 20px;
   align-content: center;
+  /*margin: auto;*/
 }
 
 .lyric_images {
@@ -322,3 +326,7 @@ span.turn {
 }
 
 /****************End Prizes Page****************/
+
+.main_content {
+  margin: auto;
+}
