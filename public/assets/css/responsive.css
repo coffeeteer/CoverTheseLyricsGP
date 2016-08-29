@@ -1,3 +1,99 @@
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+      .videobox{
+      padding-left: 15px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: orange;
+      border-width:2px;
+      }
+      iframe{
+        width:400px;
+      }
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+      .videobox{
+      padding-left: 15px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: red;
+      border-width:2px;
+      }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .videobox{
+      padding-left: 15px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: purple;
+      border-width:2px;
+      }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+      .videobox{
+      padding-left: 15px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: yellow;
+      border-width:2px;
+      }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+      .videobox{
+      padding-left: 15px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: aqua;
+      border-width:2px;
+      }
+    }
+
+
 /*@media screen 
 and (min-width: 350px)
 and (max-width : 400px) 
@@ -40,22 +136,18 @@ and (min-width: 850px)
       }
 }*/
 
-@media screen 
-and (min-width: 970px)
-and (max-width: 1085px)
-
-{
+/*@media screen and (max-width: 1000px) {
       .videobox{
-      margin-left: 15px;
+      padding-left: 15px;
       padding-right:100px;
-      padding-top: 10px;
+      padding-top: 30px;
       border-style: solid;
       border-color: orange;
       border-width:2px;
       }
 
-/*      .videos{
+      .videos{
         width:375px;
         
-      }*/
-}
+      }
+}*/
