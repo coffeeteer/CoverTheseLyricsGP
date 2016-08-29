@@ -31,7 +31,7 @@ body{
 #navi4,
 #navi5 {
   color: #fff;
-  padding-top: 50px;
+/*  padding-top: 50px;*/
   font-size: 15pt;
 }
 
@@ -244,8 +244,6 @@ span.turn {
   padding-top: 10px;
 }
 
-
-}
 #contest-submission {
   padding-top: 140px;
   text-align: center;
@@ -332,6 +330,39 @@ span.turn {
 
 /****************End Prizes Page****************/
 
+
+
+/**************Media Queries**********************/
+/*@media (min-width: 600px) and (max-width: 800px) 
+  { 
+      iframe {
+        width:100px;
+        height:100px;
+      }
+  }*/
+
+/*Media Queries*/
+/*@media(min-width:600px) and (max-width:749px){
+  #first-link { margin-left:55px; }
+  #second-link{ margin-left: 95px; }
+  #third-link{ margin-left: 95px; }
+  #first-link, #second-link, #third-link{
+  font-size: 20px;}
+  #welcomeHeader{font-size: 90px;})
+}*/
+
+/* Portrait and Landscape */
+
+
+
+
+/****************End Media Queries****************/
+
+#title-words1, #title-word2 {
+  text-align: center;
+  color: white;
+}
 .main_content {
   margin: auto;
+
 }
