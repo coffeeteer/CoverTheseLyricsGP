@@ -357,8 +357,37 @@ span.turn {
       }
   }*/
 
-  @media only screen and (device-width: 768px) {
-  /* For general iPad layouts */
+/*Media Queries*/
+/*@media(min-width:600px) and (max-width:749px){
+  #first-link { margin-left:55px; }
+  #second-link{ margin-left: 95px; }
+  #third-link{ margin-left: 95px; }
+  #first-link, #second-link, #third-link{
+  font-size: 20px;}
+  #welcomeHeader{font-size: 90px;})
+}*/
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+{
+      #videobox{
+      width:150px;
+      height:150px;
+      border-width: 5px;
+      border-color: orange;
+      border-style: solid;
+      padding-left: 30px;
+      padding-top: 10px;
+    }
+/*    .videobox{
+      padding-left: 40px;
+      width:100px;
+    }*/
+    /*button.votebutton{
+      padding-left: 240px;
+    }*/
 }
 
 
