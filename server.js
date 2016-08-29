@@ -7,7 +7,7 @@ var exphbs = require('express-handlebars');
 var app = express();
 
 console.log('process.env.PORT', process.env.PORT);
-var port = process.env.PORT || 3307;
+var port = process.env.PORT || 3309;
 
 var Submissions = require('./models')['Submissions'];
 var contestantVotes = require('./models')['contestantVotes'];
@@ -75,31 +75,36 @@ app.get('/vote', function(req, res) {
 }); //end app.get 1
 
 //vote test/lookup for prev vote
-app.get('/vote/:ip/:entry_id', 
+app.get('/vote/:ip/:entry_id/:formatted_date', 
   function(req, res) {
-            console.log('JW *** app.get db select ');
+            console.log('JW *** get rec check/db select',res);
             var ip = req.params.ip;
             var entry_id = req.params.entry_id;
+            var formatted_date = req.params.formatted_date;
 
             contestantVotes.findOne({
                 where: {
                   ip: ip,
-                  entry_id: entry_id
+                  entry_id: entry_id,
+                  formatted_date:formatted_date
+                
                 }
             }).then(function(result) {
                 return res.json(result);
             });
        });
   
-app.post('/vote/:ip/:entry_id/:vote_counts',
+  // new vote post
+app.post('/vote/:ip/:vote_counts/:entry_id/:formatted_date',
   function(req, res){
-   console.log('NEW VOTE JW',req.params.ip, req.params.entry_id, req.params.vote_counts);
+   console.log('NEW VOTE JW',req.params.ip, req.params.entry_id,req.params.formatted_date, req.params.vote_counts);
    var body = req.params;
 
     db.contestantVotes.create({
        ip: body.ip,
+       vote_counts: body.vote_counts,
        entry_id: body.entry_id,
-       vote_counts:body.vote_counts
+       formatted_date: body.formatted_date
       }).then(function(result){
       return res.send(result);
 
