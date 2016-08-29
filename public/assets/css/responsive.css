@@ -1,14 +1,49 @@
-/**Head Wrapper Beginning****/
+/*****Head Wrapper Beginning****/
 @media screen
-and (min-width : 300px)
+and (min-width:  768px)
+and (max-width : 999px)
+{
+  #title_wrapper {
+    padding-left: 185px;
+  }
+}
+
+@media screen
+and (min-width:  411px)
+and (max-width : 767px)
+{
+  #title_wrapper {
+    padding-left: 130px;
+  }
+}
+
+@media screen
+and (min-width : 410px)
 and (max-width : 559px) 
-  {
-    #title_wrapper {
-      position: relative;
-      top: 1px;
-      /*height: 150px;*/
+{
+  #title_wrapper {
+    position: relative;
+    top: 1px;
+    height: 150px;
+    /*margin-left: 500px;*/
+    padding-left: 30px;
     }
   }
+
+@media screen
+and (min-width : 150px)
+and (max-width : 409px) 
+{
+  #title_wrapper {
+    position: relative;
+    top: 1px;
+    height: 130px;
+    /*margin-left: 500px;*/
+    padding-left: 10px;
+    }
+  }
+
+
   /**** Head Wrapper End ****/
 
 /******CTL Main Title********/
@@ -18,27 +53,28 @@ and (max-width : 1200px)
  {
   #title-words1 {
     font-size: 60pt;
-    background-color: orange;
+    /*background-color: orange;*/
+
   }
 }
 
 @media screen  
-and (min-width:  830px)
+and (min-width:  850px)
 and (max-width : 999px) 
  {
   #title-words1 {
-    font-size: 53pt;
-    background-color: teal;
+    font-size: 50pt;
+   /* background-color: teal;*/
   }
 }
 
 @media screen  
 and (min-width:  650px) 
-and (max-width : 829px)
+and (max-width : 849px)
  {
   #title-words1 {
-    font-size: 45pt;
-    background-color: black;
+    font-size: 40pt;
+    /*background-color: black;*/
   }
 }
 
@@ -48,35 +84,35 @@ and (max-width : 649px)
  {
   #title-words1 {
     font-size: 35pt;
-    background-color: blue;
-    color: #fefefe;
+    /*background-color: blue;*/
+    /*color: #fefefe;*/
   }
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media screen
-and (min-width : 300px)
+and (min-width : 410px)
 and (max-width : 559px) 
  	{
  		#title-words1 {
-		font-size: 20pt;
-	    background-color: red;
-	    color:purple;
+		font-size: 30pt;
+	    /*background-color: red;*/
+	    /*color:purple;*/
      /* position: absolute;
       top: 20%;*/
  		}
 	}
 
   @media screen
-and (min-width : 220px)
-and (max-width : 299px) 
+and (min-width : 150px)
+and (max-width : 409px) 
   {
     #title-words1 {
     font-size: 20pt;
-      background-color: cyan;
-      color:purple;
-      position: relative;
-      top: 20%;
+      /*background-color: cyan;*/
+      /*color:purple;*/
+      /*position: relative;
+      top: 20%;*/
     }
   }
 
@@ -196,22 +232,22 @@ display: flex;
 
 /****** Logo Begin ******/
 @media screen  
-and (min-width:  880px)
-and (max-width : 1300px) 
+and (min-width:  768px)
+and (max-width : 999px)
  {
   .logo {
     font-size: 85%;
-    width: 175px; 
+    width: 150px; 
   }
 }
 
 @media screen  
 and (min-width:  540px) 
-and (max-width : 879px)
+and (max-width : 767px)
  {
   .logo {
-    font-size: 75%;
-    width: 150px;
+    font-size: 175px;
+    width: 100px;
   }
 }
 
@@ -236,4 +272,10 @@ width: 75px;
 	}
 }
 
-/********Logo End *****/
+/********Logo End *******/
+@media screen {
+  #body-container,  #nav-wrapper {
+    max-width: 1366px;
+
+  }
+}
