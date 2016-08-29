@@ -6,6 +6,8 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
   font-family: 'Lato', sans-serif;
   font-family: 'Hind Guntur', sans-serif;
+  background: #2d2d2d;
+  margin: auto;
 }
 
 /*Nav Styles*/
@@ -16,13 +18,8 @@ body{
   border-width: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-  /*background-color: transparent;*/
+  background-color: transparent;
 }
-
-/*.grey {
-  background: #2d2d2d;
-}*/
-
 
 .logo {
   width: 200px;
@@ -84,11 +81,7 @@ body{
 }
 
 
-/* countdown */
-
-body {
-   background: #282e3a;
-}
+/* countdown **begin */
 
 .timer-h2 {
   color: #fff;
@@ -162,58 +155,17 @@ span.turn {
   }
 }
 
-/* countdown */
+/* countdown **end */
 
-
-
-  
-  
-
-  /*Footer Styles*/
-    .footer{
-      margin-bottom: 0px;
-      background-color:#2d2d2d;
-      margin-left:360px;
-    }
+/*Footer Styles*/
+  .footer{
+    margin-bottom: 0px;
+    background-color:#2d2d2d;
+    margin-left:360px;
+  }
 
 /***********  Title *********************/
-   #main-title{
-    float: left;
-    position: relative;
-    left: 7%;
-    font-weight: bold;
-   }
 
-   #subtitle {
-    float: left;
-    position: relative;
-    left: 7%;
-   }
-
-    .header-title {
-      width: 100%;
-      color: #fff;
-      font-family: Georgia;
-      /*font-weight: bold;*/
-      display: inline-block;
-      text-align: center;
-      margin: auto 0;
-      /*opacity: 0.2;*/
-      background-position: center;
-    }
-
-    .header-title {
-      position: relative;
-      top: 3%;
-      position: relative;
-      top: -50px;
-    }
-
-    #main-title,
-    #subtitle{
-      display: inline-block;
-      text-align: left;
-    }
     #nav-wrapper {
       background-color: #2d2d2d;
       background-image: url('../images/logo/wavy-score.png');
@@ -224,11 +176,36 @@ span.turn {
       /*max-height: 400px;*/      
     }
 
-    #title-words1 {
-      font-size: 75pt;
-      font-weight: bold;
+
+    #title_wrapper {
+      /*position: absolute*/;
+      position: relative;
+      /*left: 17.5%;*/
+      /* top: -50px;*/
+      top: -50px;
+      padding-left: 237px;
     }
 
+
+    #title-words1,
+    #title-words2 {
+      /*text-align: left;*/
+      color: #fff;
+      display: block;
+    }
+
+     #title-words1 {
+      font-size: 75pt;
+      font-weight: bold;
+      font-family: Georgia;
+      /*text-align: left;*/
+      margin-left: -0.7%;
+    }
+
+    #title-words2 {
+      margin-left: -0.59%;
+      font-size: 25pt;
+    }
 /*************** End Title *********************/
 
 
@@ -251,6 +228,7 @@ span.turn {
   width: 100%;
 }
 
+
 .slider-images {
   width: 100%;
 }
@@ -270,6 +248,7 @@ span.turn {
   padding-top: 140px;
   text-align: center;
   font-size: 30px;
+  /*margin: auto;*/
 }
 #past-winners {
   padding-top: 15px;
@@ -280,10 +259,16 @@ span.turn {
   margin-top: 20px;
   padding-bottom: 20px;
   align-content: center;
+  /*margin: auto;*/
 }
 
 .lyric_images {
   width: 400px;
+}
+
+.gallery {
+  background-color: rgba(45, 45, 45, 0.7);
+  padding-right: 55px;
 }
 /****************End Lyrics Page****************/
 
@@ -346,6 +331,7 @@ span.turn {
 /****************End Prizes Page****************/
 
 
+
 /**************Media Queries**********************/
 /*@media (min-width: 600px) and (max-width: 800px) 
   { 
@@ -375,4 +361,8 @@ span.turn {
 #title-words1, #title-word2 {
   text-align: center;
   color: white;
+}
+.main_content {
+  margin: auto;
+
 }

@@ -61,30 +61,12 @@
   color:#fff;
 }
 
-.unslider-arrow.prev{
-  color:#fff;
+.photo {
+  width: 100%;
 }
-
-.unslider-nav ol {
-  list-style: none;
-  text-align: center;
-  padding-top: 8px;
-  padding-bottom:10px;
-  background-color: #2d2d2d;
-}
-.unslider-nav ol li {
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  margin: 0 4px;
-  background: transparent;
-  border-radius: 5px;
-  overflow: hidden;
-  text-indent: -999em;
-  border: 2px solid #fff;
-  cursor: pointer;
-}
-.unslider-nav ol li.unslider-active {
-  background: #fff;
-  cursor: default;
+.carousel.item.img{
+   height:100%;
+ }
+.carousel-inner{
+    height:100%;
 }
