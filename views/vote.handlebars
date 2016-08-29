@@ -3,10 +3,11 @@
 			<div class="row" class="videos">
 				{{#each Submissions}}
 
-					<div class="col-md-12">
+					<div class="col-lg-4 col-md-6 col-sm-7 col-xs-12">
 						<div class="videobox">
 							<iframe width="350" height="250" src="{{this.entry}}" frameborder="0" allowfullscreen></iframe>
-							<span class="col-md-12 vote-btn">
+							<span class="col-lg-4 col-md-6 col-sm-7 col-xs-12 vote-btn">
+<!-- 							<span class="col-xs-6 col-md-4 vote-btn"> -->
 							<button type="button" class="btn btn-primary btn-md votebutton" name="vote" id="{{this.id}}">
 								Vote For Me!
 							</button>
