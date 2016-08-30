@@ -1,6 +1,22 @@
 /* Small devices (tablets, 768px and up) */
-/*@media (min-width: @screen-sm-min) { ... }
-*/
+/*@media (min-width: @screen-sm-min) {
+
+      .videobox{
+      padding-left: 50px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: yellow;
+      border-width:2px;
+      }
+      iframe{
+        width:400px;
+      }
+
+}*/
+
+
+
 /* Medium devices (desktops, 992px and up) */
 /*@media (min-width: @screen-md-min) { 
 
@@ -19,8 +35,21 @@
 }*/
 
 /* Large devices (large desktops, 1200px and up) */
-/*@media (min-width: @screen-lg-min) { ... }*/
+/*@media (min-width: @screen-lg-min) { 
 
+        .videobox{
+      padding-left: 50px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: purple;
+      border-width:2px;
+      }
+      iframe{
+        width:400px;
+      }
+}
+*/
 
 
 
@@ -42,24 +71,54 @@
     }*/
 
     /* Medium Devices, Desktops */
-/*    @media only screen and (min-width : 992px) {
+    @media only screen and (min-width : 992px) {
+      .videobox{
+      padding-left: 39px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: yellow;
+      border-width:2px;
+      }
 
-    }*/
+      iframe{
+        width:500px;
+      }
+
+      span.vote-btn{
+        margin-left: 185px;
+      }
+    }
 
     /* Large Devices, Wide Screens */
-/*    @media only screen and (min-width : 1200px) {
+    @media only screen and (min-width : 1200px) {
+      .videobox{
+      padding-left: 39px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: purple;
+      border-width:2px;
+      }
 
-    }*/
+      iframe{
+        width:500px;
+      }
+
+      span.vote-btn{
+        margin-left: 185px;
+      }
+    }
 
 
 
     /*==========  Non-Mobile First Method  ==========*/
 
     /* Large Devices, Wide Screens */
-    @media only screen and (max-width : 1200px) {
-      .videobox{
+/*    @media only screen and (max-width : 1200px) {
+      .videobox{*/
 /*      padding-left: 50px;*/
-      padding-right:100px;
+/*      padding-right:100px;
       padding-top: 30px;
       border-style: solid;
       border-color: orange;
@@ -69,7 +128,7 @@
         width:400px;
       }
 
-    }
+    }*/
 
     /* Medium Devices, Desktops */
 /*    @media only screen and (max-width : 992px) {
