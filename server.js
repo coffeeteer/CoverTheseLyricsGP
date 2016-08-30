@@ -97,16 +97,16 @@ app.get('/vote/:ip/:entry_id/:formatted_date',
        });
   
   // new vote post
-app.post('/vote/:ip/:vote_counts/:entry_id/:formatted_date',
+app.post('/vote/:ip/:entry_id/:formatted_date/:vote_counts',
   function(req, res){
    console.log('NEW VOTE JW',req.params.ip, req.params.entry_id,req.params.formatted_date, req.params.vote_counts);
    var body = req.params;
 
     db.contestantVotes.create({
        ip: body.ip,
-       vote_counts: body.vote_counts,
        entry_id: body.entry_id,
-       formatted_date: body.formatted_date
+       formatted_date: body.formatted_date,
+       vote_counts: body.vote_counts
       }).then(function(result){
       return res.send(result);
 
