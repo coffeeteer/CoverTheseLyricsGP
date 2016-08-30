@@ -143,3 +143,17 @@ db.sequelize.sync().then(function(){
     console.log('connected to port ', port);
   }); 
 });
+
+/*------------ Legal -------------*/
+app.get('/rules', function(req, res) {
+  res.render('rules.html');
+});
+
+app.get('/terms', function(req, res) {
+  res.render('terms.html');
+});
+
+app.get('/license', function(req, res) {
+  res.render('license.html');
+});
+/*------------- End Legal ---------------*/
