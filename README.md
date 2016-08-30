@@ -46,7 +46,7 @@ CoverTheseLyrics is an online singing contest for not only the singer in you, bu
   
 ### How to contact us
   * Travis Grieshimer
-   * Linkedin- 
+   * Linkedin- https://www.linkedin.com/in/travis-grieshiemer-36ba54126
    * Email- tgrieshiemer@gmail.com
    * Github- https://github.com/coffeeteer
    
