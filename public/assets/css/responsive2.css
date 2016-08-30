@@ -1,6 +1,22 @@
 /* Small devices (tablets, 768px and up) */
-/*@media (min-width: @screen-sm-min) { ... }
-*/
+/*@media (min-width: @screen-sm-min) {
+
+      .videobox{
+      padding-left: 50px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: yellow;
+      border-width:2px;
+      }
+      iframe{
+        width:400px;
+      }
+
+}*/
+
+
+
 /* Medium devices (desktops, 992px and up) */
 /*@media (min-width: @screen-md-min) { 
 
@@ -19,47 +35,175 @@
 }*/
 
 /* Large devices (large desktops, 1200px and up) */
-/*@media (min-width: @screen-lg-min) { ... }*/
+/*@media (min-width: @screen-lg-min) { 
 
+        .videobox{
+      padding-left: 50px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: purple;
+      border-width:2px;
+      }
+      iframe{
+        width:400px;
+      }
+}
+*/
 
 
 
 /*==========  Mobile First Method  ==========*/
 
     /* Custom, iPhone Retina */ 
-/*    @media only screen and (min-width : 320px) {
-        
-    }*/
+    @media only screen and (min-width : 320px) {
+      .videobox{
+      padding-left: 40px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: white;
+      border-width:2px;
+      }
+
+      iframe{
+        width:300px;
+        height:275px;
+      }
+
+      span.vote-btn{
+        margin-left: 209px;
+      }
+    }
+
+    @media only screen and (min-width : 480px) {
+
+      .videobox{
+      padding-left: 15px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: blue;
+      border-width:2px;
+      }
+
+      iframe{
+        width:425px;
+        height:350px;
+      }
+
+      span.vote-btn{
+        margin-left: 209px;
+      }
+
+    }
+
+    @media only screen and (min-width : 625px) {
+
+      .videobox{
+      padding-left: 15px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: blue;
+      border-width:2px;
+      }
+
+      iframe{
+        width:425px;
+        height:350px;
+      }
+
+      span.vote-btn{
+        margin-left: 209px;
+      }
+
+    }
 
     /* Extra Small Devices, Phones */ 
-/*    @media only screen and (min-width : 480px) {
+    @media only screen and (min-width : 680px) {
+      .videobox{
+      padding-left: 64px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: orange;
+      border-width:2px;
+      }
 
-    }*/
+      iframe{
+        width:550px;
+        height:350px;
+      }
+
+      span.vote-btn{
+        margin-left: 209px;
+      }
+    }
 
     /* Small Devices, Tablets */
-/*    @media only screen and (min-width : 768px) {
+    @media only screen and (min-width : 768px) {
+      .videobox{
+      padding-left: 90px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: green;
+      border-width:2px;
+      }
 
-    }*/
+      iframe{
+        width:550px;
+        height:350px;
+      }
+
+      span.vote-btn{
+        margin-left: 209px;
+      }
+    }
 
     /* Medium Devices, Desktops */
-/*    @media only screen and (min-width : 992px) {
+    @media only screen and (min-width : 992px) {
+      .videobox{
+      padding-top: 30px;
+      border-style: solid;
+      border-color: yellow;
+      border-width:2px;
+      }
 
-    }*/
+      iframe{
+        width:450px;
+      }
+
+      span.vote-btn{
+        margin-left: 158px;
+      }
+    }
 
     /* Large Devices, Wide Screens */
-/*    @media only screen and (min-width : 1200px) {
+    @media only screen and (min-width : 1200px) {
+      .videobox{
+      padding-left: 39px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: purple;
+      border-width:2px;
+      }
 
-    }*/
+      iframe{
+        width:500px;
+      }
+
+      span.vote-btn{
+        margin-left: 185px;
+      }
+    }
 
 
 
     /*==========  Non-Mobile First Method  ==========*/
 
     /* Large Devices, Wide Screens */
-    @media only screen and (max-width : 1200px) {
-      .videobox{
+/*    @media only screen and (max-width : 1200px) {
+      .videobox{*/
 /*      padding-left: 50px;*/
-      padding-right:100px;
+/*      padding-right:100px;
       padding-top: 30px;
       border-style: solid;
       border-color: orange;
@@ -69,7 +213,7 @@
         width:400px;
       }
 
-    }
+    }*/
 
     /* Medium Devices, Desktops */
 /*    @media only screen and (max-width : 992px) {

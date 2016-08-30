@@ -2,21 +2,22 @@
 
 	<div class="container vote-container" id="vote-page-container">
 			<div class="row">
-
+        
 				{{#each Submissions}}
-
-						<div class="videobox">
+<div class="col-lg-6 col-md-7 col-sm-12 col-xs-12 videobox">
+<!-- 						<div class=> -->
 							<iframe width="350" height="250" src="{{this.entry}}" frameborder="0" allowfullscreen></iframe>
-							<span class="col-lg-4 col-md-6 col-sm-7 col-xs-12 vote-btn">
+							<span class="col-lg-2 col-md-6 col-sm-12 col-xs-12 vote-btn">
 <!-- 							<span class="col-xs-6 col-md-4 vote-btn"> -->
 							<button type="button" class="btn btn-primary btn-md votebutton" name="vote" id="{{this.id}}">
 								Vote For Me!
 							</button>
 							</span>
-						</div>
+<!-- 						</div> -->
 				
-
+        </div>
 				{{/each}}
+
 			</div>
 		</div>
 <!-- added remodal jw 8/30 -->
