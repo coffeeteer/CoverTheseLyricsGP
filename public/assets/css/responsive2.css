@@ -60,21 +60,52 @@
         
     }*/
 
-    /* Extra Small Devices, Phones */ 
 /*    @media only screen and (min-width : 480px) {
-
     }*/
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 680px) {
+      .videobox{
+      padding-left: 88px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: orange;
+      border-width:2px;
+      }
+
+      iframe{
+        width:550px;
+        height:350px;
+      }
+
+      span.vote-btn{
+        margin-left: 209px;
+      }
+    }
 
     /* Small Devices, Tablets */
-/*    @media only screen and (min-width : 768px) {
+    @media only screen and (min-width : 768px) {
+      .videobox{
+      padding-left: 90px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: green;
+      border-width:2px;
+      }
 
-    }*/
+      iframe{
+        width:550px;
+        height:350px;
+      }
+
+      span.vote-btn{
+        margin-left: 209px;
+      }
+    }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
       .videobox{
-      padding-left: 39px;
-      padding-right:100px;
       padding-top: 30px;
       border-style: solid;
       border-color: yellow;
@@ -82,11 +113,11 @@
       }
 
       iframe{
-        width:500px;
+        width:450px;
       }
 
       span.vote-btn{
-        margin-left: 185px;
+        margin-left: 158px;
       }
     }
 
