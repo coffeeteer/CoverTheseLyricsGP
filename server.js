@@ -97,16 +97,16 @@ app.get('/vote/:ip/:entry_id/:formatted_date',
        });
   
   // new vote post
-app.post('/vote/:ip/:entry_id/:formatted_date/:vote_counts',
+app.post('/vote/:ip/:vote_counts/:entry_id/:formatted_date',
   function(req, res){
    console.log('NEW VOTE JW',req.params.ip, req.params.entry_id,req.params.formatted_date, req.params.vote_counts);
    var body = req.params;
 
     db.contestantVotes.create({
        ip: body.ip,
+       vote_counts: body.vote_counts,
        entry_id: body.entry_id,
-       formatted_date: body.formatted_date,
-       vote_counts: body.vote_counts
+       formatted_date: body.formatted_date
       }).then(function(result){
       return res.send(result);
 
@@ -143,17 +143,3 @@ db.sequelize.sync().then(function(){
     console.log('connected to port ', port);
   }); 
 });
-
-/*------------ Legal -------------*/
-app.get('/rules', function(req, res) {
-  res.render('rules.html');
-});
-
-app.get('/terms', function(req, res) {
-  res.render('terms.html');
-});
-
-app.get('/license', function(req, res) {
-  res.render('license.html');
-});
-/*------------- End Legal ---------------*/
