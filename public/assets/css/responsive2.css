@@ -48,15 +48,15 @@
       iframe{
         width:400px;
       }
-}
-*/
+}*/
+
 
 
 
 /*==========  Mobile First Method  ==========*/
 
     /* Custom, iPhone Retina */ 
-    @media only screen and (min-width : 320px) {
+/*    @media only screen and (min-width : 320px) {
       .videobox{
       padding-left: 40px;
       padding-top: 30px;
@@ -73,30 +73,9 @@
       span.vote-btn{
         margin-left: 209px;
       }
-    }
+    }*/
 
-    @media only screen and (min-width : 480px) {
-
-      .videobox{
-      padding-left: 15px;
-      padding-top: 30px;
-      border-style: solid;
-      border-color: blue;
-      border-width:2px;
-      }
-
-      iframe{
-        width:425px;
-        height:350px;
-      }
-
-      span.vote-btn{
-        margin-left: 209px;
-      }
-
-    }
-
-    @media only screen and (min-width : 625px) {
+/*    @media only screen and (min-width : 480px) {
 
       .videobox{
       padding-left: 15px;
@@ -115,13 +94,34 @@
         margin-left: 209px;
       }
 
-    }
+    }*/
+
+/*    @media only screen and (min-width : 625px) {
+
+      .videobox{
+      padding-left: 15px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: blue;
+      border-width:2px;
+      }
+
+      iframe{
+        width:425px;
+        height:350px;
+      }
+
+      span.vote-btn{
+        margin-left: 209px;
+      }
+
+    }*/
 
     /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 680px) {
-      .videobox{
-      padding-left: 64px;
-      padding-top: 30px;
+/*    @media only screen and (min-width : 680px) {
+      .videobox{*/
+/*      padding-left: 64px;*/
+/*      padding-top: 30px;
       border-style: solid;
       border-color: orange;
       border-width:2px;
@@ -135,10 +135,10 @@
       span.vote-btn{
         margin-left: 209px;
       }
-    }
+    }*/
 
     /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
+/*    @media only screen and (min-width : 768px) {
       .videobox{
       padding-left: 90px;
       padding-top: 30px;
@@ -155,33 +155,37 @@
       span.vote-btn{
         margin-left: 209px;
       }
-    }
+    }*/
 
     /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
+/*    @media only screen and (min-width : 892px) {
       .videobox{
       padding-top: 30px;
+<<<<<<< HEAD
       margin-right: 30px;
       padding-left: 50px;
+=======
+      padding-left:90px;
+>>>>>>> 1c7faa45775854cd7411bb2195a8929e19ba10c0
       border-style: solid;
       border-color: yellow;
       border-width:2px;
       }
 
       iframe{
-        width:450px;
+        width:550px;
       }
 
       span.vote-btn{
         margin-left: 158px;
       }
     }
-
+*/
     /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
+/*    @media only screen and (min-width : 1224px)) {
       .videobox{
       padding-left: 39px;
-      padding-right:100px;
+      padding-right:120px;
       padding-top: 30px;
       border-style: solid;
       border-color: purple;
@@ -193,9 +197,9 @@
       }
 
       span.vote-btn{
-        margin-left: 185px;
+        margin-left: 180px;
       }
-    }
+    }*/
 
 
 
@@ -323,3 +327,182 @@ and (min-width: 850px)
         
       }
 }*/
+
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+      .videobox{
+      padding-left: 39px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: gold;
+      border-width:2px;
+      }
+
+      iframe{
+        width:500px;
+      }
+
+      span.vote-btn{
+        margin-left: 132px;
+      }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+      .videobox{
+      padding-left: 39px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: green;
+      border-width:2px;
+      }
+
+      iframe{
+        width:500px;
+      }
+
+      span.vote-btn{
+        margin-left: 132px;
+      }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+      .videobox{
+      padding-left: 63px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: purple;
+      border-width:2px;
+      }
+      iframe{
+        width:450px;
+      }
+
+      span.vote-btn{
+        margin-left: 157px;
+      }
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+      .videobox{
+      padding-left: 39px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: white;
+      border-width:2px;
+      }
+
+      iframe{
+        width:400px;
+      }
+
+      span.vote-btn{
+        margin-left: 146px;
+      }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+      .videobox{
+      padding-left: 117px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: red;
+      border-width:2px;
+      }
+
+      iframe{
+        width:500px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 182px;
+      }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .videobox{
+      padding-left: 117px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: black;
+      border-width:2px;
+      }
+
+      iframe{
+        width:500px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 182px;
+      }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+      .videobox{
+      padding-left: 15px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: blue;
+      border-width:2px;
+      }
+
+      iframe{
+        width:400px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+      .videobox{
+      padding-left: 15px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: brown;
+      border-width:2px;
+      }
+
+      iframe{
+        width:400px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
