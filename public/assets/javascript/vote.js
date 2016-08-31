@@ -1,6 +1,8 @@
 $(document).ready(function() {
+
+
 $('.votebutton').on("click", function() {
-    
+
     var entry_id = $(this).attr("id");
     var ip
     var d = new Date();
@@ -27,7 +29,7 @@ $('.votebutton').on("click", function() {
             var formatted_date = today.slice(0, 10);
             //var url = '/vote/' + ip + '/' + entry_id + '/' + formatted_date;
             var url = '/vote/' + ip + '/' + entry_id + '/' + formatted_date;
-            console.log('**send data check**','*IP*',ip,'*entry_id*',entry_id,'*formatted_date*',formatted_date,'*url*',url);
+            console.log('**get data check**','*IP*',ip,'*entry_id*',entry_id,'*formatted_date*',formatted_date,'*url*',url);
             
             //check if voted 
             $.get(url, function(result) {
@@ -40,10 +42,10 @@ $('.votebutton').on("click", function() {
                     voteUpdate(url);
                 }
 
-                function voteNew(url) {
+                function voteNew() {
                         console.log('in voteNew function');
                         var voteUrl = '/vote/' + ip + '/' + entry_id + '/' + formatted_date +'/' + 1 
-                        //console.log('/' + 'post vote url',voteUrl  + '/');
+                      console.log('**post new data check**','*IP*',ip,'*entry_id*',entry_id,'*formatted_date*',formatted_date,'*url*',url);
                         $.post(voteUrl, function(result) {
                             result = result[0];
                             console.log('$.post new rec result', result);
@@ -76,12 +78,13 @@ $('.votebutton').on("click", function() {
                                 console.log('$.post update', result);
                             }); 
                         } else{
-                            
-                        $('#modal2').remodal(open)
-                        console.log('max voting reached')
+                 
+                    console.log('max voting reached')
 
+        var inst = $('modal').remodal();
+        inst.open();
 
-                        } 
+                        }
                     } //end voteUpdate()
 
             function dateCalc(created) {
@@ -96,8 +99,7 @@ $('.votebutton').on("click", function() {
                     console.log('var todaycompare',todaycompare);
                     console.log('var createOn',createOn);
                     console.log('todaycompare','-','createdOn','=','diff',diff);
-                    //console.log('minutes in a day(24*60) =1440')
-                    //console.log('diff/minutes',diff/1440)
+                    
 
                     if (diffminutes < 1440) {
                         console.log('less then a day true');
@@ -114,6 +116,10 @@ $('.votebutton').on("click", function() {
    
 }); //end on votebutton click
 }); //send on ready function
+
+
+//console.log('minutes in a day(24*60) =1440')
+                    //console.log('diff/minutes',diff/1440)
 
 //    if (votes < 5 && dateCheck === true) {
 //          var votecount = votes + 1;
