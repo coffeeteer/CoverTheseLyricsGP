@@ -178,7 +178,7 @@ span.turn {
 
 
     #title_wrapper {
-      /*position: absolute*/;
+      /*position: absolute;*/
       position: relative;
       /*left: 17.5%;*/
       /* top: -50px;*/
@@ -198,7 +198,7 @@ span.turn {
       font-size: 75pt;
       font-weight: bold;
       font-family: Georgia;
-      /*text-align: left;*/
+      text-align: left;
       margin-left: -0.7%;
     }
 
@@ -358,11 +358,22 @@ span.turn {
 
 /****************End Media Queries****************/
 
-#title-words1, #title-word2 {
+/*#title-words1, #title-word2 {
   text-align: center;
   color: white;
 }
 .main_content {
   margin: auto;
 
+}*/
+
+/*----------Legal Pages Beging------------*/
+.legal-container {
+  max-width: 800px;
+  margin: 0  auto;
+  background-color: #fff;
+  padding: 2%;
+  font-family: "Ariel";
 }
+
+/*----------Legal Pages End---------------*/
