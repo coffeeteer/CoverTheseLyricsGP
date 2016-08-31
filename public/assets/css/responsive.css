@@ -275,7 +275,7 @@ width: 75px;
 /********Logo End *******/
 @media screen {
   #body-container,  #nav-wrapper {
-    max-width: 1366px;
+    max-width: auto;
     margin: 0 auto;
   }
 }

@@ -337,17 +337,33 @@ and (min-width: 850px)
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
+      .videobox{
+      padding-left: 15px;
+/*      padding-right:100px;*/
+      padding-top: 30px;
+      border-style: solid;
+      border-color: brown;
+      border-width:2px;
+      }
 
+      iframe{
+        width:350px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
       .videobox{
-      padding-left: 39px;
+/*      padding-left: 39px;*/
       padding-right:100px;
       padding-top: 30px;
       border-style: solid;
-      border-color: gold;
+      border-color: gray;
       border-width:2px;
       }
 
@@ -447,8 +463,8 @@ and (min-width: 850px)
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
       .videobox{
-      padding-left: 117px;
-      padding-right:100px;
+      padding-left: 65px;
+/*      padding-right:100px;*/
       padding-top: 30px;
       border-style: solid;
       border-color: black;
@@ -456,8 +472,8 @@ and (min-width: 850px)
       }
 
       iframe{
-        width:500px;
-        height:300px;
+        width:575px;
+        height:325px;
       }
 
       span.vote-btn{
@@ -468,8 +484,8 @@ and (min-width: 850px)
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
       .videobox{
-      padding-left: 15px;
-      padding-right:100px;
+      padding-left: 8px;
+/*      padding-right:100px;*/
       padding-top: 30px;
       border-style: solid;
       border-color: blue;
@@ -488,21 +504,5 @@ and (min-width: 850px)
 
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
-      .videobox{
-      padding-left: 15px;
-      padding-right:100px;
-      padding-top: 30px;
-      border-style: solid;
-      border-color: brown;
-      border-width:2px;
-      }
 
-      iframe{
-        width:400px;
-        height:300px;
-      }
-
-      span.vote-btn{
-        margin-left: 133px;
-      }
     }
