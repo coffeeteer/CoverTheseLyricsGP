@@ -337,7 +337,22 @@ and (min-width: 850px)
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
+      .videobox{
+      padding-left: 39px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: gold;
+      border-width:2px;
+      }
 
+      iframe{
+        width:500px;
+      }
+
+      span.vote-btn{
+        margin-left: 132px;
+      }
     }
 
     /* Medium Devices, Desktops */
@@ -399,14 +414,14 @@ and (min-width: 850px)
       }
 
       span.vote-btn{
-        margin-left: 132px;
+        margin-left: 146px;
       }
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
       .videobox{
-      padding-left: 39px;
+      padding-left: 117px;
       padding-right:100px;
       padding-top: 30px;
       border-style: solid;
@@ -420,21 +435,69 @@ and (min-width: 850px)
       }
 
       span.vote-btn{
-        margin-left: 132px;
+        margin-left: 182px;
       }
     }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
+      .videobox{
+      padding-left: 117px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: black;
+      border-width:2px;
+      }
 
+      iframe{
+        width:500px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 182px;
+      }
     }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
+      .videobox{
+      padding-left: 15px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: blue;
+      border-width:2px;
+      }
 
+      iframe{
+        width:400px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
     }
 
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
-        
+      .videobox{
+      padding-left: 15px;
+      padding-right:100px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: brown;
+      border-width:2px;
+      }
+
+      iframe{
+        width:400px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
     }
