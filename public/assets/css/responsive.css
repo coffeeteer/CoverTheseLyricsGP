@@ -276,6 +276,6 @@ width: 75px;
 @media screen {
   #body-container,  #nav-wrapper {
     max-width: 1366px;
-
+    margin: 0 auto;
   }
 }
