@@ -450,14 +450,14 @@ and (min-width: 850px)
       }
 
       span.vote-btn{
-        margin-left: 146px;
+        align-content: center;
       }
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
       .videobox{
-      padding-left: 117px;
+      padding-left: 93px;
       padding-right:100px;
       padding-top: 30px;
       border-style: solid;
@@ -466,12 +466,12 @@ and (min-width: 850px)
       }
 
       iframe{
-        width:500px;
-        height:300px;
+        width:550px;
+        height:425px;
       }
 
       span.vote-btn{
-        margin-left: 182px;
+        margin-left: 208px;
       }
     }
 
@@ -479,10 +479,9 @@ and (min-width: 850px)
     @media only screen and (max-width : 768px) {
       .videobox{
       padding-left: 65px;
-/*      padding-right:100px;*/
       padding-top: 30px;
       border-style: solid;
-      border-color: black;
+      border-color: purple;
       border-width:2px;
       }
 
@@ -492,12 +491,33 @@ and (min-width: 850px)
       }
 
       span.vote-btn{
-        margin-left: 182px;
+        margin-left: 220px;
       }
     }
 
             /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 660px) {
+      .videobox{
+      padding-left: 50px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: blue;
+      border-width:2px;
+      }
+
+      iframe{
+        width:450px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
+
+
+            /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 648px) {
       .videobox{
       padding-left: 77px;
       padding-top: 30px;
@@ -547,7 +567,7 @@ and (min-width: 850px)
       }
 
       iframe{
-        width:400px;
+        width:380px;
         height:300px;
       }
 
@@ -579,7 +599,7 @@ and (min-width: 850px)
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
       .videobox{
-      padding-left: 8px;
+      padding-left: 6px;
       padding-top: 30px;
       border-style: solid;
       border-color: yellow;
@@ -587,8 +607,8 @@ and (min-width: 850px)
       }
 
       iframe{
-        width:400px;
-        height:300px;
+        width:350px;
+        height:250px;
       }
 
       span.vote-btn{
