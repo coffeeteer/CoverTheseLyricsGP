@@ -375,7 +375,7 @@ and (min-width: 850px)
     @media only screen and (min-width : 768px) {
       .videobox{
 /*      padding-left: 39px;*/
-      padding-right:100px;
+/*      padding-right:100px;*/
       padding-top: 30px;
       border-style: solid;
       border-color: gray;
@@ -395,7 +395,7 @@ and (min-width: 850px)
     @media only screen and (min-width : 992px) {
       .videobox{
       padding-left: 39px;
-      padding-right:100px;
+/*      padding-right:100px;*/
       padding-top: 30px;
       border-style: solid;
       border-color: green;
@@ -415,7 +415,7 @@ and (min-width: 850px)
     @media only screen and (min-width : 1200px) {
       .videobox{
       padding-left: 63px;
-      padding-right:100px;
+/*      padding-right:100px;*/
       padding-top: 30px;
       border-style: solid;
       border-color: purple;
@@ -438,7 +438,7 @@ and (min-width: 850px)
     @media only screen and (max-width : 1200px) {
       .videobox{
       padding-left: 39px;
-      padding-right:100px;
+/*      padding-right:100px;*/
       padding-top: 30px;
       border-style: solid;
       border-color: white;
@@ -458,7 +458,7 @@ and (min-width: 850px)
     @media only screen and (max-width : 992px) {
       .videobox{
       padding-left: 117px;
-      padding-right:100px;
+/*      padding-right:100px;*/
       padding-top: 30px;
       border-style: solid;
       border-color: red;
@@ -596,15 +596,35 @@ and (min-width: 850px)
       }
     }
 
+
+
+
     /* Index Handlebars Media Queries */
 
-        @media only screen and (max-width: 1500px) {
-/*        #about{
-          font-size: 32pt;
+        @media only screen and (max-width: 2100px) {
+/*        #videos1{
+          padding-left: 10px
+        }*/
+
+          #videos1 iframe{
+/*          padding-left: 10px*/
+          border-style: solid;
+          border-color: yellow;
+          border-width: 2px;
+          width:350px;
+          height:250px;
+        }
+
+/*        #videos iframe {
+            width: 450px;
+            height: 300px;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;
         }*/
         #contest-submission iframe {
             width: 650px;
-            height: 450px;
+            height: 375px;
             border-style: solid;
             border-color: yellow;
             border-width: 2px;
@@ -622,7 +642,33 @@ and (min-width: 850px)
             border-color: yellow;
             border-width: 2px;
         }
+          #videos1 iframe{
+/*          padding-left: 10px*/
+          border-style: solid;
+          border-color: purple;
+          border-width: 2px;
+          width:350px;
+          height:250px;
+        }
     }
+
+        @media only screen and (max-width: 1100px) {
+        #about{
+          font-size: 32pt;
+        }
+        #contest-submission iframe {
+            width: 650px;
+            height: 450px;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;
+        }
+        #videos.iframe{
+          width:320px;
+          height:290px;
+        }
+    }
+
 
     @media only screen and (max-width: 992px) {
         #contest-submission iframe {
@@ -668,12 +714,34 @@ and (min-width: 850px)
         #about {
             font-size: 21pt;
         }
+            #videos1 iframe{
+            margin-left: 20px;
+            border-style: solid;
+            border-color: purple;
+            border-width: 2px;
+            width:400px;
+            height:375px;
+            }
     }
 
 
         @media only screen and (max-width: 480px) {
             #about {
                 font-size: 16pt;
+            }
+            #contest-submission iframe {
+            width: 350px;
+            height: 275px;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;
+            }
+
+            #videos1 iframe{
+            margin-left: 20px;
+            border-style: solid;
+            border-color: purple;
+            border-width: 2px;
             }
         }
         
@@ -682,17 +750,3 @@ and (min-width: 850px)
                 font-size: 16pt;
             }
         }
-
-
-
-
-
-    @media only screen and (min-width: 1200px) {
-        #videos iframe {
-            width: 450px;
-            height: 300px;
-            border-style: solid;
-            border-color: yellow;
-            border-width: 2px;
-        }
-    }
