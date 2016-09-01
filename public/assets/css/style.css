@@ -262,20 +262,24 @@ span.turn {
 }
 
 #contest-submission {
-  padding-top: 140px;
+  padding-top: 80px;
   text-align: center;
-  font-size: 30px;
+  font-size: 30pt;
   /*margin: auto;*/
 }
 #past-winners {
   padding-top: 15px;
-  margin-left: 395px;
-  font-size: 75px;
+}
+#past-winners h2{
+  font-size: 36pt;
+  text-align: center;
+/*  margin-left: -53px;*/
 }
 #videos {
   margin-top: 20px;
   padding-bottom: 20px;
-  align-content: center;
+/*  padding-left: 20px;*/
+/*  align-content: center;*/
   /*margin: auto;*/
 }
 
