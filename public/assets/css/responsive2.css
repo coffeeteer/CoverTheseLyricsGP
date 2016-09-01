@@ -595,3 +595,104 @@ and (min-width: 850px)
         margin-left: 133px;
       }
     }
+
+    /* Index Handlebars Media Queries */
+
+        @media only screen and (max-width: 1500px) {
+/*        #about{
+          font-size: 32pt;
+        }*/
+        #contest-submission iframe {
+            width: 650px;
+            height: 450px;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        #about{
+          font-size: 32pt;
+        }
+        #contest-submission iframe {
+            width: 650px;
+            height: 450px;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        #contest-submission iframe {
+            width: 550px;
+            height: 300px;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;
+        }
+        #about{
+          font-size: 24pt;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        #contest-submission iframe {
+            width: 475px;
+            height: 300px;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+        #contest-submission iframe {
+            width: 475px;
+            height: 300px;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;
+        }
+    }
+
+    @media only screen and (max-width: 550px) {
+        #contest-submission iframe {
+            width: 450px;
+            height: 300px;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;
+        }
+        #about {
+            font-size: 21pt;
+        }
+    }
+
+
+        @media only screen and (max-width: 480px) {
+            #about {
+                font-size: 16pt;
+            }
+        }
+        
+        @media only screen and (max-width: 400px) {
+            #about {
+                font-size: 16pt;
+            }
+        }
+
+
+
+
+
+    @media only screen and (min-width: 1200px) {
+        #videos iframe {
+            width: 450px;
+            height: 300px;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 2px;
+        }
+    }
