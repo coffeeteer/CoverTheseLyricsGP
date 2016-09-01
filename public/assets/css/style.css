@@ -311,9 +311,9 @@ span.turn {
 #vote-page-container {
   background-color: rgba(45, 45, 45, 0.6);
   padding: 0px 20px;
-  border-color: pink;
+/*  border-color: pink;
   border-style: solid;
-  border-width: 2px;
+  border-width: 2px;*/
 }
 
 /****************End Vote Page****************/
