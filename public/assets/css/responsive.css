@@ -53,7 +53,7 @@ and (max-width : 1200px)
  {
   #title-words1 {
     font-size: 60pt;
-    /*background-color: orange;*/
+    background-color: orange;
 
   }
 }
@@ -64,7 +64,7 @@ and (max-width : 999px)
  {
   #title-words1 {
     font-size: 50pt;
-   /* background-color: teal;*/
+    background-color: teal;
   }
 }
 
@@ -74,7 +74,7 @@ and (max-width : 849px)
  {
   #title-words1 {
     font-size: 40pt;
-    /*background-color: black;*/
+    background-color: black;
   }
 }
 
@@ -84,7 +84,7 @@ and (max-width : 649px)
  {
   #title-words1 {
     font-size: 35pt;
-    /*background-color: blue;*/
+    background-color: blue;
     /*color: #fefefe;*/
   }
 }
@@ -96,7 +96,7 @@ and (max-width : 559px)
  	{
  		#title-words1 {
 		font-size: 30pt;
-	    /*background-color: red;*/
+	    background-color: red;
 	    /*color:purple;*/
      /* position: absolute;
       top: 20%;*/
@@ -279,3 +279,36 @@ width: 75px;
     margin: 0 auto;
   }
 }
+
+/***** footer begin **********/
+@media screen  
+and (min-width:  250px)
+and (max-width : 999px) 
+ {
+   .footer {
+    margin: auto;
+    text-align: center;
+  }
+}
+/******* footer end ********/
+
+/*******Responsive Clock Begin**********/
+@media screen  
+and (min-width:  850px)
+and (max-width : 999px) 
+ {
+  #del-countdown,
+  .timer-h2,
+  #clock,
+  #units,
+  #days,
+  #hours,
+  #mins,
+  #secs {
+    width: 80%;
+    margin: auto;
+    font-size: 80%;
+  }
+}
+
+/*******Responsive Clock End**********/
