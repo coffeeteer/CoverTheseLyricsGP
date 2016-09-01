@@ -332,8 +332,23 @@ and (min-width: 850px)
 
     /* Custom, iPhone Retina */ 
     @media only screen and (min-width : 320px) {
-        
-    }
+      .videobox{
+      padding-left: 77px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: purple;
+      border-width:2px;
+      }
+
+      iframe{
+        width:400px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }    }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
@@ -481,11 +496,10 @@ and (min-width: 850px)
       }
     }
 
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (max-width : 480px) {
+            /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 660px) {
       .videobox{
-      padding-left: 8px;
-/*      padding-right:100px;*/
+      padding-left: 77px;
       padding-top: 30px;
       border-style: solid;
       border-color: blue;
@@ -502,7 +516,83 @@ and (min-width: 850px)
       }
     }
 
+        /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 625px) {
+      .videobox{
+      padding-left: 77px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: blue;
+      border-width:2px;
+      }
+
+      iframe{
+        width:400px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+      .videobox{
+      padding-left: 8px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: blue;
+      border-width:2px;
+      }
+
+      iframe{
+        width:400px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
+
+        /* Extra Small Devices, Phones */ 
+    @media (min-width : 445px) and (max-width:479px) {
+      .videobox{
+      padding-left: 8px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: purple;
+      border-width:2px;
+      }
+
+      iframe{
+        width:400px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
+
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
+      .videobox{
+      padding-left: 8px;
+      padding-top: 30px;
+      border-style: solid;
+      border-color: yellow;
+      border-width:2px;
+      }
 
+      iframe{
+        width:400px;
+        height:300px;
+      }
+
+      span.vote-btn{
+        margin-left: 133px;
+      }
+    }
     }
