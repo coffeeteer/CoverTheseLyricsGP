@@ -359,9 +359,9 @@
         }
           #videos1 iframe{
 /*          padding-left: 10px*/
-          border-style: solid;
+/*          border-style: solid;
           border-color: purple;
-          border-width: 2px;
+          border-width: 2px;*/
           width:350px;
           height:250px;
         }
