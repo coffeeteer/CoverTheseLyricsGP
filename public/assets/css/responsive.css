@@ -205,7 +205,7 @@ and (min-width:  650px)
 and (max-width : 819px)
  {
  #navi, #navi2, #navi3, #navi4, #navi5 {
-    font-size: 15pt;
+    font-size: 20pt;
 /*    margin-left: -3%;*/
   }
 }
