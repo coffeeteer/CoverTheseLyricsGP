@@ -297,18 +297,96 @@ and (max-width : 999px)
 and (min-width:  850px)
 and (max-width : 999px) 
  {
-  #del-countdown,
-  .timer-h2,
-  #clock,
-  #units,
-  #days,
-  #hours,
-  #mins,
-  #secs {
+  #del-countdown {
     width: 80%;
     margin: auto;
     font-size: 80%;
   }
+
+   #clock span {
+    font-size: 60px;
+   }
+
+   .timer-h2 {
+    font-size: 25px;
+   }
 }
 
+@media screen  
+and (min-width:  650px) 
+and (max-width : 849px)
+ {
+  #del-countdown {
+    width: 80%;
+    margin: auto;
+    font-size: 80%;
+  }
+
+   #clock span {
+    font-size: 50px;
+   }
+
+   .timer-h2 {
+    font-size: 20px;
+   }
+}
+
+
+@media screen  
+and (min-width:  560px)
+and (max-width : 649px) 
+ {
+  #del-countdown {
+    width: 80%;
+    margin: auto;
+    font-size: 80%;
+  }
+
+   #clock span {
+    font-size: 50px;
+   }
+
+   .timer-h2 {
+    font-size: 20px;
+   }
+}
+
+@media screen
+and (min-width : 410px)
+and (max-width : 559px)
+{
+  #del-countdown {
+    width: 80%;
+    margin: auto;
+    font-size: 80%;
+  }
+
+   #clock span {
+    font-size: 35px;
+   }
+
+   .timer-h2 {
+    font-size: 20px;
+   }
+}
+
+@media screen
+and (max-width : 409px) 
+{
+  #del-countdown {
+    width: 80%;
+    margin: auto;
+    font-size: 80%;
+  }
+
+   #clock span {
+    font-size: 15px;
+    border-radius: 20%;
+    padding: 10px;
+   }
+
+   .timer-h2 {
+    font-size: 15px;
+   }
+}
 /*******Responsive Clock End**********/
