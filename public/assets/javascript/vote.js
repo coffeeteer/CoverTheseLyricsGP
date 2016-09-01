@@ -44,7 +44,7 @@ $('.votebutton').on("click", function() {
 
                 function voteNew() {
                         console.log('in voteNew function');
-                        var voteUrl = '/vote/' + ip + '/' + entry_id + '/' + formatted_date +'/' + 1 
+                        var voteUrl = '/vote/' + ip + '/' + 1 + '/' +  entry_id + '/' + formatted_date;
                       console.log('**post new data check**','*IP*',ip,'*entry_id*',entry_id,'*formatted_date*',formatted_date,'*url*',url);
                         $.post(voteUrl, function(result) {
                             result = result[0];
