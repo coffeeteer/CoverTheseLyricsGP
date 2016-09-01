@@ -158,11 +158,28 @@ span.turn {
 /* countdown **end */
 
 /*Footer Styles*/
-  .footer{
+  .footer {
     margin-bottom: 0px;
-    background-color:#2d2d2d;
+    background-color: #2d2d2d;
+    border-color: #2d2d2d;
+    color: #fff;
     margin-left:360px;
   }
+
+  .nav_footer {
+    background-color: #2d2d2d;
+    border-color: #2d2d2d;
+    color: #fff;
+  }
+
+  /*li.legal-list {
+    text-decoration: none;
+    color: #fff;
+   }
+
+   .legal-list:hover {
+    color: #F4010F;
+   } */
 
 /***********  Title *********************/
 
