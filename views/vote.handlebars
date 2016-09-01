@@ -19,26 +19,37 @@
 
 			</div>
 		</div>
+
+ 
 <!-- added remodal jw 8/30 -->
 
-<!--
-                <button id="submission" type="submit" class="btn btn-primary btn-md" data-remodal-target="modal">Submit</button>
-
--->
-              <div data-remodal-id="modal">
-                <button data-remodal-action="close" class="remodal-close"></button>
-                <h1>Thank you for your submission</h1>
-                <p>
-                  Your video is now viewable and voteable on the voting page. Don't forget to tell your friends & family to vote for you!</p>
-
-                  <p>Be sure to checkout our <a href="https://www.facebook.com/covertheselyrics/">Facebook Page</a>
-                </p>
-                <br>
-                <button data-remodal-action="confirm" class="remodal-confirm" id="remodal-submit" type="submit">OK</button>
+<!--bootstrap modal -->
+              
 
 
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h1 class="modal-title" id="myModalLabel">Thank you for your vote.</h1>
+      </div>
+      <div class="modal-body">
 
-            </div>
+      <p>
+                  You have 5 votes total per day. Use them wisely!
+                  Don't forget to tell your friends & family to vote for you!</p>
+  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn modalconfirm  btn-primary btn-lg" data-dismiss="modal">OK</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <!-- added countdown clock -->
