@@ -333,6 +333,36 @@ span.turn {
   border-width: 2px;
 }
 
+
+.modal-footer{
+ border: none;
+
+}
+.modal-header{
+ border: none;
+}
+
+.modal-content  {
+  padding: 20px 40px;
+  text-align: center;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+
+#myModal{
+font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+  font-size: 15px;
+  color: black;
+}
+
+.modalconfirm{
+ background: #81c784;
+ border: none;
+ border-radius:0;
+ padding: 15px 45px;
+}
+
 /****************End Vote Page****************/
 
 /**************Prizes Page**********************/
@@ -394,3 +424,4 @@ span.turn {
 }
 
 /*----------Legal Pages End---------------*/
+
