@@ -170,16 +170,17 @@ span.turn {
     background-color: #2d2d2d;
     border-color: #2d2d2d;
     color: #fff;
+    position: absolute;
+    margin-bottom: -25px;
   }
 
-  /*li.legal-list {
-    text-decoration: none;
+  .navbar-default .navbar-nav>li>a {
     color: #fff;
    }
 
-   .legal-list:hover {
+   .navbar-default .navbar-nav>li>a:hover {
     color: #F4010F;
-   } */
+   } 
 
 /***********  Title *********************/
 
