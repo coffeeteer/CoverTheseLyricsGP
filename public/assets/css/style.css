@@ -224,6 +224,15 @@ span.turn {
       margin-left: -0.59%;
       font-size: 25pt;
     }
+
+    /**-----registered trademark------**/
+    .reg-tm {
+      font-size: 40%;
+      position: absolute;
+      top: 8%;
+    }
+
+    /**-----registered trademark end--**/
 /*************** End Title *********************/
 
 
