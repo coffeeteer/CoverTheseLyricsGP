@@ -1,24 +1,24 @@
 <h1 class="vote-title">Vote here</h1>
 
-	<div class="container vote-container" id="vote-page-container">
-			<div class="row">
+  <div class="container vote-container" id="vote-page-container">
+      <div class="row">
         
-		  {{#each Submissions}}
+      {{#each Submissions}}
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 videobox">
 
-<!-- 						<div class=> -->
-					<iframe width="350" height="250" src="{{this.entry}}" frameborder="0" allowfullscreen></iframe>
-					<span class="col-lg-2 col-md-6 col-sm-12 col-xs-12 vote-btn">
-<!-- 							<span class="col-xs-6 col-md-4 vote-btn"> -->
-					   <button type="button" class="btn btn-primary btn-md votebutton" name="vote" id="{{this.id}}">Vote For Me!</button>
-					</span>
-<!-- 						</div> -->
-		
+<!--            <div class=> -->
+          <iframe width="350" height="250" src="{{this.entry}}" frameborder="0" allowfullscreen></iframe>
+          <span class="col-lg-2 col-md-6 col-sm-12 col-xs-12 vote-btn">
+<!--              <span class="col-xs-6 col-md-4 vote-btn"> -->
+             <button type="button" class="btn btn-primary btn-md votebutton" name="vote" id="{{this.id}}">Vote For Me!</button>
+          </span>
+<!--            </div> -->
+    
       </div>
-		{{/each}}
+    {{/each}}
 
-			</div>
-		</div>
+      </div>
+    </div>
 
  
 <!-- added remodal jw 8/30 -->
@@ -27,7 +27,7 @@
               
 
 
-<div class="modal fade" id="maxvote" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -71,26 +71,26 @@
 <!--   
 
 <h1 class="vote-title">Vote here</h1>
-	<div class="container vote-container" id="vote-page-container">
-			<div class="row">
+  <div class="container vote-container" id="vote-page-container">
+      <div class="row">
 
-				{{#each Submissions}}
+        {{#each Submissions}}
 
-					
-						<div class="videobox">
-						<iframe width="350" height="250" src="{{this.entry}}" frameborder="0" allowfullscreen></iframe>
-						<span class="col-xs-6 col-md-4 vote-btn">
-						<button type="button" class="btn btn-primary btn-md votebutton" name="vote" id="{{this.id}}">Vote For Me!</button>
-						</span>
-						</div>
-		
+          
+            <div class="videobox">
+            <iframe width="350" height="250" src="{{this.entry}}" frameborder="0" allowfullscreen></iframe>
+            <span class="col-xs-6 col-md-4 vote-btn">
+            <button type="button" class="btn btn-primary btn-md votebutton" name="vote" id="{{this.id}}">Vote For Me!</button>
+            </span>
+            </div>
+    
 
-				{{/each}}
-			</div>
-		</div>
+        {{/each}}
+      </div>
+    </div>
 
 <<<<<<< HEAD
-		  <div id="del-countdown">
+      <div id="del-countdown">
       <h2 class="timer-h2">LOADING....NEW CONTEST!!!</h2>
       <div id="clock"></div>
       <div id="units">
