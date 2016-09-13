@@ -34,7 +34,7 @@ $(document).ready(function() {
             voteUpdate(result);
 
           } else {   
-            $('#maxvote').modal('show');
+            $('#myModal').modal('show');
   
           }
         }); //end $.get(url, function(result)
