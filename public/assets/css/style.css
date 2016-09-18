@@ -93,6 +93,8 @@ body{
   width: 690px;
   margin: 5% auto;
   font-family: tahoma;
+  background-color: rgba(45, 45, 45, 0.7);
+  padding: 10px;
 }
 
 #clock span {

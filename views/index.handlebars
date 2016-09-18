@@ -4,11 +4,12 @@
     jQuery(document).ready(function($) {
       $('#myCarousel').unslider();
       autoplay:true;
+      this.interval: 1000;
     });
   </script>
 
 <div class="main_content">
-  <div id="myCarousel" class="carousel slide">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -60,12 +61,12 @@
       </div>
 
     </div>
-    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-      <span class="icon-prev"></span>
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev" data-interval="1000">
+      <span class="icon-prev" data-interval="1000"></span>
     </a>
 
-    <a class="carousel-control right" href="#myCarousel" data-slide="next">
-      <span class="icon-next"></span>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next" data-interval="1000">
+      <span class="icon-next" data-interval="1000"></span>
     </a>
 
   </div>
@@ -75,7 +76,7 @@
 
     <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <div id="about">
-        <h2>So What is CoverTheseLyrics?</h2>
+        <h2 class="about-h2">So What is CoverTheseLyrics?</h2>
         <p class="page-content">
           CoverTheseLyrics is an online singing contest for not only the singer in you, but the writer too. The contest is open to anyone, male or female, 14 years or older (with parental consent) and it is completely free. With CoverTheseLyrics, just by making
           your own song you can win multiple prizes!!
