@@ -6,6 +6,7 @@ body{
   font-family: 'Arial', sans-serif;
   background: #2d2d2d;
   margin: auto;
+  overflow-x: hidden;
 }
 
 /*Nav Styles*/
@@ -68,7 +69,8 @@ body{
 
 #body-container {
   /*background-image: url("../images/concentricRings_SFW.png");*/
-  background-image: url("../images/coloredPaperGrn_SFW.png");
+  /*background-image: url("../images/coloredPaperGrn_SFW.png");*/
+  background-image: url("../images/blue_textures_SFW.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-top: 0px;

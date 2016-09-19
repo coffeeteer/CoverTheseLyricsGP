@@ -9,11 +9,21 @@ and (max-width : 999px)
 }
 
 @media screen
-and (min-width:  411px)
+and (min-width:  651px)
 and (max-width : 767px)
 {
   #title_wrapper {
     padding-left: 130px;
+  }
+}
+
+@media screen
+and (min-width:  411px)
+and (max-width : 650px)
+{
+  #title_wrapper {
+    padding-left: 130px;
+    top: 20px;
   }
 }
 
@@ -53,7 +63,7 @@ and (max-width : 1200px)
  {
   #title-words1 {
     font-size: 60pt;
-    /*background-color: orange;*/
+    background-color: orange;
 
   }
 }
@@ -64,7 +74,7 @@ and (max-width : 999px)
  {
   #title-words1 {
     font-size: 50pt;
-    /*background-color: teal;*/
+    background-color: teal;
   }
 }
 
@@ -74,7 +84,7 @@ and (max-width : 849px)
  {
   #title-words1 {
     font-size: 40pt;
-    /*background-color: black;*/
+    background-color: black;
   }
 }
 
@@ -84,7 +94,7 @@ and (max-width : 649px)
  {
   #title-words1 {
     font-size: 35pt;
-   /* background-color: blue;*/
+    background-color: blue;
     /*color: #fefefe;*/
   }
 }
@@ -96,7 +106,7 @@ and (max-width : 559px)
  	{
  		#title-words1 {
 		font-size: 30pt;
-	    /*background-color: red;*/
+	    background-color: red;
 	    /*color:purple;*/
      /* position: absolute;
       top: 20%;*/
@@ -109,7 +119,7 @@ and (max-width : 409px)
   {
     #title-words1 {
     font-size: 20pt;
-      /*background-color: cyan;*/
+      background-color: cyan;
       /*color:purple;*/
       /*position: relative;
       top: 20%;*/
@@ -169,7 +179,7 @@ and (max-width : 559px)
 /*grid-float-breakpoint*/
 @media screen;  
 and (min-width:  540px) 
-and (max-width : 879px)
+and (max-width : 950px)
  {
   #ctl-top-nav {
     
@@ -287,7 +297,7 @@ and (max-width : 999px)
  {
    .footer {
     margin: auto;
-    text-align: center;
+    text-align: center
     max-width: 100%;
   }
 }
@@ -392,11 +402,11 @@ and (max-width : 409px)
 }
 /*******Responsive Clock End**********/
 /*----------Body Container--------*/
-@media screen {
+/*@media screen {
   #body-container, #nav-wrapper {
     max-width: 1366px;
   }
-}
+}*/
 /*---------Body Container End------*/
 
 /*---------Carousel Beginning------*/
