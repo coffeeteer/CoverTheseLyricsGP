@@ -288,6 +288,7 @@ and (max-width : 999px)
    .footer {
     margin: auto;
     text-align: center;
+    max-width: 100%;
   }
 }
 /******* footer end ********/
@@ -390,3 +391,68 @@ and (max-width : 409px)
    }
 }
 /*******Responsive Clock End**********/
+/*----------Body Container--------*/
+@media screen {
+  #body-container, #nav-wrapper {
+    max-width: 1366px;
+  }
+}
+/*---------Body Container End------*/
+
+/*---------Carousel Beginning------*/
+@media screen  
+and (min-width:  850px)
+and (max-width : 1050px) 
+ {
+  .carousel-caption-title, 
+  .carousel-caption-words  {
+    font-size: 90%;
+    /*background-color: orange;*/
+
+  }
+}
+
+
+@media screen  
+and (min-width:  560px)
+and (max-width : 849px)
+ {
+  .carousel-caption-title, 
+  .carousel-caption-words  {
+    font-size: 70%;
+    /*background-color: black;*/
+  }
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen
+and (min-width : 410px)
+and (max-width : 559px) 
+  {
+    .carousel-caption-title, 
+    .carousel-caption-words  {
+    font-size: 65%;
+    position: inherit;
+    text-align: center;
+      /*background-color: red;*/
+      /*color:purple;*/
+     /* position: absolute;
+      top: 20%;*/
+    }
+  }
+
+  @media screen
+and (min-width : 50px)
+and (max-width : 409px) 
+  {
+    .carousel-caption-title, 
+    .carousel-caption-words  {
+    font-size: 50%;
+    position: inherit;
+    text-align: center;
+    }
+  }
+
+  /*---------Carasouel Beginning------*/
