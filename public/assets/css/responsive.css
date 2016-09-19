@@ -319,7 +319,11 @@ and (max-width : 999px)
    }
 
    .timer-h2 {
-    font-size: 25px;
+    font-size: 25px !important;
+   }
+
+   #units > span {
+    font-size: 80%;
    }
 }
 
@@ -338,7 +342,11 @@ and (max-width : 849px)
    }
 
    .timer-h2 {
-    font-size: 20px;
+    font-size: 19px !important;
+   }
+
+    #units > span {
+    font-size: 70%;
    }
 }
 
@@ -358,7 +366,11 @@ and (max-width : 649px)
    }
 
    .timer-h2 {
-    font-size: 20px;
+    font-size: 15px !important;
+   }
+
+    #units > span {
+    font-size: 60%;
    }
 }
 
@@ -377,7 +389,11 @@ and (max-width : 559px)
    }
 
    .timer-h2 {
-    font-size: 20px;
+    font-size: 12px !important;
+   }
+
+    #units > span {
+    font-size: 50%;
    }
 }
 
@@ -397,7 +413,11 @@ and (max-width : 409px)
    }
 
    .timer-h2 {
-    font-size: 15px;
+    font-size: 10px;
+   }
+
+    #units > span {
+    font-size: 50%;
    }
 }
 /*******Responsive Clock End**********/
