@@ -332,13 +332,14 @@ span.turn {
 .owner {
   font-size: 7px;
   text-align: left;
+  display: inline-block;
 }
 
 .owner:hover {
   font-size: 12px;
   background-color: #2d2d2d;
-  padding: 5px;
-  border-radius: 3px;
+  padding: 10px 10px -1px 10px;
+  border-radius: 3px 3px 0 0;
 }
 
 /****************End Index page****************/
