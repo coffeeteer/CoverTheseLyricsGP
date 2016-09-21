@@ -318,6 +318,7 @@ span.turn {
 .gallery {
   background-color: rgba(45, 45, 45, 0.7);
   padding-right: 55px;
+  border-radius: 7px;
 }
 
 .carousel-caption{
@@ -368,8 +369,11 @@ span.turn {
 .pdf-span {
   margin-left: 9%;
   position: relative;
-  left: 8%;
+  /*left: 5%;*/
   display: inline-block;
+  margin-top: -15%;
+  margin-bottom: 15%;
+}
 }
 
 /*.lyric-div {
