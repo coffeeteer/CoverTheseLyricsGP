@@ -365,6 +365,17 @@ span.turn {
   /*  height:600px;*/
 }
 
+.pdf-span {
+  margin-left: 9%;
+  position: relative;
+  left: 8%;
+  display: inline-block;
+}
+
+/*.lyric-div {
+  
+  }*/
+
 /****************End Lyrics Page****************/
 
 /***********Submit Page**************/
