@@ -547,3 +547,18 @@ span.turn {
   visibility: hidden;
 }
 /*------------Our Ballad End------------------*/
+/*------------Contact Us beginning------------------*/
+#contact-us-form {
+  background-color: rgba(45, 45, 45, 0.7);
+}
+
+textarea {
+  min-height: 250px;
+}
+
+.ques-or-in{
+  font-size: 35pt;
+  padding-bottom: 20px;
+}
+
+/*------------Contact Us End------------------*/
