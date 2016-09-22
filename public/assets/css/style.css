@@ -521,3 +521,25 @@ span.turn {
   
 }
 /*------------Universal End------------------*/
+/*------------Our Ballad Begin------------------*/
+.statement-container{
+  background-color: rgba(45, 45, 45, 0.7);
+  margin-bottom: 40px;
+}
+
+.ballad-statement {
+  font-size: 15pt;
+  margin-bottom: 30px;
+}
+
+#h2-ballad{
+  text-align: left;
+  font-size: 35pt;
+  margin-bottom: 40px;
+}
+
+.spacing-div {
+  margin-bottom: 40px;
+  visibility: hidden;
+}
+/*------------Our Ballad End------------------*/
