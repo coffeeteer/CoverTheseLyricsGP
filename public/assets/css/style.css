@@ -201,8 +201,8 @@ span.turn {
 
     #nav-wrapper {
       background-color: #2d2d2d;
-      background-image: url('../images/logo/wavy-score.png');
-     /* background-image: url('../images/logo/wavy-score-mod.svg');*/
+      /*background-image: url('../images/logo/wavy-score-mod.png');*/
+      /*background-image: url('../images/logo/wavy-score-mod.svg');*/
        background-position:0 15%;
       background-size: 100% 80%;
       background-repeat: no-repeat;
@@ -280,11 +280,11 @@ span.turn {
   /*font-size: 35px;*/
   text-align: center;
   background-color: rgba(45, 45, 45, 0.7);
-  width: 85%;
+  /*width: 85%; */
   margin: 0 auto;
   padding: 20px;
   padding-top: 10px;
-  max-width: 1000px;
+  /*max-width: 1000px;*/
 }
 
 #contest-submission {
@@ -354,6 +354,10 @@ span.turn {
   background-color: #2d2d2d;
   padding: 10px 10px -1px 10px;
   border-radius: 3px 3px 0 0;
+}
+
+.video-div {
+  margin: 5px;
 }
 
 /****************End Index page****************/
