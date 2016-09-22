@@ -532,6 +532,10 @@ span.turn {
   margin-bottom: 30px;
 }
 
+.ballad-statement > strong{
+  font-size: 18pt;
+}
+
 #h2-ballad{
   text-align: left;
   font-size: 35pt;

@@ -28,8 +28,12 @@ app.set('view engine', 'handlebars');
 
 //***********Routes to Handlebars Travis G**********//
 
-app.get('/ballad', function(req, res) {
+app.get('/our-ballad', function(req, res) {
   res.render('ballad');
+});
+
+app.get('/contact-us', function(req, res) {
+  res.render('contact-us');
 });
 
 //***********Routes to Handlebars TravisG**********//
