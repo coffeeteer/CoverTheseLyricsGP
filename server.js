@@ -36,6 +36,14 @@ app.get('/contact-us', function(req, res) {
   res.render('contact-us');
 });
 
+app.get('/view-your-favorite', function(req, res) {
+  res.render('favorite');
+});
+
+app.get('/winners-circle', function(req, res) {
+  res.render('winners');
+});
+
 //***********Routes to Handlebars TravisG**********//
 
 app.get('/', function(req, res) {
