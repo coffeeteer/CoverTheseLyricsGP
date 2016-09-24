@@ -562,3 +562,10 @@ textarea {
 }
 
 /*------------Contact Us End------------------*/
+/*------------ View Your Favorite Beginning ------------------*/
+.contest_container {
+  background-color: rgba(45, 45, 45, 0.7);
+  margin-top: 60px;
+}
+
+/*------------- View Your Favorite End ------------------*/
