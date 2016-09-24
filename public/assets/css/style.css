@@ -28,7 +28,11 @@ body{
 #navi2,
 #navi3,
 #navi4,
-#navi5 {
+#navi5, 
+#navi6, 
+#navi7, 
+#navi8, 
+#navi9 {
   color: #fff;
 /*  padding-top: 50px;*/
   font-size: 15pt;
@@ -49,7 +53,11 @@ body{
 #navi2:hover,
 #navi3:hover,
 #navi4:hover,
-#navi5:hover {
+#navi5:hover,
+#navi6:hover,
+#navi7:hover,
+#navi8:hover,
+#navi9:hover {
   color: #F4010F;
 }
 
@@ -60,7 +68,11 @@ body{
 #navi2:active,
 #navi3:active,
 #navi4:active,
-#navi5:active {
+#navi5:active,
+#navi6:active,
+#navi7:active,
+#navi8:active,
+#navi9:active {
   color: #1F4667;
 }
 
