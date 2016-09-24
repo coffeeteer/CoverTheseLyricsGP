@@ -569,3 +569,16 @@ textarea {
 }
 
 /*------------- View Your Favorite End ------------------*/
+/*------------- Winners Cirlce Beginning ------------------*/
+.img-thumbnails{
+  max-height: 312px;
+  /*position: relative;
+  top: -28px;*/
+}
+
+.win_cntst_container {
+  background-color: rgba(45, 45, 45, 0.7);
+  margin-top: 60px;
+  padding: 20px 0;
+}
+/*------------- Winners Cirlce End ------------------*/
