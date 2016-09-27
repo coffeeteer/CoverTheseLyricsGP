@@ -401,22 +401,17 @@ span.turn {
 /***********Submit Page**************/
 
 /*Submit Form on Submit Your YouTube Video*/
-.panel-heading {
-    color: white;
-    background-color: rgba(45, 45, 45, .06);
-    border-color: #ddd;
-}
+
 
 #submit-youtube {
-  color: #000;
+ 
   padding-top: 20px;
   padding-bottom: 5px;
 }
 
 .submitPanel {
     margin-bottom: 20px;
-    background-color: rgba(45, 45, 45, .06);
-    
+    color:black;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
     margin-top: 40px;
@@ -461,6 +456,7 @@ background-color: rgba(5, 131, 239, 0.42);
   font-family: 'Arial', sans-serif;
 
 }
+
 #badgestyle{
   font-size: 12pt;
   background-color: rgba(5, 131, 239, 0.42); 
@@ -468,9 +464,6 @@ background-color: rgba(5, 131, 239, 0.42);
 
 }
 
-.panHeader{
-  padding:10px, 10px, 10px, 0px;
-}
 
 .modal-footer{
  border: none;
