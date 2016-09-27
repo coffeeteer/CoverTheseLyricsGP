@@ -392,7 +392,7 @@ span.turn {
 }
 }
 
-/*.lyric-div {
+/*.lyric-div {S
   
   }*/
 
@@ -401,10 +401,20 @@ span.turn {
 /***********Submit Page**************/
 
 /*Submit Form on Submit Your YouTube Video*/
+
+
 #submit-youtube {
-  color: #000;
+ 
   padding-top: 20px;
   padding-bottom: 5px;
+}
+
+.submitPanel {
+    margin-bottom: 20px;
+    color:black;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    margin-top: 40px;
 }
 
 /*************Submit page End******************/
@@ -414,6 +424,10 @@ span.turn {
   margin-top:15px;
   margin-bottom:45px;
   margin-left: 109px;
+}
+
+.votesmallbackground{
+background-color: rgba(5, 131, 239, 0.42);
 }
 
 .vote-title {
@@ -430,11 +444,31 @@ span.turn {
   border-width: 2px;*/
 }
 
+#votePanel{
+  background-color: rgba(45, 45, 45, 0.6);
+  position:fixed;
+  bottom: 30px;
+  left: 40px;
+  /*height: 50px;
+  width: 150px;*/
+  border: black;
+   font-size: 14pt;
+  font-family: 'Arial', sans-serif;
+
+}
+
+#badgestyle{
+  font-size: 12pt;
+  background-color: rgba(5, 131, 239, 0.42); 
+  /*border-radius: 0px !important; */
+
+}
+
 
 .modal-footer{
  border: none;
-
 }
+
 .modal-header{
  border: none;
 }
@@ -490,7 +524,8 @@ span.turn {
   #first-link { margin-left:55px; }
   #second-link{ margin-left: 95px; }
   #third-link{ margin-left: 95px; }
-  #first-link, #second-link, #third-link{
+  #first-link, #second-link,
+   #third-link{
   font-size: 20px;}
   #welcomeHeader{font-size: 90px;})
 }*/

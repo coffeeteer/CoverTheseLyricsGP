@@ -26,15 +26,17 @@ $(document).ready(function() {
                 //check for vote record in db
         $.get(url, function(result) {
           console.log('vote get result', result);
+           var votes = result.vote_counts;
          
           if (result === null) {
             voteNew();
 
-          } else if (result.vote_counts < 5) {
+          } else if (votes < 5) {
             voteUpdate(result);
 
-          } else {   
-            $('#myModal').modal('show');
+          } else {  
+            postVote(votes);
+           $('#myModal').modal('show');
   
           }
         }); //end $.get(url, function(result)
@@ -54,20 +56,30 @@ $(document).ready(function() {
 
         function voteUpdate(result) {
             var id = result.id
-            var votes = result.vote_counts;
+           var votes = result.vote_counts;
             var votecount = votes + 1;
             var updateUrl = '/vote/' + id + '/' + votecount;
+            // var gifDiv = $('<div class = "badge votesmallbackground">');
 
             console.log('in voteUpdate', result);
             console.log('url', url);
             console.log('in vote logic');
             console.log('vote', votes, 'votecount', votecount);
 
+            postVote(votes);
+              
             $.post(updateUrl, function(result) {
               result = result[0];
-           
             });
+  
           } //end voteUpdate()
+
+        function postVote(votes){
+
+            $('#badgestyle').empty();
+            $('#badgestyle').append(votes);
+        };  //end post vote
+
       } // end votehandler
   }); //end on votebutton click
 }); // end on ready function

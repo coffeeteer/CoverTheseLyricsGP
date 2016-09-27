@@ -10,7 +10,7 @@
           <iframe width="350" height="250" src="{{this.entry}}" frameborder="0" allowfullscreen></iframe>
           <span class="col-lg-2 col-md-6 col-sm-12 col-xs-12 vote-btn">
 <!--              <span class="col-xs-6 col-md-4 vote-btn"> -->
-             <button type="button" class="btn btn-primary btn-md votebutton" name="vote" id="{{this.id}}">Vote For Me!</button>
+             <button type="button" class="btn btn-primary btn-md votebutton votesmallbackground" name="vote" id="{{this.id}}">Vote For Me!</button>
           </span>
 <!--            </div> -->
     
@@ -18,8 +18,11 @@
     {{/each}}
 
       </div>
-    </div>
-
+      
+      <div id="votePanel">
+        Vote count:
+        <div class="badge votesmallbackground" id="badgestyle"> </div>  
+      </div>
  
 <!-- added remodal jw 8/30 -->
 
