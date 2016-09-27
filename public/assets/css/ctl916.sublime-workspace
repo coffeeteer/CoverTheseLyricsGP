@@ -1,0 +1,1108 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"new",
+				"newVote"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"vot",
+				"voteUrl"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"di",
+				"displaycl"
+			],
+			[
+				"cate",
+				"categoryName"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"se",
+				"sequelizeConnection"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"p",
+				"post"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"anima",
+				"animalType"
+			],
+			[
+				"a",
+				"animals"
+			],
+			[
+				"num",
+				"num1"
+			],
+			[
+				"qu",
+				"quantity"
+			],
+			[
+				"or",
+				"orderQuantity"
+			],
+			[
+				"o",
+				"outputOrder"
+			],
+			[
+				"pr",
+				"printOrder"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"c",
+				"choice"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"prompt",
+				"promptCustomer"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"ta",
+				"tableCreate"
+			],
+			[
+				"I",
+				"ICount"
+			],
+			[
+				"Item",
+				"ItemID"
+			],
+			[
+				"item",
+				"ItemID"
+			],
+			[
+				"prod",
+				"prodTable"
+			],
+			[
+				"D",
+				"DepartmentName"
+			],
+			[
+				"Pr",
+				"ProductName"
+			],
+			[
+				"anse",
+				"answer"
+			],
+			[
+				"word",
+				"wordguess"
+			],
+			[
+				"input",
+				"inputAll"
+			],
+			[
+				"call",
+				"callAPI"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"inp",
+				"inputAll"
+			],
+			[
+				"s",
+				"spotify"
+			],
+			[
+				"Print",
+				"printArray"
+			],
+			[
+				"te",
+				"tempArray"
+			],
+			[
+				"prin",
+				"printArray"
+			],
+			[
+				"t",
+				"tweets"
+			],
+			[
+				"r",
+				"rtweets"
+			],
+			[
+				"tw",
+				"tweets"
+			],
+			[
+				"twi",
+				"twitterKeys"
+			],
+			[
+				"h",
+				"html	html"
+			],
+			[
+				"get",
+				"getLocation"
+			],
+			[
+				"add",
+				"addText"
+			],
+			[
+				"ven",
+				"venueAdd"
+			],
+			[
+				"place",
+				"place_id"
+			],
+			[
+				"plac",
+				"placeId"
+			],
+			[
+				"test",
+				"testArray"
+			],
+			[
+				"ca",
+				"catArray"
+			],
+			[
+				"pla",
+				"placeIdArray"
+			],
+			[
+				"f",
+				"frequency"
+			],
+			[
+				"tr",
+				"trainStart"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"gif",
+				"gifDiv"
+			],
+			[
+				"g",
+				"gifId"
+			],
+			[
+				"gi",
+				"gifDiv"
+			],
+			[
+				"thing",
+				"thingImage"
+			],
+			[
+				"dat",
+				"data-name"
+			],
+			[
+				"butt",
+				"buttonThing"
+			],
+			[
+				"bu",
+				"buttonThing"
+			],
+			[
+				"sumi",
+				"thingSubmit"
+			],
+			[
+				"appen",
+				"appendTo"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
+				"ques",
+				"quesbox"
+			],
+			[
+				"creat",
+				"createDiv"
+			],
+			[
+				"cret",
+				"createDiv"
+			],
+			[
+				"answ",
+				"answr1"
+			],
+			[
+				"q",
+				"questionGenerator"
+			],
+			[
+				"scree",
+				"screenTime"
+			],
+			[
+				"app",
+				"appendText"
+			],
+			[
+				"hi",
+				"hidejumbotron"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"use",
+				"userScore"
+			],
+			[
+				"u",
+				"uScore"
+			],
+			[
+				"us",
+				"userScore"
+			],
+			[
+				"winC",
+				"winCounterElement"
+			],
+			[
+				"n",
+				"newScore"
+			],
+			[
+				"ne",
+				"newNumber"
+			],
+			[
+				"crys",
+				"crystalOne"
+			],
+			[
+				"cry",
+				"crystalArray"
+			],
+			[
+				"cr",
+				"crystalArray"
+			],
+			[
+				"nm",
+				"numberAdd"
+			],
+			[
+				"nw",
+				"newScore"
+			],
+			[
+				"crs",
+				"crystalclick1"
+			],
+			[
+				"random",
+				"randomNumber"
+			],
+			[
+				"H",
+				"height"
+			],
+			[
+				"ran",
+				"randomNumber"
+			],
+			[
+				"P",
+				"playagain"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"bor",
+				"border-bottom-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"no",
+				"userGuessNoMatch"
+			],
+			[
+				"user",
+				"userGuessNoMatch"
+			],
+			[
+				"fridg",
+				"fridgeMagnet"
+			],
+			[
+				"frid",
+				"fridgeMagnet"
+			],
+			[
+				"fr",
+				"fridgeMagnet"
+			],
+			[
+				"letter",
+				"letter-button"
+			],
+			[
+				"guess",
+				"guessCompare"
+			],
+			[
+				"com",
+				"compareResponse"
+			],
+			[
+				"conain",
+				"contains"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"park",
+				"parkChoices"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cent",
+				"justify-content"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"left",
+				"margin-left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"border-left",
+				"border-left-style"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"st",
+				"style	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/views/vote.handlebars",
+			"settings":
+			{
+				"buffer_size": 2844,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/public/assets/javascript/vote.js",
+			"settings":
+			{
+				"buffer_size": 2044,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "$(document).on('confirmation', '.remodal', function () {\n  console.log('Confirmation button is clicked');\n$('#myModal').modal('show');\n\n  \n  $(\"#submitForm\" ).submit();\n});\n\n\n",
+			"file": "/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/public/assets/javascript/submit1.js",
+			"file_size": 142,
+			"file_write_time": 131185245930000000,
+			"settings":
+			{
+				"buffer_size": 175,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/views/index.handlebars",
+			"settings":
+			{
+				"buffer_size": 4334,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/views/layouts/main.handlebars",
+			"settings":
+			{
+				"buffer_size": 5435,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/views/submit.handlebars",
+			"settings":
+			{
+				"buffer_size": 6486,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"File: Close All"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/public",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/public/assets",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/public/assets/css",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/public/assets/javascript",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/views",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/views/layouts"
+	],
+	"file_history":
+	[
+		"/Users/jenniferward/Downloads/daytrip/chen/chendaytrip/assets/css/style.css",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/Solved copy/app/config/urlstrip.html",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/UNSOLVED/app/Components/Main.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/UNSOLVED/server.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/01-IntroMERN/Solved/app/Components/Parent.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/01-IntroMERN/Solved/app/Components/Child.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/UNSOLVED/models/history.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/01-IntroMERN/Solved/models/click.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/UNSOLVEDGroup/models/history.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/views/layouts/main.handlebars",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/public/assets/javascript/vote1.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/06-FeedMeSeymour-Students/app/Components/Children/Child1.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/06-FeedMeSeymour-Students/app/Components/Seymour.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/04-CrazyClickCounters-Students/app/Components/Main.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/04-CrazyClickCounters-Students/app/app.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/04-CrazyClickCounters-Students/app/Components/Panels/Randomizer.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/04-CrazyClickCounters-Students/app/Components/Panels/Imgr.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/04-CrazyClickCounters-Students/app/Components/Panels/Multiplier.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/04-CrazyClickCounters-Students/public/index.html",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/04-CrazyClickCounters-Students/app/Components/Panels/Adder.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/04-CrazyClickCounters-Students.zip",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/03-Parent-to-Child-Students/app/Components/Grandchild.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/03-Parent-to-Child-Students/app/Components/Child.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/03-Parent-to-Child-Students/app/app.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/03-Parent-to-Child-Students/app/Components/Parent.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/01-WarmupActivity-Students/app/Components/Grandchild.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/01-WarmupActivity-Students/public/index.html",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/01-WarmupActivity-Students/app/Components/Child.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/01-WarmupActivity-Students/app/app.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/01-WarmupActivity-Students/app/Components/Parent.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/03-HelloDiv/app/app.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/03-HelloDiv/public/index.html",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/test.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/map.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/unfriendly.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/function.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/public/assets/javascript/vote.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk6/wk6homework/javascript/giphy.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk7/wk7trains/index.html",
+		"/Users/jenniferward/Desktop/bootcamp/wk7/wk7trains/javascript/train.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk7/wk7trains/css/style.css",
+		"/Users/jenniferward/Desktop/bootcamp/wk5/triviagame/index.html",
+		"/Users/jenniferward/Desktop/bootcamp/wk4/Crystals/wk-4-game/index.html",
+		"/Users/jenniferward/Desktop/bootcamp/wk4/Crystals/wk-4-game/javascript/game.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk4/Crystals/wk-4-game/css/style.css",
+		"/Users/jenniferward/Desktop/bootcamp/wk3/Hangman V1/wk-3-game/javascript/game.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk3/Hangman V1/wk-3-game/javascript/index.html",
+		"/Users/jenniferward/Desktop/sequelizeDemo/routes/api-routes1.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/views/layouts/covertheselyrics.sublime-workspace",
+		"/Users/jenniferward/Desktop/sequelizeDemo/public/js/add.js",
+		"/Users/jenniferward/Desktop/CatsApp/views/indexv0.handlebars",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/views/categories.handlebars",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/public/css/style.css",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/seeders/20160814234622-unnamed-seeder.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/reddit/models/index.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/server.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/config/connection.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/views/vote.handlebars",
+		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/views/index.handlebars",
+		"/Users/jenniferward/Desktop/bootcamp/wk17/CoverTheseLyricsGP/views/prizes.handlebars",
+		"/Users/jenniferward/Desktop/sequelizeDemo/public/view.html",
+		"/Users/jenniferward/Desktop/sequelizeDemo/public/all.html",
+		"/Users/jenniferward/Desktop/sequelizeDemo/schema.sql",
+		"/Users/jenniferward/Desktop/sequelizeDemo/public/add.html",
+		"/Users/jenniferward/Desktop/sequelizeDemo/models/index.js",
+		"/Users/jenniferward/Desktop/sequelizeDemo/models/character.js",
+		"/Users/jenniferward/Desktop/bootcamp/dothis/gettest/config.json",
+		"/Users/jenniferward/Desktop/bootcamp/wk17/ipadd.js",
+		"/Users/jenniferward/Desktop/bootcamp/CoverTheseLyricsGP 2/voting/votingReference.php",
+		"/Users/jenniferward/Desktop/bootcamp/wk16/Examples2/disemvowel.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk16/Examples2/test/test.js",
+		"/Users/jenniferward/Desktop/bootcamp/dothis/assets/javascript/appv2.0.js",
+		"/Users/jenniferward/Downloads/brite event and location/apiJW.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/CatsApp/server.js",
+		"/Users/jenniferward/Desktop/bootcamp/dothis/brite event and location.html",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/wk14handlebars_hamburger/controllers/burgers_controller.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/wk14handlebars_hamburger/models/burger.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/wk14handlebars_hamburger/views/index.handlebars",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/CatsApp/public/assets/style.css",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/CatsApp/capapp.xlsx",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/CatsApp/controllers/server.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk15/starwars_jaws/models/index.js",
+		"/Users/jenniferward/Desktop/bootcamp/dothis/daytripper/assets/javascript/app no radius.js",
+		"/Users/jenniferward/Desktop/bootcamp/dothis/assets/javascript/dothis.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk13/wk13friend_finder/app/public/survey2.html",
+		"/Users/jenniferward/Desktop/bootcamp/wk13/wk13friend_finder/app/public/css/style.css",
+		"/Users/jenniferward/Desktop/bootcamp/1-QuotesApp/views/layouts/main.handlebars",
+		"/Users/jenniferward/Desktop/bootcamp/db/server.js",
+		"/Users/jenniferward/Desktop/bootcamp/CatsApp-MissingDelete.zip",
+		"/Users/jenniferward/Desktop/bootcamp/db/orm.js",
+		"/Users/jenniferward/Desktop/bootcamp/db/connection.js",
+		"/Users/jenniferward/Desktop/bootcamp/1-QuotesApp/server.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/2-EventSaver/server.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk13/wk13friend_finder/scratchpad.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk13/wk13friend_finder/app/routing/html-routes.js",
+		"/Users/jenniferward/Downloads/1-HandlebarsAnimals/lunches.js",
+		"/Users/jenniferward/Downloads/1-HandlebarsAnimals/server.js",
+		"/Users/jenniferward/Downloads/2-MagicalSchools 3/MagicSchools.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk13/wk13friend_finder/app/data/friends.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk13/wk13friend_finder/app/public/home.html",
+		"/Users/jenniferward/Desktop/bootcamp/wk13/wk13friend_finder/app/public/stylesheet.css",
+		"/Users/jenniferward/Desktop/bootcamp/wk13/wk13friend_finder/app/routing/api-routes.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk14/3-SeinfeldApp/server.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk13/wk13friend_finder/app/public/survey.html",
+		"/Users/jenniferward/Desktop/bootcamp/wk13/wk13friend_finder/app/public/reset.css",
+		"/Users/jenniferward/Desktop/bootcamp/wk12/wk12bamazon/bamazon.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk12/wk12bamazon/README.md",
+		"/Users/jenniferward/Desktop/bootcamp/wk12/wk12bamazon/scratchpad.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk12/wk12bamazon/new.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk12/homework objectives",
+		"/Users/jenniferward/Desktop/bootcamp/wk13/ex31.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk12/wk12bamazon/homework objectives",
+		"/Users/jenniferward/Desktop/bootcamp/wk13/exone.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/run.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/bands.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/Week11-Hangman/scratchpad.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/Week11-Hangman/game.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/Week11-Hangman/letter.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/Week11-Hangman/word.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/Week11-Hangman/gamewords.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/Week11-Hangman/main1.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/Week11-Hangman/main.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/Week11-Hangman/dud.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/party bus/party_bus.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/party bus/main1.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/Week11-Hangman/party_bus.js",
+		"/Users/jenniferward/Desktop/bootcamp/wk11/Week11-Hangman/dud1.js",
+		"/Users/jenniferward/Desktop/bootcamp/dothis/assets/javascript/app.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"server.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"location",
+			"router",
+			"css",
+			"navigator",
+			"ang",
+			"geoc",
+			");\n",
+			"j",
+			"getloc",
+			"getLocation\n",
+			"getlocation\n",
+			");\n",
+			"\"",
+			"{\n",
+			"instructions",
+			"img",
+			"3",
+			"height",
+			"textareafrmt",
+			"tblspc",
+			"hcontact",
+			"contactctnr",
+			"hconnect",
+			"about",
+			"name",
+			"about",
+			"main",
+			"asset",
+			"main",
+			"solid",
+			"dashed",
+			"tr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"solid",
+			"td"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/views/vote.handlebars",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								763,
+								763
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/public/assets/javascript/vote.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								980,
+								952
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 77.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/public/assets/javascript/submit1.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/views/index.handlebars",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2907,
+								2907
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 95.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/views/layouts/main.handlebars",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5435,
+								5435
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1992.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/jenniferward/Desktop/bootcamp/wk19/CoverTheseLyricsGP/views/submit.handlebars",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								674,
+								674
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 25.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
