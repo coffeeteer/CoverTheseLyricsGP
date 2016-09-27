@@ -3,6 +3,11 @@
 and (min-width:  768px)
 and (max-width : 999px)
 {
+
+  body{
+    font-size: 90%;
+  }
+
   #title_wrapper {
     padding-left: 185px;
   }
@@ -12,6 +17,10 @@ and (max-width : 999px)
 and (min-width:  651px)
 and (max-width : 767px)
 {
+  body{
+    font-size: 85%;
+  }
+
   #title_wrapper {
     padding-left: 130px;
     position:relative;
@@ -23,6 +32,11 @@ and (max-width : 767px)
 and (min-width:  411px)
 and (max-width : 650px)
 {
+
+  body{
+    font-size: 70%;
+  }
+
   #title_wrapper {
     padding-left: 130px;
     top: -20px;
@@ -33,6 +47,10 @@ and (max-width : 650px)
 and (min-width : 410px)
 and (max-width : 559px) 
 {
+  body{
+    font-size: 65%;
+    }
+
   #title_wrapper {
     position: relative;
     top: 1px;
@@ -46,6 +64,11 @@ and (max-width : 559px)
 and (min-width : 150px)
 and (max-width : 409px) 
 {
+
+  body{
+    font-size: 60%;
+    }
+
   #title_wrapper {
     position: relative;
     top: 1px;
