@@ -81,6 +81,13 @@ and (max-width : 409px)
 
   /**** Head Wrapper End ****/
 
+/*1st paragraph index page*/
+/*@media screen
+and (min-width : 1201px){
+  .about-h2, #page-content{
+    font-size: 100%;
+  }
+}*/
 /******CTL Main Title********/
 @media screen  
 and (min-width:  1000px)
@@ -90,6 +97,10 @@ and (max-width : 1200px)
     font-size: 60pt;
     /*background-color: orange;*/
 
+  }
+  /*1st paragraph index page*/
+  .about-h2, /*#page-content*/{
+    font-size: 95%;
   }
 }
 
@@ -101,10 +112,14 @@ and (max-width : 999px)
     font-size: 50pt;
     /*background-color: teal;*/
   }
+  /*1st paragraph index page*/
+  .about-h2, .page-content{
+    font-size: 90%;
+  }
 }
 
 @media screen  
-and (min-width:  650px) 
+and (min-width:  650px)
 and (max-width : 849px)
  {
   #title-words1 {
@@ -112,6 +127,10 @@ and (max-width : 849px)
     /*background-color: black;*/
     position:relative;
     top: 8px;
+  }
+  /*1st paragraph index page*/
+  .about-h2, .page-content{
+    font-size: 85%;
   }
 }
 
@@ -123,6 +142,10 @@ and (max-width : 649px)
     font-size: 35pt;
     /*background-color: blue;*/
     /*color: #fefefe;*/
+  }
+  /*1st paragraph index page*/
+  .about-h2, .page-content{
+    font-size: 80%;
   }
 }
 
@@ -138,6 +161,10 @@ and (max-width : 559px)
      /* position: absolute;
       top: 20%;*/
  		}
+    /*1st paragraph index page*/
+    .about-h2, .page-content {
+    font-size: 75%;
+    }
 	}
 
   @media screen
@@ -151,6 +178,10 @@ and (max-width : 409px)
       /*position: relative;
       top: 20%;*/
     }
+    /*1st paragraph index page*/
+    .about-h2, .page-content{
+    font-size: 65%;
+   }
   }
 
 
@@ -350,7 +381,7 @@ and (max-width : 999px)
    }
 
    #units > span {
-    font-size: 80%;
+    font-size: 85%;
    }
 }
 
@@ -373,7 +404,7 @@ and (max-width : 849px)
    }
 
     #units > span {
-    font-size: 70%;
+    font-size: 80%;
    }
 }
 
@@ -397,7 +428,7 @@ and (max-width : 649px)
    }
 
     #units > span {
-    font-size: 60%;
+    font-size: 80%;
    }
 }
 
@@ -420,7 +451,7 @@ and (max-width : 559px)
    }
 
     #units > span {
-    font-size: 50%;
+    font-size: 80%;
    }
 }
 
@@ -444,7 +475,7 @@ and (max-width : 409px)
    }
 
     #units > span {
-    font-size: 50%;
+    font-size: 80%;
    }
 }
 /*******Responsive Clock End**********/
