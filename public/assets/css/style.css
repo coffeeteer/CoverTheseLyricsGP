@@ -193,6 +193,10 @@ span.turn {
     left: 20%;
   }
 
+  .nav>li {
+    display: inline-block;
+  }
+
   .nav_footer {
     background-color: #2d2d2d;
     border-color: #2d2d2d;
@@ -204,6 +208,7 @@ span.turn {
 
   .navbar-default .navbar-nav>li>a {
     color: #fff;
+    display: inline-block;
    }
 
    .navbar-default .navbar-nav>li>a:hover {
@@ -310,6 +315,7 @@ span.turn {
 }
 #past-winners {
   padding-top: 15px;
+  margin-bottom: -69px;
 }
 #past-winners h2{
   font-size: 36pt;
@@ -360,6 +366,9 @@ span.turn {
   font-size: 7px;
   text-align: left;
   display: inline-block;
+  position: relative;
+  left: 20px;
+  bottom: -21px;
 }
 
 .owner:hover {
@@ -372,6 +381,8 @@ span.turn {
 .video-div {
   margin: 5px;
 }
+
+
 
 /****************End Index page****************/
 
