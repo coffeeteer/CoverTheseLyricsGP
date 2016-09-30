@@ -414,9 +414,7 @@ span.turn {
 
 /*Submit Form on Submit Your YouTube Video*/
 
-
 #submit-youtube {
- 
   padding-top: 20px;
   padding-bottom: 5px;
 }
@@ -432,17 +430,12 @@ span.turn {
 /*************Submit page End******************/
 
 /**************Vote Page**********************/
-.vote-btn{
-  margin-top:15px;
-  margin-bottom:45px;
-  margin-left: 109px;
-}
 
 .votesmallbackground{
 background-color: rgba(5, 131, 239, 0.42);
 }
 
-.vote-title {
+#vote-title {
   text-align: center;
   font-size: 45pt;
   padding-top: 20px;
@@ -450,32 +443,26 @@ background-color: rgba(5, 131, 239, 0.42);
 
 #vote-page-container {
   background-color: rgba(45, 45, 45, 0.6);
-  padding: 0px 20px;
-/*  border-color: pink;
-  border-style: solid;
-  border-width: 2px;*/
+  padding: 20px;
+  margin:0, auto;
 }
 
 #votePanel{
   background-color: rgba(45, 45, 45, 0.6);
   position:fixed;
   bottom: 30px;
-  left: 40px;
-  /*height: 50px;
-  width: 150px;*/
+  left: 20px;
   border: black;
-   font-size: 14pt;
+  font-size: 14pt;
   font-family: 'Arial', sans-serif;
-
+  padding: 5px;
 }
 
 #badgestyle{
   font-size: 12pt;
   background-color: rgba(5, 131, 239, 0.42); 
   /*border-radius: 0px !important; */
-
 }
-
 
 .modal-footer{
  border: none;
@@ -485,16 +472,20 @@ background-color: rgba(5, 131, 239, 0.42);
  border: none;
 }
 
+.votewidth{
+  width: 100%
+}
+
 .modal-content  {
   padding: 20px 40px;
   text-align: center;
-    -webkit-border-radius: 0px !important;
-    -moz-border-radius: 0px !important;
-    border-radius: 0px !important; 
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important; 
 }
 
 #myModal{
-  font-family: Arial, "Helvetica CY", "Nimbus Sans L",sans-serif !important;
+ font-family: Arial, "Helvetica CY", "Nimbus Sans L",sans-serif !important;
   font-size: 15px;
   color: black;
 }

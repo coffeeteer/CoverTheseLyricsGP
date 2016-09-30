@@ -55,7 +55,7 @@ $(document).ready(function() {
           } //end newVote
 
         function voteUpdate(result) {
-            var id = result.id
+          var id = result.id
            var votes = result.vote_counts;
             var votecount = votes + 1;
             var updateUrl = '/vote/' + id + '/' + votecount;
