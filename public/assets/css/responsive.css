@@ -583,3 +583,14 @@ and (max-width : 409px)
   }
 }
   /*---------Nav Bar Collapse End-------*/
+  /*-------Winners Cirlce------------*/
+  
+@media screen
+and (max-width: 992px;) {
+  .row.win-vid{
+    position: relative;
+    left: 16%;
+  }
+}
+  
+  /*---------------------------------*/

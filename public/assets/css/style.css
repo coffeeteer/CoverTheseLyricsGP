@@ -609,6 +609,7 @@ textarea {
 .ques-or-in{
   font-size: 35pt;
   padding-bottom: 20px;
+  margin-left: 8px;
 }
 
 /*------------Contact Us End------------------*/
@@ -632,11 +633,10 @@ textarea {
   padding: 20px 0;
 }
 
-/*#past-contestants {
-margin-left: -18.6%;
-}*/
-
-/*.win-vid {
-  margin: auto;
-}*/
 /*------------- Winners Cirlce End ------------------*/
+/*--------------Contact Us Page----------------------*/
+.contact-ol{
+  font-size: 30px;
+  font-size: 1.5vw;
+}
+/*--------------Contact Us Page-----------------------*/
