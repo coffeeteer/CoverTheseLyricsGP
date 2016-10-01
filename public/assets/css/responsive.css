@@ -546,7 +546,7 @@ and (max-width : 409px)
   /*---------Carasouel Beginning------*/
 
   /*--------Nav Bar Collapse Begin---------*/
-  @media (max-width: 1300px) {
+  @media (max-width: 1150px) {
   .navbar-header {
       float: none;
   }

@@ -10,6 +10,12 @@ body{
   overflow-x: hidden;
 }
 
+/*--Makes Mobile Navbar push title down*/
+div#mainnavbar.navbar-collapse.collapse.in {
+  margin-bottom: 56px;
+}
+/*-------------------------------------*/
+
 /*Nav Styles*/
 #ctl-top-nav {
   /*background-color: #2d2d2d;*/
@@ -193,9 +199,9 @@ span.turn {
     left: 20%;
   }
 
-  .nav>li {
+  /*.nav>li {
     display: inline-block;
-  }
+  }*/
 
   .nav_footer {
     background-color: #2d2d2d;
@@ -567,9 +573,9 @@ background-color: rgba(5, 131, 239, 0.42);
   text-align: left;
 }
 
-.about-h2 {
+/*.about-h2 {
   
-}
+}*/
 /*------------Universal End------------------*/
 /*------------Our Ballad Begin------------------*/
 .statement-container{
