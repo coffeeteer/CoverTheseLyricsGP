@@ -60,12 +60,17 @@ app.get('/submit-video', function(req, res) {
 
 app.post('/submit-video', function(req, res) { //send form data to db
   var body = req.body;
+  var str = body.URL;
+  var URL = str.slice(17);
+  
+  console.log(str)
+  console.log(URL);
 
   db.Submissions.create({
     name: body.name,
     state: body.state,
     email: body.email,
-    entry: body.URL,
+    entry: URL,
     lyrics: body.lyric,
     optradio: body.optradio
   }).then(function(data) {
