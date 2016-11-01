@@ -26,16 +26,23 @@ $(document).ready(function() {
                 //check for vote record in db
         $.get(url, function(result) {
           console.log('vote get result', result);
-           var votes = result.vote_counts;
+
+           //var votes = result.vote_counts;
+          //console.log('var votes', result.vote);           
          
           if (result === null) {
+            
+            console.log('vote new ');
             voteNew();
 
-          } else if (votes < 5) {
+          } else if (result.vote_counts < 5) {
+            console.log('vote update ')
             voteUpdate(result);
 
           } else {  
+            var votes = result.vote_counts;
             postVote(votes);
+            console.log('vote max ')
            $('#myModal').modal('show');
   
           }
@@ -50,7 +57,7 @@ $(document).ready(function() {
             $.post(voteUrl, function(result) {
               result = result[0];
 
-              console.log('$.post new rec result', result);
+              console.log(' 54 $.post new rec result', result);
             }); //end newVote
           } //end newVote
 

@@ -3,6 +3,7 @@ var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 var exphbs = require('express-handlebars');
 var app = express();
+var nodemailer = require('nodemailer');
 
 console.log('process.env.PORT', process.env.PORT);
 var port = process.env.PORT || 3010;
@@ -139,6 +140,30 @@ app.post('/vote/:id/:vote_counts', function(req, res) {
 app.get('/prizes', function(req, res) {
   res.render('prizes');
 });
+
+// Contact page email 
+ 
+// create reusable transporter object using the default SMTP transport 
+var transporter = nodemailer.createTransport('smtps://ctljenforce%40gmail.com:nineteen72@smtp.gmail.com');
+ 
+// setup e-mail data with unicode symbols 
+var mailOptions = {
+    from: '"jen 👥" <jenforce@aol.com>', // sender address 
+    to: 'jenforce@aol.com', // list of receivers 
+    subject: 'Hello ✔', // Subject line 
+    text: 'Hello world 🐴', // plaintext body 
+    html: '<b>Hello world 🐴</b>' // html body 
+};
+ 
+// send mail with defined transport object 
+transporter.sendMail(mailOptions, function(error, info){
+    if(error){
+        return console.log(error);
+    }
+    console.log('Message sent: ' + info.response);
+});
+
+
 
 // sequelize sync: not in use
 db.sequelize.sync().then(function() {

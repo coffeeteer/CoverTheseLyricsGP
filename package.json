@@ -26,6 +26,7 @@
     "method-override": "^2.3.6",
     "moments": "0.0.2",
     "mysql": "^2.11.1",
+    "nodemailer": "^2.6.4",
     "nodemon": "^1.10.0",
     "remodal": "^1.1.0",
     "sequelize": "^3.23.6"
