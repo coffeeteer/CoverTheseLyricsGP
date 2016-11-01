@@ -16,7 +16,7 @@
               <form class="submit_form" action="submit-video" method="POST" id="submitForm">
                 <div class="form-group">
                   <label for="fullName">Name</label>
-                  <input name="name" type="text" class="form-control" id="fullName" placeholder="Full Name">
+                  <input name="name" type="text" class="form-control" required id="fullName" placeholder="Full Name">
                 </div>
               
                 <div class="form-group">
@@ -85,8 +85,7 @@
               
                 <div class="form-group">
                   <label for="URL">Youtube URL</label>
-                <input name="URL" type="text" class="form-control" aria-describedby="urlhelp" id="url" placeholder="Please use 'SHARE' link. (Example: https://youtu.be/76mq4IQE2XI)" required="Please provide the Youtube 'SHARE' link.">
-
+                <input name="URL" required type="text" class="form-control" aria-describedby="urlhelp" id="url" placeholder="Please use 'SHARE' link. (Example: https://youtu.be/76mq4IQE2XI)">
                 </div>
  
 
@@ -115,12 +114,44 @@
                 <li>I may receive communications from CoverTheseLyrics</li>
               </ul>
 
+               <!--  <button id="submission" type="submit" class="btn btn-primary btn-md" data-remodal-target="modal">Submit</button> -->
 
-              </form>
+                 <button id="submission" type="submit" class="btn btn-primary btn-md">Submit</button>
 
-                <button id="submission" type="submit" class="btn btn-primary btn-md" data-remodal-target="modal">Submit</button>
+          </form>
 
-              <div class="remodal" data-remodal-id="modal">
+
+
+           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h1 class="modal-title" id="myModalLabel">Thank you for your vote.</h1>
+        </div>
+
+        <div class="modal-body">
+
+          <p>You have 5 votes total per day. Use them wisely!
+          Don't forget to tell your friends & family to vote for you!</p>
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn modalconfirm  btn-primary btn-lg" data-dismiss="modal">OK</button>
+        </div>
+
+      </div>
+    </div>
+
+    
+  </div>
+
+
+
+<!--               <div class="remodal" data-remodal-id="modal">
                 <button data-remodal-action="close" class="remodal-close"></button>
                 <h1>Thank you for your submission</h1>
                 <p>
@@ -130,7 +161,7 @@
                 </p>
                 <br>
                 <button data-remodal-action="confirm" class="remodal-confirm" id="remodal-submit" type="submit">OK</button>
-
+ -->
             </div>
           </div>
 
