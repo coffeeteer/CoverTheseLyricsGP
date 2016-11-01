@@ -16,12 +16,12 @@
               <form class="submit_form" action="submit-video" method="POST" id="submitForm">
                 <div class="form-group">
                   <label for="fullName">Name</label>
-                  <input name="name" type="text" class="form-control" id="fullName" placeholder="Full Name">
+                  <input name="name" type="text" class="form-control" id="fullName" placeholder="Full Name" required="Please provide full name">
                 </div>
               
                 <div class="form-group">
                   <label for="state">State</label>
-                  <select name="state" class="form-control" id="state">
+                  <select name="state" class="form-control" id="state" required="Please provide State">
                     <option value="">Find Your State!</option>
                     <option value="AK">Alaska</option>S
                     <option value="AL">Alabama</option>
@@ -80,27 +80,24 @@
               
                 <div class="form-group">
                   <label for="email">Email Address</label>
-                  <input name="email" type="text" class="form-control" id="eMail" placeholder="Email">
+                  <input name="email" type="text" class="form-control" id="eMail" placeholder="Email" required="Please provide E-Mail">
                 </div>
               
                 <div class="form-group">
                   <label for="URL">Youtube URL</label>
-                <input name="URL" type="text" class="form-control" aria-describedby="urlhelp" id="url" placeholder="Please use 'SHARE' link. (Example: https://youtu.be/76mq4IQE2XI)" required="Please provide the Youtube 'SHARE' link.">
-
+                  <input name="URL" type="text" class="form-control" id="url" placeholder="URL" required="Please provide Youtube URl">
                 </div>
- 
-
               
                 <div class="form-group">
                   <label for="lyric">Lyric</label>
-                  <select name="lyric" class="form-control" id="lyric">
+                  <select name="lyric" class="form-control" id="lyric" required="Please provide Lyric">
                     <option value="">Select Lyric</option>
-                    <option value="heart-to-heart">Heart to Heart</option>
-                    <option value="music">Music</option>
-                    <option value="feels-good">Feels Good</option>
-                    <option value="peak">peak</option>
-                    <option value="something">Something</option>
-                    <option value="the-moment">The Moment</option>
+                    <option value="lonleyNoMore">Lonely No More</option>
+                    <option value="home">Home</option>
+                    <option value="evolution">Evolution</option>
+                    <option value="adventureX">Adventure X</option>
+                    <option value="incredible">Incredible</option>
+                    <option value="fiveSenses">Five Senses</option>
                   </select>
                 </div>
               <!--
