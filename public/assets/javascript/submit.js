@@ -3,4 +3,4 @@ $(document).on('confirmation', '.remodal', function () {
   $("#submitForm" ).submit();
 });
 
-
+//fixed modal
