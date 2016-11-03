@@ -84,7 +84,8 @@ app.post('/submit-video', function(req, res) { //send form data to db
 // initial vote page with submissions 
 app.get('/vote', function(req, res) {
 
-  Submissions.findAll({}).then(function(result) {
+  Submissions.findAll({})
+  .then(function(result) {
     console.log(result);
     return res.render('vote', {
       Submissions: result
@@ -96,7 +97,7 @@ app.get('/vote', function(req, res) {
 app.get('/vote/:ip', function(req, res) {
   var ip = req.params.ip;
 
-  contestantVotes.findOne({
+  contestantVotes.findAll({
     where: {
       ip: ip,
       createdAt: {
