@@ -646,6 +646,12 @@ margin-left: -18.6%;
 /*.win-vid {
   margin: auto;
 }*/
+
+/*-----Winner's Table----*/
+#winners-table {
+  font-size: 140%;
+}
+/*--Winner's Table end*/
 /*------------- Winners Cirlce End ------------------*/
 
 /*--------------Contact Us Page----------------------*/
@@ -667,5 +673,4 @@ margin-left: -18.6%;
   content:" *";
 }*/
 /*--------------Form Submit Page-----------------------*/
-
 

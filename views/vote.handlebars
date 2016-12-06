@@ -4,6 +4,36 @@
 <!-- <div class="container vote-container" id="vote-page-container"> -->
 <div class="container" id="vote-page-container">
 
+  <table class="table table-inverse" id="winners-table">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Winner</th>
+      <th>Votes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Ben Iuliano</td>
+      <td>Grand Prize Winner</td>
+      <td>157</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Ebony Rose</td>
+      <td>Ingenuity Award Winner</td>
+      <td>21</td>
+    </tr>
+    <tr><th scope="row"> </th>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+  </tbody>
+</table>
+
   <div class="row">
 
     {{#each Submissions}}  
@@ -17,7 +47,7 @@
         </div>  
 
         <div>
-          <button type="button" class="btn btn-primary votewidth   votesmallbackground votebutton" name="vote" id="{{this.id}}">Vote For Me!</button>
+          <!-- <button type="button" class="btn btn-primary votewidth   votesmallbackground votebutton" name="vote" id="{{this.id}}">Vote For Me!</button> -->
         </div>  
 
       </div>
